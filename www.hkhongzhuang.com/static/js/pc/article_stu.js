@@ -8,9 +8,10 @@ $(function(){
      $("#art_video .item a").each(function(index,el){
       console.log($(this).text()+"text");
       console.log($(this).html()+"html");
-          if($(this).text()==" "||$(this).html()==" "){
+          if($("#art_video .item a").eq(index).html()==" "||$(this).text()==" "||$(this).html()==" "){
             console.log('true');
               $(this).parent("li").addClass("videoHide");
+              $("#art_video .item a").eq(index).parent("li").addClass("videoHide");
           }
     });
     for(var i=0;i<3;i++){
