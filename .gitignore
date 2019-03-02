@@ -19,6 +19,8 @@ m.hkhongzhuang.com/zt/
 *.tar.gz
 *.tar
 !*.php
+webhook.php
+config.cache.inc.php
 !*.css
 !*.js
 !www.hkhongzhuang.com/data/
