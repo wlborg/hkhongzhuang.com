@@ -1,0 +1,472 @@
+/** 
+* demo V1.0.0 
+* By 小珍
+* http://www.baidu.com/
+ */
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  display: block;
+  border: 0;
+}
+body {
+  background-color: #fff;
+}
+em {
+  font-style: normal;
+}
+body {
+  font-family: "微软雅黑";
+}
+p,
+span {
+  font-size: 0.42666667rem;
+}
+h3 {
+  font-size: 0.512rem;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  border: none;
+}
+.bn {
+  width: 100%;
+  margin-top: 1.38666667rem;
+}
+.teach-title {
+  position: relative;
+  width: 100%;
+  height: 9.6rem;
+}
+.teach-title .clound-img {
+  width: 100%;
+}
+.tea-in {
+  position: absolute;
+  top: 1.49333333rem;
+  left: 4.26666667rem;
+  width: 4.94933333rem;
+  height: 7.936rem;
+  background: url(/static/zt/meirong/images/stone.png) no-repeat top center;
+  background-size: contain;
+}
+.p1,
+.p2 {
+  font-size: 0.42666667rem;
+  color: #383939;
+}
+.tea-in .p1,
+.tea-in .p2 {
+  position: absolute;
+  top: 3.776rem;
+  width: 0.42666667rem;
+  height: 4.26666667rem;
+  line-height: 0.41856rem;
+}
+.tea-in .p1 {
+  left: 1.70666667rem;
+}
+.tea-in .p2 {
+  left: 2.56rem;
+}
+.h3 {
+  font-size: 0.85333333rem;
+  color: #e65880;
+}
+.tea-in .h3 {
+  position: absolute;
+  top: 2.13333333rem;
+  right: 0.53333333rem;
+  width: 0.81066667rem;
+  height: auto;
+  font-family: "宋体";
+  font-weight: 700;
+  line-height: 0.85333333rem;
+}
+/*老师图片*/
+.teacher {
+  position: relative;
+  width: 100%;
+  height: 40.53333333rem;
+  padding-top: 0.64rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.teacher li {
+  display: inline-block;
+  width: 44%;
+  height: auto;
+  /* float:left; */
+  padding-top: 0.42666667rem;
+  margin: 0 1.5%;
+  vertical-align: top;
+}
+.teacher li p {
+  font-size: 0.384rem;
+  line-height: 0.512rem;
+  text-align: center;
+  color: #616262;
+}
+.teacher li .name {
+  width: 3.2rem;
+  height: 1.06666667rem;
+  padding-top: 0.32rem;
+  margin: 0 auto 0.29866667rem;
+  font-size: 0.64rem;
+  line-height: 1.06666667rem;
+  text-align: center;
+  color: #000;
+  border-bottom: 1px solid #303030;
+}
+.tea {
+  width: 100%;
+  margin: 0 auto;
+}
+/*课程分类*/
+.course {
+  width: 100%;
+  height: 8.53333333rem;
+  margin-top: 1.28rem;
+  background: url(/static/zt/meirong/images/title2.jpg) no-repeat top center;
+  background-size: contain;
+}
+.course-in {
+  position: relative;
+  width: 13.44rem;
+  height: 3.2rem;
+  padding-top: 2.56rem;
+  margin: 0 auto;
+}
+.course-in span {
+  position: absolute;
+  width: 9.6rem;
+  height: 3.2rem;
+  opacity: .5;
+  background-color: #fff;
+  filter: alpha(opacity=50);
+}
+.course-img {
+  position: absolute;
+  top: 2.77333333rem;
+  left: 0.42666667rem;
+  width: 3.84rem;
+}
+.course-a,
+.course-b {
+  position: absolute;
+  left: 0.42666667rem;
+  width: 70%;
+  height: 0.64rem;
+  font-size: 0.42666667rem;
+  font-weight: 700;
+  color: #000;
+}
+.course-a {
+  top: 3.94666667rem;
+}
+.course-b {
+  top: 4.69333333rem;
+}
+/*课程*/
+.sj-kc {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.sj-kc1 {
+  background: url(/static/zt/meirong/images/bg1.png) no-repeat right center;
+  background-size: contain;
+}
+.cou-tit {
+  width: 100%;
+  height: 1.28rem;
+  padding-top: 1.28rem;
+  font-size: 0.64rem;
+  font-weight: 700;
+  line-height: 1.28rem;
+  text-align: center;
+  color: #000;
+}
+.cou-tit em {
+  margin: 0.05546667rem 0;
+  font-style: normal;
+  -ms-writing-mode: tb-rl;
+      writing-mode: tb-rl;
+}
+.couarc {
+  width: 12.8rem;
+  height: auto;
+}
+.couarc p {
+  font-size: 0.42666667rem;
+  line-height: 0.68266667rem;
+  color: #232424;
+}
+.cou1 .couarc {
+  padding-top: 0.53333333rem;
+}
+.pad-top {
+  padding-top: 0.256rem;
+}
+.pad-top b {
+  color: #585858;
+}
+.couarc .big-font {
+  font-size: 0.64rem;
+  line-height: 1.28rem;
+  color: #000;
+}
+.cou3 {
+  padding-top: 0.85333333rem;
+}
+.cou4 {
+  height: 7.89333333rem;
+  padding-top: 0.64rem;
+}
+.sj-kc2 {
+  background: url(/static/zt/meirong/images/bg2.png) no-repeat right center;
+  background-size: contain;
+}
+.sj-kc2 .cou-tit {
+  padding-top: 2.13333333rem;
+}
+.sj-kc3 {
+  background: url(/static/zt/meirong/images/bg3.png) no-repeat right center;
+  background-size: contain;
+}
+.sj-kc4 {
+  background: url(/static/zt/meirong/images/bg4.png) no-repeat right center;
+  background-size: contain;
+}
+/* ................ */
+.ketang-title {
+  position: relative;
+  width: 100%;
+  height: 8.53333333rem;
+  margin-top: 1.92rem;
+  background: url(/static/zt/meirong/images/yks-bg.png) no-repeat bottom center;
+  background-size: contain;
+}
+.ketang-title .tea-in {
+  top: 0;
+  width: 6.4rem;
+  background: url(/static/zt/meirong/images/stone2.png) no-repeat top center;
+  background-size: contain;
+}
+.ketang-title .tea-in .h3 {
+  top: 3.84rem;
+  left: 4.69333333rem;
+}
+.ketang-title .tea-in .p1 {
+  top: 4.26666667rem;
+  left: 3.2rem;
+  -ms-writing-mode: tb-rl;
+      writing-mode: tb-rl;
+}
+.ketang-title .tea-in .p2 {
+  top: 4.26666667rem;
+  left: 3.84rem;
+}
+/*风采1*/
+.fengcai {
+  width: 100%;
+  height: 10.66666667rem;
+  padding-top: 0.21333333rem;
+  margin-top: 0.32rem;
+  background-color: #fbcec8;
+}
+.fengcai img {
+  width: 98%;
+  margin: 0 auto;
+}
+.fengcai1 {
+  margin-top: 1.06666667rem;
+}
+/*..................*/
+.bz {
+  width: 100%;
+  height: 8.10666667rem;
+  margin-top: 1.70666667rem;
+  background: url(/static/zt/meirong/images/jybz.jpg) no-repeat top center;
+  background-size: contain;
+}
+.bz-arc {
+  width: 12.37333333rem;
+  height: 3.2rem;
+  padding: 3.2rem 0 0 0;
+  margin: 0 auto;
+  font-size: 0.42666667rem;
+  line-height: 0.512rem;
+  color: #474646;
+}
+.baozhang {
+  width: 98%;
+  height: 32rem;
+  padding-top: 2.13333333rem;
+  margin: 0 auto;
+}
+.baozhang li {
+  float: left;
+  width: 45%;
+  height: 12.8rem;
+  margin: 0 2.2% 0;
+}
+.kuang {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 8.96rem;
+  box-sizing: border-box;
+  border: 0.04266667rem solid #dad5bd;
+  border-radius: 10px;
+  background-color: #f3f1e6;
+}
+.kuang img {
+  position: absolute;
+  bottom: 0;
+}
+.kuang1 img {
+  left: 0.10666667rem;
+  width: 5.97333333rem;
+}
+.baozhang li .name {
+  width: 100%;
+  height: 0.85333333rem;
+  margin: 0.42666667rem 0 0.42666667rem 0;
+  font-size: 0.64rem;
+  line-height: 0.85333333rem;
+  text-align: center;
+  color: #fff;
+  background-color: #69605b;
+}
+p.brief {
+  width: 5.33333333rem;
+  height: 0.42666667rem;
+  padding-left: 0.42666667rem;
+  font-size: 0.42666667rem;
+  line-height: 0.42666667rem;
+  color: #3b3b3b;
+}
+.leindex {
+  font-size: 0.42666667rem;
+  text-indent: 1em;
+}
+.baozhang li p i {
+  font-size: 0.42666667rem;
+  font-style: normal;
+}
+p.gy {
+  width: 100%;
+  height: 0.42666667rem;
+  font-size: 0.42666667rem;
+  line-height: 0.42666667rem;
+  color: #000;
+}
+.kuang2 img {
+  left: -0.21333333rem;
+  width: 6.82666667rem;
+}
+.kuang3 img {
+  left: 0.14933333rem;
+  width: 5.33333333rem;
+}
+.kuang4 img {
+  left: -0.14933333rem;
+  width: 6.82666667rem;
+}
+.kuang3 {
+  padding-top: 4.05333333rem;
+}
+.kuang4 {
+  padding-top: 4.05333333rem;
+}
+/*..................*/
+.main7 {
+  width: 100%;
+  height: 13.86666667rem;
+  font-size: 0.64rem;
+  background-color: #eeebdd;
+}
+.main7-in {
+  width: 13.44rem;
+  height: 13.86666667rem;
+  padding-top: 0.85333333rem;
+  margin: 0 auto;
+}
+.title7 h5,
+.title7 h3 {
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.title7 h5 {
+  font-size: 0.42666667rem;
+}
+.title7 h3 {
+  font-size: 0.85333333rem;
+}
+.title7 {
+  width: 100%;
+  height: 1.49333333rem;
+}
+.medal {
+  width: 100%;
+  height: 9.17333333rem;
+  margin-top: 0.64rem;
+  background-color: #fff;
+}
+.medal img {
+  float: left;
+  margin: 0.128rem 0 0 0.14933333rem;
+}
+img.medal01 {
+  width: 6.57066667rem;
+}
+img.medal02 {
+  width: 6.48533333rem;
+}
+img.medal03 {
+  width: 6.976rem;
+}
+img.medal04 {
+  width: 6.03733333rem;
+}
+.title7 .mouth {
+  top: -0.64rem;
+  left: 1.70666667rem;
+}
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  font-size: 16px;
+  border: 1px #e1e1e1 solid;
+  background-color: #fafafa;
+}
+.padfoot {
+  height: 73px;
+}

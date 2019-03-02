@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{dede:global.cfg_csspath/}/common.css" />
+<link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/header.css"/>
+<link rel="alternate" media="only screen and(max-width: 640px)" href="https://m.hkhongzhuang.com{dede:field.arcurl/}" >  
+{dede:include filename="_link_article.htm"/}
+   {dede:include filename="_meta.htm"/}
+ {dede:field.ztmeta/}
+ <meta property="article:published_time" content="{dede:field.pubdate function=" MyDate( 'Y-m-d',@me) "/}T{dede:field.pubdate function="MyDate( 'H:i:s',@me) "/}+08:00" />
+</head>
+<body>
+<!-- header -->
+{dede:include filename="_header.htm"/}
+{dede:field.body/}
+<!-- footer -->
+ {dede:include filename="_footer.htm"/}
+</body>
+<script src="{dede:global.cfg_jspath/}/pc/jquery-3.3.1.min.js"></script>
+{dede:field.ztscript/}
+</html>

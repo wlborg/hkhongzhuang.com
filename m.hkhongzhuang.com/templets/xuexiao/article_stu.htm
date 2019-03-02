@@ -1,0 +1,126 @@
+<!--
+* @Author: chaihongjun
+* @email:   root@chaihongjun.me
+* @File name: article_stu.htm
+* @Date:   2019-02-18 17:31:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-02-27 17:54:30
+* @Description: 学生作品列表页
+--><!DOCTYPE html>
+<html lang="cmn-hans">
+
+<head>
+    {dede:include filename="_meta_tdk_article.htm"/}
+    {dede:include filename="_meta.htm"/}
+    {dede:include filename="_link_article.htm"/}
+    {dede:include filename="_link.htm"/}
+    <link rel="stylesheet" href="/static/css/_footer2.css" />
+    <link rel="stylesheet" href="/static/css/list_stu.css" />
+    <link rel="stylesheet" href="/static/css/article_stu.css?v=0.1" />
+
+</head>
+
+<body>
+    {dede:include filename="_header.htm"/}
+    <div class="wrapper works works_article">
+        <div class="g-container banner">
+            <div class="g-doc">
+                <p class="sr-only">Student works</p>
+                <h1 class="sr-only">学生作品风采</h1>
+            </div>
+        </div>
+        <div class="g-container person ">
+            <div class="g-doc">
+                <div class="person-head f-cb">
+                    <div class="img-box">
+                        <img src="{dede:field.headport/}">
+                    </div>
+                        <div class="name-box">
+                            <h2>{dede:field.title/}</h2>
+                            <p><span>课程：{dede:field.course/}</span> <span>授课老师：{dede:field.teacher/}   </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="person-content">
+                        <div class="img-box">
+                            <img src="https://www.hkhongzhuang.com/static/img/pc/gongji1.jpg">
+                             <img src="https://www.hkhongzhuang.com/static/img/pc/gongji2.jpg">
+                             <img src="https://www.hkhongzhuang.com/static/img/pc/gongji3.jpg">
+                             <img src="https://www.hkhongzhuang.com/static/img/pc/gongji4.jpg">
+                             <img src="https://www.hkhongzhuang.com/static/img/pc/gongji5.jpg">
+                             <img src="https://www.hkhongzhuang.com/static/img/pc/gongji6.jpg">
+
+                     </div>
+                            <p>{dede:field.talk/}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-container course">
+                    <div class="g-doc">
+                        <h2>学过的课程</h2>
+                        <div class="item-wrapper f-cb">
+                        </div>
+                        <div class="btn-wrpper">
+                            <a href=""><span class="sr-only">课程咨询</span></a>
+                            <a href=""><span class="sr-only">价格咨询</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-container works-pic">
+                    <div class="g-doc f-cb">
+                        <div class="row">
+                            <a href="javascript:;" class="pic"><img data-original="https://www.hkhongzhuang.com{dede:field.art_yu/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu2/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu3/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu4/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu5/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu6/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu7/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu8/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu9/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu10/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu11/}" class="lazy_Comm"></a>
+                            <a href="javascript:;" class="pic"><img data-original="{dede:field.art_yu12/}" class="lazy_Comm"></a>
+                        </div>
+                        <!--  <div class="row">
+                            <a href="" class="pic"><img src="images/works_img1.png" alt=""></a>
+                            <a href="" class="pic"><img src="images/works_img1.png" alt=""></a>
+                            <a href="" class="pic"><img src="images/works_img1.png" alt=""></a>
+                        </div> -->
+                        <div class="row">
+                            <a href="javascript:;" class="video">
+                               {dede:field.video_addre1/}
+                            </a>
+                            <a href="javascript:;" class="video">
+                                {dede:field.video_addre2/}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {dede:include filename="_footer2.htm"/}
+            {dede:include filename="_footerNav.htm"/}
+            <div class="footer_mar"> </div>
+            <div id="xgkc" style="display: none">
+                {dede:field.less_learned/}
+            </div>
+</body>
+{dede:include filename="_script.htm"/}
+<script src="/static/js/article_stu.js?v=0.2"></script>
+<!--  <script type="text/javascript">
+        var i_num = $(".part1 .item .item-txt");
+        $(i_num).each(function(){
+            var p_num = $(this).find("p").length;
+            if(p_num >= 2) {
+                $(this).css({
+                    "margin-top": "14px"
+                })
+            }else {
+                    $(this).css({
+                    "margin-top": "29px"
+                })
+                }
+        })
+    </script> -->
+
+</html>

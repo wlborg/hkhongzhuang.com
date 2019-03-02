@@ -1,0 +1,517 @@
+.mjscb {
+    font-size: 0;
+}
+.banner img {
+    width: 100%;
+    /*margin-top: 40px;*/
+}
+.m1,
+.m2,
+.m3,
+.m4,
+.m5,
+.m6 {
+    position: relative;
+    width: 16rem;
+    padding-top: 0.02133333rem;
+    margin: auto;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "微软雅黑";
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: normal;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+}
+body {
+    overflow-x: hidden;
+}
+.yinshen {
+    position: absolute;
+    width: .02133333rem;
+    height: .02133333rem;
+    padding: 0;
+    margin: -0.02133333rem;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+.bk {
+    display: block;
+    margin: auto;
+}
+.m1zx img,
+.m2zx img,
+.m3zx img {
+    width: 100%;
+}
+.tit1,
+.tit2,
+.tit3,
+.tit4,
+.tit5,
+.tit6,
+.tit7 {
+    text-align: center;
+}
+.m1 {
+    height: 17.92rem;
+    background: url("/static/zt/mjscb/images/m1bg.jpg") no-repeat 0 4.39466667rem;
+    background-size: 16rem 12.096rem;
+}
+.tit1 img {
+    width: 10.77333333rem;
+    margin-top: 1.23733333rem;
+}
+.m1con > p {
+    width: 15.488rem;
+    margin: 0.64rem 0 0.85333333rem 0.384rem;
+    font-size: 0.46933333rem;
+    line-height: 0.72533333rem;
+    color: #666;
+}
+.m1js {
+    width: 15.488rem;
+    background-color: white;
+    margin: auto;
+    border: 0.02133333rem solid #bcadb0;
+}
+.m1jsl > span,
+.m1jsl > div {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+.m1jsl > div {
+    width: 12.8rem;
+    color: #595959;
+    border-left: 0.02133333rem solid #bcadb0;
+    background-color: #fff;
+}
+.m1jsl > span {
+    width: 2.56rem;
+    font-size: 0.46933333rem;
+    text-align: center;
+    color: #3f0c17;
+    background-color: #ecf8ff;
+}
+.m1jsl {
+    border-bottom: 0.02133333rem solid #bcadb0;
+}
+.m1jsl1 {
+    height: 0.93866667rem;
+    font-size: 0.46933333rem;
+    line-height: 0.98133333rem;
+}
+.m1jsl2 {
+    height: 3.56266667rem;
+    line-height: 3.56266667rem;
+}
+.m1jsl3 {
+    height: 1.83466667rem;
+    line-height: 1.83466667rem;
+}
+.m1jsl4 {
+    height: 2.13333333rem;
+    line-height: 2.13333333rem;
+    border-bottom: none;
+}
+.m1xzks span {
+    display: inline-block;
+    height: 100%;
+    vertical-align: top;
+}
+.m1xzks span:nth-child(1),
+.m1xzks span:nth-child(3) {
+    width: 0.85333333rem;
+    height: 0.04266667rem;
+    margin-top: 0.46933333rem;
+    background-color: #595959;
+}
+.m1xzks span:nth-child(1) {
+    margin-right: 0.21333333rem;
+    margin-left: 1.06666667rem;
+}
+.m1xzks span:nth-child(2),
+.m1xzks span:nth-child(5) {
+    font-size: 0.384rem;
+}
+.m1xzks span:nth-child(3) {
+    margin-right: 1.06666667rem;
+    margin-left: 0.21333333rem;
+}
+.m1xzks span:nth-child(4) {
+    width: 2.58133333rem;
+    margin-right: 1.57866667rem;
+    text-align: center;
+    border-right: 0.02133333rem solid #bcadb0;
+    border-left: 0.02133333rem solid #bcadb0;
+    background-color: #ddf1fc;
+}
+.m1jsl p {
+    margin-left: 0.96rem;
+    font-size: 0.384rem;
+    line-height: 0.55466667rem;
+    color: #595959;
+}
+.m1jsl2 p:nth-child(1) {
+    margin-top: 0.64rem;
+}
+.m1jsl3 p:nth-child(1) {
+    margin-top: 0.36266667rem;
+    color: #5a5a5a;
+}
+.m1jsl4 p:nth-child(1) {
+    margin-top: 0.53333333rem;
+    color: #5a5a5a;
+}
+.m1img1,
+.m1img2 {
+    position: absolute;
+}
+.m1img1 {
+    top: 6.99733333rem;
+    left: -1.70666667rem;
+    width: 30.4rem;
+}
+.m1zx {
+    position: absolute;
+    top: 15.14666667rem;
+    left: 6.10133333rem;
+    z-index: 4;
+    width: 3.69066667rem;
+}
+.m2 {
+    height: 29.824rem;
+    background: url("/static/zt/mjscb/images/m2bg.jpg") no-repeat center;
+    background-size: 16rem auto;
+}
+.tit2 img {
+    width: 11.92533333rem;
+    margin-top: 1.28rem;
+}
+.m2con > h3 {
+    margin-top: 1.42933333rem;
+    font-size: 0.59733333rem;
+    line-height: 0.59733333rem;
+    color: #332515;
+}
+.m2con > h3,
+.m2con > p {
+    margin-left: 1.87733333rem;
+}
+.m2con > p {
+    width: 11.73333333rem;
+    margin-top: 0.36266667rem;
+    font-size: 0.46933333rem;
+    line-height: 0.68266667rem;
+    color: #4c371f;
+}
+.m2lsjs {
+    width: 14.592rem;
+    height: 6.848rem;
+    padding-top: 0.02133333rem;
+    margin-top: 0.74666667rem;
+    margin-left: auto;
+    background: url("/static/zt/mjscb/images/kechengls.jpg") center no-repeat;
+    background-size: 100% 100%;
+}
+.m2lsjs > h4 {
+    margin-top: 1.792rem;
+    margin-left: 5.12rem;
+    font-size: 0.34133333rem;
+    color: #4c371f;
+}
+.m2lsjs > h4 > span {
+    font-size: 0.64rem;
+    line-height: 0.64rem;
+    color: #000;
+}
+.m2lsjs :nth-child(3) {
+    margin-top: 0.46933333rem;
+}
+.m2lsjs :nth-child(3),
+.m2lsjs :nth-child(6),
+.m2lsjs :nth-child(5) {
+    display: block;
+    /*width: 9.00266667rem;*/
+    margin-left: 5.184rem;
+    font-size: 0.384rem;
+    line-height: 0.59733333rem;
+    color: #4c371f;
+}
+.m2lsjs :nth-child(2),
+.m2lsjs :nth-child(4) {
+    position: absolute;
+    left: 6.29333333rem;
+    width: 0.10666667rem;
+    height: 0.10666667rem;
+    border-radius: 50%;
+    background-color: #f9ad5a;
+}
+.m2lsjs :nth-child(2) {
+    top: 10.496rem;
+}
+.m2lsjs :nth-child(4) {
+    top: 11.73333333rem;
+}
+
+.xuxian {
+    position: absolute;
+    top: 4.096rem;
+    left: 0;
+    z-index: 40;
+    width: 1.81333333rem;
+}
+.m2meijia1 {
+    width: 14.656rem;
+    margin-top: 0.14933333rem;
+    margin-left: 1.344rem;
+}
+.m2meijia1 img {
+    width: 4.82133333rem;
+    margin-bottom: 0.14933333rem;
+}
+.m2zp {
+    margin: 0 0.08533333rem;
+}
+.m2zx {
+    display: block;
+    width: 3.69066667rem;
+    margin: 0.896rem auto 0;
+}
+.m3con > h3 {
+    margin: 1.10933333rem 0 0.46933333rem 1.92rem;
+    font-size: 0.59733333rem;
+    line-height: 0.59733333rem;
+    color: #1f0b0c;
+}
+.m3con > p {
+    width: 12.97066667rem;
+    margin-left: 1.92rem;
+    font-size: 0.46933333rem;
+    line-height: 0.68266667rem;
+    color: #666;
+}
+.m3img {
+    padding-bottom: 1.28rem;
+    margin-top: 0.768rem;
+    margin-left: 1.024rem;
+}
+.m3img :nth-child(2) {
+    margin: 0 0.08533333rem;
+}
+.m3img img {
+    margin-bottom: 0.08533333rem;
+    vertical-align: top;
+}
+.m3imgs {
+    height: 3.28533333rem;
+}
+.m3imgx {
+    height: 5.46133333rem;
+}
+.m3zx {
+    position: absolute;
+    top: 10.41066667rem;
+    left: 1.96266667rem;
+    width: 3.62666667rem;
+}
+.m4con{
+    padding-top: 1px;
+    height: 14.1rem;
+    background: url("/static/zt/mjscb/images/m4bg.jpg") no-repeat 0 0;
+    background-size: 16rem auto;
+}
+.m4con > h3,
+.m4con > p {
+    margin-left: 2.02666667rem;
+}
+.m4con > h3 {
+    margin-top: 1.55733333rem;
+    font-size: 0.59733333rem;
+    line-height: 0.59733333rem;
+    color: #332515;
+}
+.m4con > p {
+    width: 12.8rem;
+    margin-top: .55466667rem;
+    margin-bottom: .74666667rem;
+    font-size: .46933333rem;
+    line-height: .68266667rem;
+    color: #4d371f;
+}
+
+.m4con > img {
+    display: block;
+    width: 15.85066667rem;
+    margin: auto;
+}
+.m4con2 {
+    width: 16rem;
+    height: 4.84266667rem;
+    padding-top: 0.02133333rem;
+    text-align: center;
+    background-color: #a2dfff;
+}
+.m4con2 > h3 {
+    margin-top: 0.78933333rem;
+    font-size: 0.72533333rem;
+    line-height: 0.72533333rem;
+    letter-spacing: 0.02133333rem;
+    color: #3f0c17;
+}
+.m4con2 > p {
+    margin: 0.17066667rem 0 0.55466667rem;
+    font-size: 0.256rem;
+    line-height: 0.256rem;
+    color: rgba(63, 12, 23, 0.56);
+}
+.m4zxcon {
+    text-align: center;
+}
+.m4zx {
+    position: relative;
+    display: inline-block;
+    width: 4.52266667rem;
+    height: 1.92rem;
+    text-align: center;
+    vertical-align: top;
+    background-color: #77cbfc;
+}
+.m4zx:nth-child(2) {
+    background-color: #ccecff;
+}
+.m4zx > img {
+    position: absolute;
+    top: 0.29866667rem;
+    left: 0.512rem;
+    width: 0.61866667rem;
+    border-radius: 50%;
+}
+.m4zx > span {
+    display: block;
+    margin-top: 0.384rem;
+    font-size: 0.46933333rem;
+    line-height: 0.46933333rem;
+    color: #3f0c17;
+}
+.m4zx > p {
+    margin-top: 0.27733333rem;
+    font-size: 0.46933333rem;
+    line-height: 0.46933333rem;
+    color: #3f0c17;
+}
+.m4zx:last-child {
+    width: 6.16533333rem;
+}
+.m4zx:last-child > p {
+    font-size: 0.384rem;
+}
+.m4zx:nth-child(2)::after,
+.m4zx:nth-child(2)::before {
+    position: absolute;
+    top: 0.72533333rem;
+    z-index: 3;
+    content: " ";
+    border-top: 0.21333333rem solid transparent;
+    border-bottom: 0.21333333rem solid transparent;
+}
+.m4zx:nth-child(2)::before {
+    left: 0;
+    border-left: 0.384rem solid #77cbfc;
+}
+.m4zx:nth-child(2)::after {
+    right: -0.384rem;
+    border-left: 0.384rem solid #ccecff;
+}
+.tit3 img {
+    width: 13.54666667rem;
+    margin-top: 1.32266667rem;
+    margin-bottom: 1.13066667rem;
+}
+.m5 .m5zp {
+    position: relative;
+    width: 16rem;
+    height: 10.38933333rem;
+    padding-top: 0.14933333rem;
+    text-align: center;
+    border-radius: 0.21333333rem;
+    background-color: #a2dfff;
+}
+.m5zp > img {
+    position: absolute;
+    top: 7.50933333rem;
+    left: 0.72533333rem;
+    width: 4.45866667rem;
+}
+.m5zps {
+    margin-bottom: 0.14933333rem;
+}
+.m5zps:first-child {
+    margin-right: 0.10666667rem;
+}
+.m5zpx:nth-child(3) {
+    margin-right: 0.10666667rem;
+    margin-left: 5.93066667rem;
+}
+.m5zps {
+    height: 5.58933333rem;
+}
+.m5zpx {
+    height: 4.48rem;
+}
+
+.m5zpcon {
+    padding-bottom: 1.57866667rem;
+}
+.m5 .m5pagination {
+    width: 3.136rem;
+    height: 0.832rem;
+    margin: 0.61866667rem auto 0;
+    text-align: center;
+    border-radius: 0.256rem;
+    background-color: rgba(224, 224, 224, 0.29);
+}
+.m5 .m5pagination span {
+    display: inline-block;
+    width: 0.53333333rem;
+    height: 0.53333333rem;
+    margin-top: 0.14933333rem;
+    border-radius: 50%;
+    background-color: rgba(162, 223, 255, 0.34);
+}
+.m5 .m5pagination .m5active {
+    background-color: #a2dfff;
+}
+.m5pagination span:nth-child(2) {
+    margin: 0.14933333rem 0.34133333rem 0;
+}
+.m6 {
+    height: 16.29866667rem;
+    background: url("/static/zt/mjscb/images/m6bg.jpg") no-repeat center;
+    background-size:  16rem 16.29866667rem;
+}
+.tit4 img {
+    width: 14.848rem;
+    margin-top: 1.024rem;
+    margin-bottom: 1.216rem;
+}
+.m6zp {
+    text-align: center;
+}
+.m6zp img {
+    height: 4.75733333rem;
+    margin-bottom: 0.14933333rem;
+}
+.m6zp img:nth-child(1),
+.m6zp img:nth-child(3) {
+    margin-right: 0.04266667rem;
+}

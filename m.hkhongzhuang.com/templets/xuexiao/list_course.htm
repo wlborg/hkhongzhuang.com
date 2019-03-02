@@ -1,0 +1,132 @@
+<!--
+* @Author: chaihongjun
+* @email:   root@chaihongjun.me
+* @File name: list_course.htm
+* @Date:   2019-02-18 10:14:30
+* @Last Modified by:   chaihongjun
+* @Last Modified time: 2019-02-23 17:32:20
+* @Description: 课程列表页.
+--><!DOCTYPE html>
+<html lang="cmn-hans">
+
+<head>
+
+    {dede:include filename="_meta_tdk_list.htm"/}
+    {dede:include filename="_meta.htm"/}
+    {dede:include filename="_link_list.htm"/}
+    {dede:include filename="_link.htm"/}
+    <link rel="stylesheet" href="/static/css/list_course.css" />
+    <link rel="stylesheet" href="/static/css/_footer2.css">
+
+</head>
+
+<body>
+    {dede:include filename="_header.htm"/}
+    <!-- banner Swiper -->
+    {dede:myad name='topbanner_sj'/}
+    <div class="wrapper courses courses_list">
+        <div class="g-container course1" id="course1">
+            <div class="g-doc">
+                <div class="g-title">
+                    <img src="/static/images/nav_icon/icon_course1.png">
+                    <h2>化妆培训课程</h2>
+                    <p>COSMETIC TRAINING COURSE</p>
+                </div>
+                <div class="g-content">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <ul class="f-cb">
+                                    {dede:arclist typeid='4' row='6' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20' limit='0,6'}
+                                    <li>
+                                        <a href="[field:arcurl/]">
+                                            <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
+                                           <p>[field:title/]</p>
+                                       </a>
+                                    </li>
+                                    {/dede:arclist}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="g-container courseMarquee course2" id="course2">
+            <div class="g-doc">
+                <div class="g-title">
+                    <img src="/static/images/nav_icon/icon_course2.png">
+                    <h2>美容培训课程</h2>
+                    <p>COSMETIC TRAINING COURSE</p>
+                </div>
+                <div class="g-content">
+                    <div class="slider-wrapper">
+                        <ul class="slider-container">
+                            {dede:arclist typeid='5' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20'}
+                            <li class="item">
+                                <a href="[field:arcurl/]">
+                                        <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
+                                       <p>[field:title/]</p>
+                                   </a>
+                            </li>
+                            {/dede:arclist}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="g-container courseMarquee course3" id="course3">
+            <div class="g-doc">
+                <div class="g-title">
+                    <img src="/static/images/nav_icon/icon_course3.png">
+                    <h2>美甲培训课程</h2>
+                    <p>COSMETIC TRAINING COURSE</p>
+                </div>
+                <div class="g-content">
+                    <div class="slider-wrapper">
+                        <ul class="slider-container">
+                            {dede:arclist typeid='6' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20'}
+                            <li class="item">
+                                <a href="[field:arcurl/]">
+                                        <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
+                                       <p>[field:title/]</p>
+                                   </a>
+                            </li>
+                            {/dede:arclist}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="g-container courseMarquee course4" id="course4">
+            <div class="g-doc">
+                <div class="g-title">
+                    <img src="/static/images/nav_icon/icon_course4.png">
+                    <h2>摄影培训课程</h2>
+                    <p>COSMETIC TRAINING COURSE</p>
+                </div>
+                <div class="g-content">
+                    <div class="slider-wrapper">
+                        <ul class="slider-container">
+                            {dede:arclist typeid='7' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20'}
+                            <li class="item">
+                                <a href="[field:arcurl/]">
+                                        <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
+                                       <p>[field:title/]</p>
+                                   </a>
+                            </li>
+                            {/dede:arclist}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {dede:include filename="_footer2.htm"/}
+        {dede:include filename="_footerNav.htm"/}
+        <div class="footer_mar"> </div>
+    </div>
+</body>
+{dede:include filename="_script.htm"/}
+<script type="text/javascript" src="/static/js/list_course.js"></script>
+
+</html>

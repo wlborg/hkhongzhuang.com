@@ -1,0 +1,927 @@
+
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 100px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  display: block;
+  border: 0;
+}
+body {
+  background-color: #fff;
+}
+em {
+  font-style: normal;
+}
+body {
+  font-family: "微软雅黑";
+}
+p,
+span {
+  font-size: 0.42666667rem;
+}
+h3 {
+  font-size: 0.512rem;
+}
+a {
+  color: #fff;
+  border: none;
+  text-decoration: none;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.banner {
+  width: 100%;
+  margin-top: 1.28rem;
+}
+.mian1 {
+  width: 100%;
+  height: 26.02666667rem;
+  padding-top: 0.04266667rem;
+}
+.title {
+  width: 100%;
+  height: 1.70666667rem;
+  margin: 1.06666667rem 0 0.21333333rem;
+  padding-top: 1.06666667rem;
+  text-align: center;
+}
+.title1 {
+  background: url(/static/zt/meijia/images/title1-bg.png) no-repeat top center;
+  background-size: contain;
+}
+.title h5 {
+  text-transform: uppercase;
+  line-height: 0.59733333rem;
+  color: #525353;
+  font-size: 0.42666667rem;
+}
+.title h3 {
+  font-size: 0.64rem;
+  color: #000;
+  font-family: "宋体";
+}
+.arc {
+  width: 100%;
+  height: 4.26666667rem;
+  padding-top: 0.42666667rem;
+  font-size: 0.42666667rem;
+  color: #2f2f2f;
+  text-align: center;
+}
+.arc p {
+  line-height: 0.59733333rem;
+}
+.trouble {
+  width: 86%;
+  height: 8.23466667rem;
+  background-color: #fdade9;
+  position: relative;
+  margin-left: 0.42666667rem;
+}
+.trouble img {
+  width: 11.776rem;
+  height: 7.872rem;
+  position: absolute;
+  right: -0.42666667rem;
+  top: 0.42666667rem;
+}
+.main1-l-box {
+  width: 11.776rem;
+  height: 5.20533333rem;
+  right: -0.42666667rem;
+  top: 1.92rem;
+  position: absolute;
+  text-align: center;
+}
+.main1-l-box p {
+  font-size: 1.024rem;
+  line-height: 1.49333333rem;
+  color: #e6b80e;
+}
+.main1-l-box p.big {
+  font-size: 1.36533333rem;
+}
+.main1-r {
+  width: 90%;
+  height: 7.46666667rem;
+  margin: 1.17333333rem auto 0;
+}
+.main1-r div {
+  width: 100%;
+  height: 1.344rem;
+  border-bottom: 1px dashed #e6b80e;
+  padding-top: 0.26666667rem;
+}
+.main1-r div h4,
+.main1-r div p {
+  float: left;
+}
+.main1-r div h4 {
+  width: 2.13333333rem;
+  line-height: 0.96rem;
+  font-size: 0.55466667rem;
+  color: #1994e0;
+  height: 1.28rem;
+  padding-left: 0.42666667rem;
+}
+.main1-r div p {
+  width: 9.38666667rem;
+  color: #666767;
+  font-size: 0.42666667rem;
+  line-height: 0.59733333rem;
+}
+.main1-r div.huan p {
+  line-height: 0.59733333rem;
+}
+.main2 {
+  width: 100%;
+  height: 14.42666667rem;
+  background-color: #fbda5e;
+}
+.main2-in {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.title2 {
+  background: url(/static/zt/meijia/images/title2-bg.png) no-repeat top center;
+  background-size: contain;
+}
+.main2-c {
+  width: 100%;
+  height: 5.97333333rem;
+  margin: 1.06666667rem auto 0;
+  background: url(/static/zt/meijia/images/main2-bg.png) no-repeat top center;
+  background-size: contain;
+  position: relative;
+}
+.main2-c .center {
+  width: 4.544rem;
+  height: 2.56rem;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
+  top: 1.92rem;
+  left: 4.69333333rem;
+  position: absolute;
+}
+.main2-c .center p {
+  color: #fb4ace;
+  text-align: center;
+}
+.main2-c .center .ll {
+  font-size: 0.58666667rem;
+  line-height: 0.96rem;
+}
+.main2-c .center .ss {
+  font-size: 0.512rem;
+  line-height: 0.59733333rem;
+}
+.main2-c .center .mm {
+  font-size: 0.55466667rem;
+  line-height: 0.64rem;
+}
+.treat {
+  position: absolute;
+  width: 4.26666667rem;
+  height: 1.49333333rem;
+}
+.treat h3 {
+  width: 3.2rem;
+  height: 0.74666667rem;
+  background-color: #fdf0bf;
+  text-align: center;
+  line-height: 0.74666667rem;
+  color: #5195c1;
+  font-size: 0.42666667rem;
+}
+.treat p {
+  font-size: 0.42666667rem;
+  color: #404040;
+  line-height: 0.50666667rem;
+}
+.treat1 {
+  top: -0.42666667rem;
+  left: 1.06666667rem;
+}
+.treat2 {
+  top: 1.49333333rem;
+  left: 0.21333333rem;
+}
+.treat3 {
+  top: 3.2rem;
+  left: 0.21333333rem;
+}
+.treat4 {
+  top: 5.12rem;
+  left: 1.06666667rem;
+}
+.treat5 {
+  top: 6.4rem;
+  left: 5.12rem;
+}
+.treat6 {
+  top: -0.42666667rem;
+  right: 1.06666667rem;
+}
+.treat6 h3,
+.treat7 h3,
+.treat8 h3,
+.treat9 h3 {
+  margin-left: auto;
+}
+.treat6 p,
+.treat7 p,
+.treat8 p,
+.treat9 p {
+  text-align: right;
+}
+.treat7 {
+  top: 1.49333333rem;
+  right: 0.21333333rem;
+}
+.treat8 {
+  top: 3.2rem;
+  right: 0.21333333rem;
+}
+.treat9 {
+  top: 5.12rem;
+  right: 1.06666667rem;
+}
+.mian3 {
+  width: 100%;
+  height: 20.26666667rem;
+}
+.title3 {
+  background: url(/static/zt/meijia/images/title3-bg.png) no-repeat top center;
+  background-size: contain;
+}
+.main3-tu1,
+.main3-tu2,
+.main3-tu3 {
+  width: 13.22666667rem;
+  height: 5.03466667rem;
+  border: 0.128rem solid #fbda5e;
+  margin: 0.85333333rem auto 0;
+}
+.main3-tu2,
+.main3-tu3 {
+  margin: 0.21333333rem auto 0;
+}
+.main3-tu3 {
+  height: 4.26666667rem;
+}
+.main4 {
+  width: 100%;
+  height: 23.04rem;
+  background-color: #fbda5e;
+  padding-top: 0.04266667rem;
+}
+.title4 {
+  background: url(/static/zt/meijia/images/title2-bg.png) no-repeat top center;
+  background-size: contain;
+}
+.main4 ul {
+  width: 96%;
+  height: 10.66666667rem;
+  margin: 6.4rem auto 0;
+}
+.main4 ul li {
+  width: 5.76rem;
+  height: 8.10666667rem;
+  border: 1px solid #1da6fa;
+  float: left;
+  margin: 0 0.10666667rem;
+  padding: 2.56rem 0.21333333rem 0;
+  position: relative;
+}
+.teacher {
+  width: 5.97333333rem;
+  height: 5.97333333rem;
+  border: 2px solid #1da6fa;
+  position: absolute;
+  top: -3.41333333rem;
+  left: 0.34133333rem;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.teacher img {
+  position: absolute;
+  bottom: 0;
+}
+.teacher1 .teacher img {
+  left: 0.64rem;
+}
+.main4 ul li h3 {
+  font-size: 0.512rem;
+  line-height: 0.96rem;
+  text-align: center;
+}
+.main4 ul li p {
+  font-size: 0.42666667rem;
+  color: #303f47;
+  line-height: 0.59733333rem;
+}
+.main4 ul li.teacher1 p {
+  text-align: center;
+}
+.main4 ul li h5 {
+  font-size: 0.512rem;
+  line-height: 0.85333333rem;
+  color: #000;
+}
+.teacher2 .teacher img {
+  left: 0;
+  width: 6.10133333rem;
+  height: 8.23466667rem;
+}
+.teacher3 .teacher img {
+  left: -0.10666667rem;
+  width: 6.10133333rem;
+  height: 8.17066667rem;
+}
+.main5 {
+  width: 100%;
+  height: 25.6rem;
+}
+.main5 .title {
+  padding-top: 1.92rem;
+}
+.title5 {
+  background: url(/static/zt/meijia/images/title3-bg.png) no-repeat top center;
+  background-size: contain;
+  height: 3.2rem;
+  margin: 1.06666667rem 0 0.85333333rem;
+}
+.study1 {
+  width: 100%;
+  height: 8.21333333rem;
+  padding-top: 0.32rem;
+  background-color: #fbda5e;
+}
+.study-l {
+  width: 5.12rem;
+  height: 8.21333333rem;
+  float: left;
+  padding-left: 0.64rem;
+}
+.namel {
+  width: 100%;
+  height: 0.85333333rem;
+  font-size: 0.64rem;
+  line-height: 0.768rem;
+  color: #1c1b1c;
+}
+.namer a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0.24rem;
+  line-height: 0.37333333rem;
+  color: #fff;
+  background-color: #1da6fa;
+  text-align: center;
+}
+.namer a img {
+  display: inline;
+  vertical-align: text-top;
+  margin: 0 0.06666667rem;
+}
+.namer a i {
+  font-style: normal;
+}
+.study-l .arc {
+  height: auto;
+  padding-top: 0.21333333rem;
+  width: 100%;
+  font-size: 0.42666667rem;
+  text-align: left;
+}
+.cpr {
+  width: 4.07466667rem;
+  height: 5.184rem;
+}
+.study-r {
+  width: 6.82666667rem;
+  height: 7.68rem;
+  border: 0.04266667rem solid #1da6fa;
+  border-radius: 10px;
+  float: left;
+  margin-left: 0.32rem;
+  position: relative;
+}
+.study-r img {
+  float: left;
+  margin: 0.05333333rem;
+}
+.study-rl {
+  width: 5.89333333rem;
+  height: 7.10666667rem;
+  float: left;
+  padding: 0.33333333rem 0 0 0.58666667rem;
+}
+.study1-tu1,
+.study1-tu2 {
+  width: 2.84rem;
+  height: 2.4rem;
+}
+.study1-tu4 {
+  width: 5.77333333rem;
+  height: 2.78666667rem;
+}
+.study1-tu5,
+.study1-tu6,
+.study1-tu7 {
+  width: 1.85333333rem;
+  height: 1.64rem;
+}
+.study-rr {
+  width: 2.98666667rem;
+  height: 7.13333333rem;
+  float: left;
+  padding-top: 0.34666667rem;
+}
+.study1-tu3 {
+  width: 2.85333333rem;
+  height: 3.96rem;
+}
+.zuopin {
+  width: 0.85333333rem;
+  height: 1.92rem;
+  border: 0.04266667rem solid #1da6fa;
+  border-radius: 5px;
+  top: 2.6rem;
+  left: -0.42666667rem;
+  position: absolute;
+  font-size: 0.512rem;
+  text-align: center;
+  line-height: 0.46933333rem;
+  background-color: #fbda5e;
+  padding-top: 0.26666667rem;
+}
+.study2 {
+  margin-top: 0.46666667rem;
+}
+.study2 .study-r {
+  width: 7.46666667rem;
+}
+.study2 .study-r {
+  margin-left: 0.21333333rem;
+}
+.study2 .zuopin {
+  left: 7.04rem;
+}
+.study2 .study-l {
+  float: right;
+  padding-left: 0;
+  padding-right: 0.13333333rem;
+}
+.guomei {
+  float: right;
+  width: 4.032rem;
+  height: 5.632rem;
+}
+.study2-tu1 {
+  width: 2.00533333rem;
+  height: 2.13333333rem;
+}
+.study2-tu2 {
+  width: 4.50666667rem;
+  height: 2.53333333rem;
+}
+.study2-tu3,
+.study2-tu4 {
+  width: 2.00533333rem;
+  height: 2.28266667rem;
+}
+.study2-tu5,
+.study2-tu6 {
+  width: 2.18666667rem;
+  height: 4.24rem;
+  float: left;
+}
+.study2 .study-rl {
+  width: 2.13333333rem;
+  height: 7.10666667rem;
+  padding: 0.33333333rem 0 0 0.33333333rem;
+}
+.study2 .study-rr {
+  width: 4.6rem;
+  height: 7.10666667rem;
+}
+.zxgo {
+  width: 4.26666667rem;
+  height: 1.28rem;
+  margin: 0.21333333rem auto 0;
+  background-color: #fbda5e;
+}
+.zxgo a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  line-height: 1.28rem;
+  color: #000;
+  font-size: 0.64rem;
+}
+.main6 {
+  width: 100%;
+  height: 14.50666667rem;
+  background-color: #fbda5e;
+  overflow: hidden;
+}
+.main6-in {
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+}
+.title6 {
+  background: url(/static/zt/meijia/images/title2-bg.png) no-repeat top center;
+  background-size: contain;
+  margin: 0.42666667rem 0 1.06666667rem;
+}
+.main6-tu {
+  width: 100%;
+  height: 11.46666667rem;
+}
+.main6-tu img {
+  float: left;
+  margin: 0.08rem;
+  width: 6.528rem;
+}
+.impor {
+  width: 4.26666667rem;
+  height: 0.42666667rem;
+  font-size: 0.256rem;
+  text-indent: 4.26666667rem;
+  overflow: hidden;
+  position: absolute;
+}
+.main7 {
+  width: 100%;
+  height: 34.13333333rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.title7 {
+  background: url(/static/zt/meijia/images/title3-bg.png) no-repeat top center;
+  background-size: contain;
+}
+.security {
+  width: 98%;
+  height: 8.53333333rem;
+  margin: 0.42666667rem auto 0;
+}
+.security li {
+  width: 6.4rem;
+  height: 4.26666667rem;
+  margin: 0 0.10666667rem;
+  float: left;
+}
+.titl {
+  width: 100%;
+  height: 0.85333333rem;
+  text-align: center;
+  line-height: 0.85333333rem;
+  font-size: 0.512rem;
+  font-weight: 700;
+}
+.security1 .titl {
+  color: #ddbc42;
+}
+.triangle {
+  width: 0.70666667rem;
+  height: 0.28rem;
+  margin: 0 auto;
+}
+.qw {
+  width: 100%;
+  height: 2.56rem;
+  padding-top: 0.26666667rem;
+}
+.security1 .qw {
+  background-color: #fbda5e;
+}
+.qw-l {
+  width: 0.64rem;
+  height: 2.13333333rem;
+  border-right: 1px solid #72716e;
+  font-size: 0.512rem;
+  color: #040001;
+  line-height: 0.512rem;
+  font-weight: 700;
+  text-align: center;
+  float: left;
+}
+.qw-r {
+  width: 5.12rem;
+  height: 2.34666667rem;
+  padding-left: 0.21333333rem;
+  float: left;
+  line-height: 0.512rem;
+  color: #040001;
+  font-size: 0.42666667rem;
+}
+.qw-r p {
+  width: 100%;
+  line-height: 0.512rem;
+  font-size: 0.42666667rem;
+}
+.security2 .titl {
+  color: #1da6fa;
+}
+.security2 .qw {
+  background-color: #1da6fa;
+}
+.security3 .titl {
+  color: #e07cdc;
+}
+.security3 .qw {
+  background-color: #e07cdc;
+}
+.security4 .titl {
+  color: #7ce0a4;
+}
+.security4 .qw {
+  background-color: #7ce0a4;
+}
+.dianzhu {
+  width: 100%;
+  height: 20.26666667rem;
+  padding-top: 1.21333333rem;
+  float: left;
+}
+.dianzhuin {
+  width: 98%;
+  height: 9.6rem;
+  float: left;
+  margin-right: 0.42666667rem;
+}
+.dianzhuin img {
+  float: left;
+  border-radius: 10px;
+  width: 5.824rem;
+  height: 8.512rem;
+}
+.dianzhu2 {
+  padding-top: 0.42666667rem;
+  border-top: 0.04266667rem solid #ccc;
+}
+.dz-arc {
+  width: 7.25333333rem;
+  height: 8.53333333rem;
+  float: left;
+  margin-left: 0.21333333rem;
+}
+.dz-arc .name {
+  font-size: 0.512rem;
+  color: #000;
+  width: 100%;
+  height: 0.96rem;
+  line-height: 0.64rem;
+}
+.dz-arc .name b {
+  font-size: 0.64rem;
+}
+.kec {
+  font-size: 0.512rem;
+  color: #000;
+}
+.ganyan,
+.geyanin {
+  width: 100%;
+  padding-top: 0.21333333rem;
+  font-size: 0.42666667rem;
+  color: #1c1b1c;
+  line-height: 0.59733333rem;
+}
+.main8 {
+  width: 100%;
+  height: 27.30666667rem;
+  background-color: #fbda5e;
+  overflow: hidden;
+}
+.main8-in {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.title8 {
+  background: url(/static/zt/meijia/images/title2-bg.png) no-repeat top center;
+  background-size: contain;
+  margin: 0.32rem 0 1.06666667rem;
+}
+.main8-in ul {
+  width: 100%;
+  height: 21.86666667rem;
+}
+.main8-in ul li {
+  float: left;
+  width: 100%;
+  height: 5.76rem;
+}
+.main8-img {
+  width: 100%;
+  height: 3.78666667rem;
+}
+.main8-img img {
+  width: 4.26666667rem;
+  float: left;
+  margin: 0 0.128rem;
+  border-radius: 5px;
+}
+.main8-titl {
+  width: 100%;
+  height: 1.28rem;
+  background-color: #1da6fa;
+}
+.main8-titl p {
+  width: 4.52266667rem;
+  height: 100%;
+  font-size: 0.42666667rem;
+  color: #fff;
+  line-height: 0.59733333rem;
+  float: left;
+}
+.main8-titl p b {
+  width: 100%;
+  height: 0.59733333rem;
+  display: block;
+  text-align: center;
+}
+.main8-steps {
+  width: 100%;
+  height: 2.29333333rem;
+  font-size: 0.21333333rem;
+  color: #1c1b1c;
+  padding-top: 0.13333333rem;
+}
+.step {
+  width: 3.86666667rem;
+  height: 2.29333333rem;
+  padding-left: 0.12rem;
+  float: left;
+}
+.main8-steps p {
+  line-height: 0.32rem;
+}
+.geyan {
+  font-size: 0.512rem;
+}
+.main9 {
+  width: 100%;
+  height: 16.32rem;
+  margin: 0 auto;
+  padding-top: 0.01333333rem;
+}
+.title9 {
+  background: url(/static/zt/meijia/images/title3-bg.png) no-repeat top center;
+  background-size: contain;
+}
+.box {
+  width: 100%;
+  height: 8rem;
+  background-color: #fbda5e;
+  position: relative;
+  overflow: hidden;
+}
+.box ul {
+  width: 1000%;
+  height: 100%;
+  position: absolute;
+}
+.box ul li {
+  width: 15.54666667rem;
+  height: 7.84rem;
+  float: left;
+  padding: 0.18666667rem 0 0 0;
+}
+.box ul li img {
+  float: left;
+  border: 5px solid #fff;
+  width: 7.53333333rem;
+  height: 7.50666667rem;
+}
+.box ul li img.main9-tu1 {
+  border-right: none;
+  margin-left: 0.24rem;
+}
+.xpage {
+  width: 6.45333333rem;
+  height: 0.8rem;
+  margin: 0 auto;
+  margin-top: 0.69333333rem;
+}
+.xpage-l {
+  background: url(/static/zt/meijia/images/arrow-l.png) no-repeat right center;
+  float: left;
+}
+.xpage-r {
+  background: url(/static/zt/meijia/images/arrow-r.png) no-repeat left center;
+  float: right;
+  text-align: right;
+}
+.xpage div {
+  width: 2.49333333rem;
+  height: 0.8rem;
+}
+.xpage div a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0.32rem;
+  color: #fbda5e;
+  line-height: 0.8rem;
+}
+.sjbox {
+  width: 100%;
+  height: 6.976rem;
+  background-color: #fbda5e;
+  overflow: hidden;
+  margin: 1.06666667rem 0 2.13333333rem 0;
+}
+#imageSlide {
+  position: relative;
+  overflow: hidden;
+  font-size: 0;
+  width: 13.09866667rem;
+  height: 6.54933333rem;
+  margin: 0.21333333rem auto 0;
+}
+#imageSlide ul {
+  position: absolute;
+  padding: 0;
+}
+#imageSlide li {
+  position: relative;
+  float: left;
+  display: inline;
+  width: 13.09866667rem;
+  height: 6.54933333rem;
+}
+#imageSlide li img {
+  width: 13.09866667rem;
+}
+#imageSlide .num {
+  text-align: center;
+  position: absolute;
+  width: 1.70666667rem;
+  bottom: 0.21333333rem;
+  z-index: 10;
+  left: 50%;
+  margin-left: -0.85333333rem;
+}
+#imageSlide .num b {
+  float: left;
+  width: 0.29866667rem;
+  height: 0.29866667rem;
+  margin: 0.128rem 0.17066667rem 0 0;
+  background-color: #1da6fa;
+  border-radius: 50%;
+}
+#imageSlide .num .cur {
+  background-color: pink;
+}
+.footer {
+  border: 1px #e1e1e1 solid;
+  width: 100%;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+  z-index: 9999;
+}
+.padfoot {
+  height: 73px;
+}

@@ -1,0 +1,493 @@
+/*ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¹*/
+body {
+    overflow-x: hidden;
+}
+a {
+    display: inline-block;
+}
+img {
+    vertical-align: bottom;
+}
+.w {
+    width: 1440px;
+    margin: 0 auto;
+}
+span {
+    display: inline-block;
+}
+.po {
+    position: relative;
+}
+.po-a {
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 1440px;
+    margin-left: -720px;
+}
+/*part1 ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¹*/
+.part1 {
+    height: 851px;
+    overflow-x: hidden;
+}
+.part1 .bg-wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.part1 .bg-wrap img {
+    width: 100%;
+    height: 100%;
+}
+.part1 .left-t {
+    position: absolute;
+    top: 84px;
+    left: 96px;
+
+    width: 352px;
+}
+.part1 .left-t img {
+    width: 100%;
+}
+.part1 .right-panel {
+    position: absolute;
+    top: 156px;
+    right: 76px;
+
+    width: 840px;
+    height: 649px;
+
+    background: url("/static/images/pc/ari_course/part1-pic-3.png") no-repeat top center;
+    background-size: 100%;
+}
+.right-panel .t-info {
+    margin-top: 37px;
+    margin-left: 53px;
+}
+.part1 .intro {
+    margin-left: 4px;
+
+    font-size: 18px;
+
+    color: #484848;
+}
+.part1 .line {
+    width: 1px;
+    height: 43px;
+    margin-top: 7px;
+    margin-left: 21px;
+
+    background-color: #807e7e;
+}
+.part1 .t-name {
+    font-size: 46px;
+
+    color: #484848;
+}
+.part1 .t-name p {
+    width: 238px;
+    margin-bottom: 24px;
+
+    font-size: 24px;
+
+    color: #625f5f;
+}
+.part1 .t-honer {
+    width: 239px;
+    overflow: hidden;
+
+    font-size: 18px;
+    line-height: 30px;
+
+    vertical-align: middle;
+
+    color: #625f5f;
+    /* border: 1px solid red; */
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
+}
+.part1 .t-honer p {
+    margin-bottom: 1px;
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.part1 .t-honer span {
+    width: 7px;
+    height: 7px;
+    margin-right: 15px;
+
+    vertical-align: middle;
+
+    opacity: .5;
+    border-radius: 7px;
+    background-color: #000;
+}
+.part1 .t-pic {
+    position: absolute;
+    top: 50px;
+    right: 44px;
+
+    width: 502px;
+    height: 328px;
+}
+.part1 .t-pic img {
+    width: 100%;
+    height: 100%;
+}
+.part1 .right-panel > div {
+    display: inline-block;
+    /*vertical-align: middle;*/
+}
+.part1 .t-deeds {
+    position: absolute;
+    bottom: 52px;
+    left: -40px;
+
+    width: 738px;
+    height: 127px;
+    padding-top: 40px;
+    padding-left: 97px;
+
+    background-color: #ff570f;
+}
+.part1 .t-deeds p {
+    width: 699px;
+
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #fff;
+}
+/*part1 ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸*/
+
+/*part2 ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¼ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¹*/
+.part2 {
+    height: 732px;
+}
+.part2 .bg-wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.part2 .bg-wrap img {
+    width: 100%;
+    height: 100%;
+}
+.part2 .title {
+    width: 512px;
+    margin: 0 auto;
+    margin-top: 79px;
+}
+.part2 .title img {
+    width: 100%;
+}
+.part2-con {
+    width: 100%;
+
+    text-align: center;
+}
+.part2 .t-chara {
+    margin-top: 2px;
+
+    font-size: 36px;
+
+    letter-spacing: 2px;
+
+    color: #484848;
+}
+.part2 .line {
+    width: 2px;
+    height: 38px;
+    margin: 0 auto;
+    margin-top: 14px;
+    margin-bottom: 19px;
+
+    opacity: .5;
+    background-color: #484848;
+}
+.part2 .txt-wrap {
+    margin-bottom: 65px;
+}
+.part2 .txt-wrap p {
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: 1px;
+
+    color: #484848;
+}
+.part2 .s-logo {
+    width: 189px;
+    margin: 0 auto;
+}
+.part2 .s-logo img {
+    width: 100%;
+}
+/*part2 ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸*/
+.pc_banner {
+    width: 100%;
+}
+.txt-wrap {
+    font-size: 18px;
+    line-height: 30px;
+
+    letter-spacing: 1px;
+
+    color: #484848;
+}
+.video {
+    width: 100%;
+    height: 970px;
+
+    background: rgba(255, 255, 255, .6);
+    /* border: 1px solid red; */
+}
+.videoCon {
+    width: 1394px;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.video_div {
+    margin-bottom: 16px;
+    margin-left: 50px;
+}
+.video_title {
+    margin-top: 44px;
+
+    font-size: 36px;
+    line-height: 36px;
+
+    color: rgb(87,87,87);
+}
+.video_info {
+    margin-top: 6.5px;
+
+    font-size: 19px;
+
+    color: rgb(87,87,87);
+}
+.video_line {
+    width: 2px;
+    height: 38px;
+    margin-top: 21px;
+
+    background: rgb(87,87,87);
+}
+.swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.gallery-top {
+    float: right;
+    width: 1044px;
+    height: 640px;
+    overflow: hidden;
+}
+.gallery-thumbs {
+    float: left;
+    width: 334px;
+    height: 653px;
+    /* padding: 10px 0; */
+    box-sizing: border-box;
+}
+.gallery-thumbs .swiper-slide {
+    float: left;
+    width: 25%;
+    width: 334px;
+    height: 208px;
+
+    opacity: .4;
+}
+.gallery-thumbs .swiper-slide-thumb-active {
+    opacity: 1;
+}
+.gallery-top .swiper-container {
+    /* height: 100%!important; */
+    height: 691px;
+}
+.gallery-thumbs li {
+    position: relative;
+
+    width: 100%;
+    height: 208px;
+    margin-bottom: 8px;
+
+    cursor: pointer;
+}
+.bofan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 62px;
+    height: 62px;
+    margin-top: -31px;
+    margin-left: -31px;
+}
+.gallery-thumbs .swiper-pagination-bullet {
+    outline: medium;
+}
+.sup {
+    height: 930px;
+    overflow: hidden;
+}
+.sui_banner {
+    position: absolute;
+    top: 0;
+    left: -240px;
+}
+.sup ul {
+    position: relative;
+    z-index: 1111111;
+
+    width: 1390px;
+    padding: 23px 2px 15px 21px;
+    /* height: 663px; */
+    margin: 134px auto 0;
+    overflow: hidden;
+
+    background: rgba(255,99,33,.5);
+}
+.sup ul > li {
+    float: left;
+    width: 450px;
+    height: 300px;
+    margin-right: 11px;
+    margin-bottom: 11px;
+}
+.sup ul > li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.sup_bg {
+    background: rgb(248,77,4);
+}
+.sup_bg .title {
+    width: 100%;
+    margin-top: 35.5px;
+
+    font-size: 22px;
+    line-height: 33px;
+
+    text-align: center;
+
+    color: rgb(255,255,255);
+}
+.title_Inf {
+    margin-top: 11px;
+
+    font-size: 32px;
+    line-height: 32px;
+
+    text-align: center;
+
+    color: rgb(255,255,255);
+}
+.line {
+    width: 2px;
+    height: 38px;
+    margin: 15px auto 0;
+
+    background: rgba(255,255,255,.5);
+}
+.more {
+    width: 169px;
+    height: 47px;
+    margin: 46px auto 0;
+
+    line-height: 47px;
+
+    text-align: center;
+
+    border: 1px solid rgba(255,255,255,.7);
+    border-radius: 9px;
+}
+.more a {
+    display: block;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    color: rgb(255,255,255);
+}
+.part1_stu {
+    position: relative;
+
+    width: 100%;
+    padding-bottom: 75px;
+
+    background: #e2e2e2;
+}.part1_stu .title {
+
+    width: 148px;
+    padding-top: 37px;
+    margin: 0 auto;
+
+    font-size: 36px;
+    line-height: 36px;
+
+    color: rgb(87,87,87);
+}
+.part1_stu .title_se {
+    width: 100%;
+    margin-top: 4px;
+
+    font-size: 19px;
+    line-height: 31px;
+
+    text-align: center;
+
+    color: rgb(87,87,87);
+}
+.part1_stu_line {
+    width: 2px;
+    height: 38px;
+    margin: 21px auto 0;
+
+    background: rgb(87,87,87);
+}
+.swiper-container_art_stu {
+    width: 1440px;
+    margin: 20px auto 43px;
+}
+.swiper-container_art_stu .swiper-wrapper .swiper-slide a,
+.swiper-container_art_stu .swiper-wrapper .swiper-slide a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.part1_stu_more {
+    display: block;
+    width: 172px;
+    height: 49px;
+    margin: auto;
+
+    font-size: 20px;
+    line-height: 49px;
+
+    text-align: center;
+
+    color: rgb(87,87,87);
+    border: 1px solid rgba(87,87,87,.5);
+    /* margin-bottom: 75px; */
+}
+.thHidee {
+    display: none;
+}
+.yk {
+    width: 100%!important;
+    height: 640px!important;
+}

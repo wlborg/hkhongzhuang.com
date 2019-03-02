@@ -1,0 +1,24 @@
+@media screen and (max-width: 1920px) {
+    .list_chain_close {
+        right: -240px;
+    }
+}
+@media screen and (max-width: 1900px) {
+    .list_chain_close {
+        right: -230px!important;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .list_chain_close {
+        right: -80px!important;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .list_chain_close {
+        right: 0!important;
+    }
+}
+
+
+

@@ -1,0 +1,127 @@
+<!--
+* @Author: chaihongjun
+* @email:   root@chaihongjun.me
+* @File name: list_faculty.htm
+* @Date:   2019-02-18 10:14:50
+* @Last Modified by:   chaihongjun
+* @Last Modified time: 2019-02-23 17:32:06
+* @Description: 教师列表页
+-->
+<!DOCTYPE html>
+<html lang="cmn-hans">
+
+<head>
+    {dede:include filename="_meta_tdk_list.htm"/}
+    {dede:include filename="_meta.htm"/}
+    {dede:include filename="_link_list.htm"/}
+    {dede:include filename="_link.htm"/}
+    <link rel="stylesheet" href="/static/css/list_faculty.css" />
+    <link rel="stylesheet" href="/static/css/_footer2.css" />
+
+</head>
+
+<body>
+    {dede:include filename="_header.htm"/}
+    <img src="/static/images/list_faculty_banner.png" class="list_faculty_banner" alt="">
+    <div id="teacher_tab">
+        <ul class="clearFix">
+            <li class="teacher_fli2">
+                <span>化妆教师</span>
+            </li>
+            <li class="">
+                <span>美容教师</span>
+            </li>
+            <li class="">
+                <span> 美甲教师</span>
+            </li>
+            <li class="">
+                <span>摄影教师</span>
+            </li>
+        </ul>
+    </div>
+    <div id="tea_list_Con">
+        <div class="tea_fdiv2">
+            <ul>
+                {dede:arclist typeid='10' flag='c' isweight="Y" orderby='weight' orderway='asc' infolen='70' addfields='pc_list,zhiwei' channelid='22'}
+                <li class="">
+                    <a href="[field:arcurl/]">
+                    <img data-original="[field:pc_list function='replaceurl(@me)/]" class="lazy_Comm" alt="[field:title/]" />
+                </a>
+                    <ol>
+                        <p class="tea_xm">[field:title/]</p>
+                        <p class="tea_zw">红妆学校副校长</p>
+                        <p class="tea_xz"> </p>
+                        <p class="tea_xz1"> </p>
+                        <p class="tea_more"> <a href="[field:arcurl/]">查看更多</a></p>
+                        <p class="tea_hidee">[field:zhiwei/]</p>
+                    </ol>
+                </li>
+                {/dede:arclist}
+            </ul>
+        </div>
+        <div class="">
+            <ul>
+                {dede:arclist typeid='12' flag='c' isweight="Y" orderby='weight' orderway='asc' infolen='70' addfields='pc_list,zhiwei' channelid='22'}
+                <li class="">
+                    <a href="[field:arcurl/]">
+                    <img src="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
+                </a>
+                    <ol>
+                        <p class="tea_xm">[field:title/]</p>
+                        <p class="tea_zw">红妆学校副校长</p>
+                        <p class="tea_xz"> </p>
+                        <p class="tea_xz1"> </p>
+                        <p class="tea_more"> <a href="[field:arcurl/]">查看更多</a></p>
+                        <p class="tea_hidee">[field:zhiwei/]</p>
+                    </ol>
+                </li>
+                {/dede:arclist}
+            </ul>
+        </div>
+        <div class="">
+            <ul>
+                {dede:arclist typeid='13' flag='c' isweight="Y" orderby='weight' orderway='asc' infolen='70' addfields='pc_list,zhiwei' channelid='22'}
+                <li class="">
+                    <a href="[field:arcurl/]">
+                    <img src="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
+                </a>
+                    <ol>
+                        <p class="tea_xm">[field:title/]</p>
+                        <p class="tea_zw">红妆学校副校长</p>
+                        <p class="tea_xz"> </p>
+                        <p class="tea_xz1"> </p>
+                        <p class="tea_more"> <a href="[field:arcurl/]">查看更多</a></p>
+                        <p class="tea_hidee">[field:zhiwei/]</p>
+                    </ol>
+                </li>
+                {/dede:arclist}
+            </ul>
+        </div>
+        <div class="">
+            <ul>
+                {dede:arclist typeid='14' flag='c' isweight="Y" orderby='weight' orderway='asc' infolen='70' addfields='pc_list,zhiwei' channelid='22'}
+                <li class="">
+                    <a href="[field:arcurl/]">
+                    <img src="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
+                </a>
+                    <ol>
+                        <p class="tea_xm">[field:title/]</p>
+                        <p class="tea_zw">红妆学校副校长</p>
+                        <p class="tea_xz"> </p>
+                        <p class="tea_xz1"> </p>
+                        <p class="tea_more"> <a href="[field:arcurl/]">查看更多</a></p>
+                        <p class="tea_hidee">[field:zhiwei/]</p>
+                    </ol>
+                </li>
+                {/dede:arclist}
+            </ul>
+        </div>
+    </div>
+    {dede:include filename="_footer2.htm"/}
+    {dede:include filename="_footerNav.htm"/}
+    <div class="footer_mar"> </div>
+</body>
+{dede:include filename="_script.htm"/}
+<script type="text/javascript" src="/static/js/list_faculty.js"></script>
+
+</html>

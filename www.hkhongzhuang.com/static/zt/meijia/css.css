@@ -1,0 +1,953 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    font-family: "微软雅黑";
+    background-color: #fff
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+img {
+    display: block;
+    border: 0
+}
+
+ul,
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+.bn {
+    width: 100%;
+    height: 720px;
+    background: url(/static/zt/meijia/images/bn.jpg) no-repeat top center
+}
+
+.mian1 {
+    width: 1170px;
+    height: 1066px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.title {
+    width: 100%;
+    height: 139px;
+    margin: 76px 0 95px;
+    padding-top: 85px;
+    text-align: center
+}
+
+.title1 {
+    background: url(/static/zt/meijia/images/title1-bg.png) no-repeat top center
+}
+
+.title h5 {
+    text-transform: uppercase;
+    line-height: 42px;
+    color: #525353;
+    font-size: 22px
+}
+
+.title h3 {
+    font-size: 42px;
+    color: #000;
+    font-family: "宋体"
+}
+
+.arc {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    color: #525353
+}
+
+.mian1 .arc {
+    text-align: center
+}
+
+.mian1 ul {
+    width: 100%;
+    height: 488px;
+    padding-top: 25px
+}
+
+.mian1 ul li {
+    float: left
+}
+
+.mian1 ul .main1-l {
+    width: 555px;
+    height: 454px;
+    background-color: #fdade9;
+    position: relative
+}
+
+.main1-l-box {
+    width: 555px;
+    height: 225px;
+    left: 10px;
+    top: 125px;
+    text-align: center;
+    z-index: 2;
+    position: absolute
+}
+
+.main1-l-box p {
+    color: #e6b80e;
+    font-size: 49px;
+    width: 100%;
+    height: 66px;
+    line-height: 50px;
+    text-align: center
+}
+
+.main1-l-box p.big {
+    font-size: 56px
+}
+
+.mian1 ul .main1-l img {
+    width: 555px;
+    height: 454px;
+    position: absolute;
+    top: 10px;
+    left: 10px
+}
+
+.main1-r {
+    width: 567px;
+    height: 335px;
+    padding: 60px 0 0 35px
+}
+
+.main1-r div {
+    width: 100%;
+    height: 58px;
+    border-bottom: 1px dashed #e6b80e;
+    padding-top: 20px
+}
+
+.main1-r div h4,
+.main1-r div p {
+    float: left
+}
+
+.main1-r div h4 {
+    width: 130px;
+    line-height: 48px;
+    font-size: 32px;
+    color: #1994e0;
+    height: 48px
+}
+
+.main1-r div p {
+    width: 422px;
+    color: #666767;
+    font-size: 16px;
+    line-height: 42px
+}
+
+.main1-r div.huan p {
+    line-height: 22px
+}
+
+.main2 {
+    width: 100%;
+    height: 1082px;
+    background-color: #fbda5e
+}
+
+.main2-in {
+    width: 1092px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.title2 {
+    background: url(/static/zt/meijia/images/title2-bg.png) no-repeat top center
+}
+
+.main2-c {
+    width: 100%;
+    height: 625px;
+    margin: 0 auto;
+    background: url(/static/zt/meijia/images/main2-bg.png) no-repeat top center;
+    position: relative
+}
+
+.main2-c .center {
+    width: 318px;
+    height: 175px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.6);
+    top: 178px;
+    left: 390px;
+    position: absolute
+}
+
+.main2-c .center p {
+    color: #fb4ace;
+    text-align: center
+}
+
+.main2-c .center .ll {
+    font-size: 44px;
+    line-height: 72px
+}
+
+.main2-c .center .ss {
+    font-size: 28px;
+    line-height: 30px
+}
+
+.main2-c .center .mm {
+    font-size: 36px;
+    line-height: 46px
+}
+
+.treat {
+    position: absolute;
+    width: 198px;
+    height: 81px
+}
+
+.treat h3 {
+    width: 185px;
+    height: 38px;
+    background-color: #fdf0bf;
+    text-align: center;
+    line-height: 38px;
+    color: #5195c1;
+    font-size: 26px
+}
+
+.treat p {
+    font-size: 22px;
+    color: #404040;
+    line-height: 38px
+}
+
+.treat1 {
+    top: 34px;
+    left: 50px
+}
+
+.treat2 {
+    top: 166px;
+    left: 0
+}
+
+.treat3 {
+    top: 290px;
+    left: 0
+}
+
+.treat4 {
+    top: 424px;
+    left: 45px
+}
+
+.treat5 {
+    bottom: 0;
+    left: 452px
+}
+
+.treat6 {
+    top: 32px;
+    right: 30px
+}
+
+.treat7 {
+    top: 160px;
+    right: 0
+}
+
+.treat8 {
+    top: 292px;
+    right: 0
+}
+
+.treat9 {
+    top: 427px;
+    right: 30px
+}
+
+.main3 {
+    width: 1088px;
+    height: 1086px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.title3 {
+    background: url(/static/zt/meijia/images/title3-bg.png) no-repeat top center
+}
+
+.main3 img {
+    float: left;
+    border: 12px solid #fbda5e;
+    float: left
+}
+
+.main3-tu1 {
+    margin-right: 24px
+}
+
+.main3-tu3 {
+    margin-top: 16px
+}
+
+.impor {
+    width: 10px;
+    height: 5px;
+    font-size: 12px;
+    text-indent: 100px;
+    overflow: hidden;
+    position: absolute
+}
+
+.main4 {
+    width: 100%;
+    height: 1190px;
+    background-color: #fbda5e
+}
+
+.main4-in {
+    width: 1098px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto
+}
+
+.title4 {
+    background: url(/static/zt/meijia/images/title2-bg.png) no-repeat top center
+}
+
+.main4-in ul {
+    width: 100%;
+    height: 480px;
+    margin-top: 360px
+}
+
+.main4-in ul li {
+    width: 284px;
+    height: 332px;
+    border: 1px solid #1da6fa;
+    float: left;
+    margin: 0 8px;
+    padding: 118px 30px 0;
+    position: relative
+}
+
+.teacher {
+    width: 330px;
+    height: 330px;
+    border: 2px solid #1da6fa;
+    position: absolute;
+    top: -224px;
+    left: 6px;
+    border-radius: 50%;
+    background-color: #fff
+}
+
+.teacher img {
+    position: absolute;
+    bottom: 0
+}
+
+.teacher1 .teacher img {
+    left: 0px
+}
+
+.main4-in ul li h3 {
+    font-size: 32px;
+    line-height: 58px;
+    text-align: center
+}
+
+.main4-in ul li p {
+    font-size: 16px;
+    color: #303f47;
+    line-height: 24px
+}
+
+.main4-in ul li.teacher1 p {
+    text-align: center
+}
+
+.main4-in ul li h5 {
+    font-size: 24px;
+    line-height: 46px;
+    color: #000
+}
+
+.teacher2 .teacher img {
+    left: 4px
+}
+
+.teacher3 .teacher img {
+    left: -4px;
+}
+
+.main5 {
+    width: 1200px;
+    height: 1840px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.title5 {
+    background: url(/static/zt/meijia/images/title3-bg.png) no-repeat top center
+}
+
+.study1 {
+    width: 100%;
+    height: 616px;
+    padding-top: 38px;
+    background-color: #fbda5e
+}
+
+.study-l {
+    width: 400px;
+    height: 616px;
+    float: left;
+    padding-left: 10px
+}
+
+.name {
+    width: 100%;
+    height: 44px
+}
+
+.namel {
+    width: 215px;
+    height: 100%;
+    float: left;
+    font-size: 33px;
+    line-height: 31px;
+    color: #1c1b1c
+}
+
+.namer {
+    width: 125px;
+    height: 28px;
+    float: right;
+    overflow: hidden
+}
+
+.namer a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    background-color: #1da6fa;
+    text-align: center
+}
+
+.namer a:hover {
+    color: #fbda5e
+}
+
+.namer a img {
+    display: inline;
+    vertical-align: text-top;
+    margin: 0 5px
+}
+
+.namer a i {
+    font-style: normal
+}
+
+.study-l .arc {
+    height: 72px
+}
+
+.cpr {
+    width: 354px;
+    height: 492px
+}
+
+.study-r {
+    width: 728px;
+    height: 580px;
+    border: 2px solid #1da6fa;
+    border-radius: 10px;
+    float: left;
+    margin-left: 52px;
+    position: relative
+}
+
+.study-r img {
+    float: left;
+    margin: 4px
+}
+
+.study-rl {
+    width: 442px;
+    height: 533px;
+    float: left;
+    padding: 25px 0 0 44px
+}
+
+.study1-tu1,
+.study1-tu2 {
+    width: 213px;
+    height: 180px
+}
+
+.study1-tu4 {
+    width: 433px;
+    height: 209px
+}
+
+.study1-tu5,
+.study1-tu6,
+.study1-tu7 {
+    width: 139px;
+    height: 123px
+}
+
+.study-rr {
+    width: 224px;
+    height: 535px;
+    float: left;
+    padding-top: 26px
+}
+
+.study1-tu3 {
+    width: 214px;
+    height: 297px
+}
+
+.zuopin {
+    width: 65px;
+    height: 157px;
+    border: 2px solid #1da6fa;
+    border-radius: 10px;
+    top: 195px;
+    left: -32px;
+    position: absolute;
+    font-size: 33px;
+    text-align: center;
+    line-height: 34px;
+    background-color: #fbda5e;
+    padding-top: 20px
+}
+
+.study2 {
+    margin-top: 35px
+}
+
+.study2 .study-r {
+    margin-left: 16px
+}
+
+.study2 .zuopin {
+    left: 697px
+}
+
+.study2 .study-l {
+    float: right;
+    padding-left: 0;
+    padding-right: 10px
+}
+
+.guomei {
+    float: right
+}
+
+.study2-tu1 {
+    width: 300px;
+    height: 380px
+}
+
+.study2-tu2 {
+    width: 338px;
+    height: 190px
+}
+
+.study2-tu3,
+.study2-tu4 {
+    width: 146px;
+    height: 130px
+}
+
+.study2-tu5,
+.study2-tu6 {
+    width: 164px;
+    height: 318px;
+    float: left
+}
+
+.study2 .study-rl {
+    width: 308px;
+    height: 533px;
+    padding: 25px 0 0 25px
+}
+
+.study2 .study-rr {
+    width: 345px;
+    height: 533px
+}
+
+.main6 {
+    width: 100%;
+    height: 1184px;
+    background-color: #fbda5e;
+    overflow: hidden
+}
+
+.main6-in {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto
+}
+
+.title6 {
+    background: url(/static/zt/meijia/images/title2-bg.png) no-repeat top center;
+    margin-top: 20px
+}
+
+.main6-tu {
+    width: 100%;
+    height: 860px
+}
+
+.main6-tu img {
+    float: left;
+    margin: 6px
+}
+
+.main7 {
+    width: 1200px;
+    height: 1192px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.title7 {
+    background: url(/static/zt/meijia/images/title3-bg.png) no-repeat top center
+}
+
+.security {
+    width: 100%;
+    height: 241px
+}
+
+.security li {
+    width: 295px;
+    height: 241px;
+    margin: 0 2px;
+    float: left
+}
+
+.titl {
+    width: 100%;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    font-size: 32px
+}
+
+.security1 .titl {
+    color: #ddbc42
+}
+
+.triangle {
+    width: 53px;
+    height: 21px;
+    margin: 0 auto
+}
+
+.qw {
+    width: 100%;
+    height: 144px;
+    padding-top: 20px
+}
+
+.security1 .qw {
+    background-color: #fbda5e
+}
+
+.qw-l {
+    width: 40px;
+    height: 126px;
+    border-right: 1px solid #72716e;
+    font-size: 28px;
+    color: #040001;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    float: left
+}
+
+.qw-r {
+    width: 208px;
+    height: 115px;
+    padding-left: 20px;
+    float: left;
+    line-height: 28px;
+    color: #040001;
+    font-size: 16px
+}
+
+.qw-r p {
+    width: 100%;
+    line-height: 30px
+}
+
+.security2 .titl {
+    color: #1da6fa
+}
+
+.security2 .qw {
+    background-color: #1da6fa
+}
+
+.security3 .titl {
+    color: #e07cdc
+}
+
+.security3 .qw {
+    background-color: #e07cdc
+}
+
+.security4 .titl {
+    color: #7ce0a4
+}
+
+.security4 .qw {
+    background-color: #7ce0a4
+}
+
+.dianzhu {
+    width: 100%;
+    height: 397px;
+    padding-top: 91px;
+    float: left
+}
+
+.dianzhuin {
+    width: 568px;
+    height: 397px;
+    float: left;
+    margin-right: 32px
+}
+
+.dianzhuin img {
+    float: left;
+    border-radius: 10px
+}
+
+.dz-arc {
+    width: 275px;
+    height: 397px;
+    float: left;
+    margin-left: 18px
+}
+
+.dz-arc .name {
+    font-size: 22px;
+    color: #000;
+    width: 100%;
+    height: 72px;
+    line-height: 44px
+}
+
+.dz-arc .name b {
+    font-size: 32px
+}
+
+.kec {
+    font-size: 22px color:#000
+}
+
+.ganyan,
+.geyanin {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1c1b1c
+}
+
+.geyan {
+    width: 100%;
+    padding-top: 30px;
+    font-size: 20px;
+    color: #1c1b1c
+}
+
+.main8 {
+    width: 100%;
+    height: 2016px;
+    background-color: #fbda5e;
+    overflow: hidden
+}
+
+.main8-in {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.title8 {
+    background: url(/static/zt/meijia/images/title2-bg.png) no-repeat top center;
+    margin-top: 20px
+}
+
+.main8-in ul {
+    width: 100%;
+    height: 1640px
+}
+
+.main8-in ul li {
+    float: left;
+    width: 100%;
+    height: 523px
+}
+
+.main8-img {
+    width: 100%;
+    height: 284px
+}
+
+.main8-img img {
+    width: 296px;
+    height: 254px;
+    float: left;
+    margin: 0 2px;
+    border-radius: 10px
+}
+
+.main8-titl {
+    width: 100%;
+    height: 48px;
+    background-color: #1da6fa
+}
+
+.main8-titl p {
+    width: 299px;
+    height: 100%;
+    font-size: 24px;
+    color: #fff;
+    line-height: 48px;
+    text-indent: 0.5em;
+    float: left
+}
+
+.main8-steps {
+    width: 100%;
+    height: 172px;
+    font-size: 16px;
+    color: #1c1b1c;
+    padding-top: 10px
+}
+
+.step {
+    width: 290px;
+    height: 172px;
+    padding-left: 9px;
+    float: left
+}
+
+.main8-steps p {
+    line-height: 24px
+}
+
+.main9 {
+    width: 1184px;
+    height: 1224px;
+    margin: 0 auto;
+    padding-top: 1px
+}
+
+.title9 {
+    background: url(/static/zt/meijia/images/title3-bg.png) no-repeat top center
+}
+
+.box {
+    width: 100%;
+    height: 600px;
+    background-color: #fbda5e;
+    position: relative;
+    overflow: hidden
+}
+
+.box ul {
+    width: 1000%;
+    height: 100%;
+    position: absolute
+}
+
+.box ul li {
+    width: 1166px;
+    height: 588px;
+    float: left;
+    padding: 14px 0 0 0
+}
+
+.box ul li img {
+    float: left;
+    border: 5px solid #fff;
+    width: 565px;
+    height: 563px
+}
+
+.box ul li img.main9-tu1 {
+    border-right: none;
+    margin-left: 18px
+}
+
+.xpage {
+    width: 484px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 52px
+}
+
+.xpage-l {
+    background: url(/static/zt/meijia/images/arrow-l.png) no-repeat right center;
+    float: left
+}
+
+.xpage-r {
+    background: url(/static/zt/meijia/images/arrow-r.png) no-repeat left center;
+    float: right;
+    text-align: right
+}
+
+.xpage div {
+    width: 187px;
+    height: 60px
+}
+
+.xpage div a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    color: #fbda5e;
+    line-height: 60px
+}
+
+body {
+    min-width: 1250px
+}

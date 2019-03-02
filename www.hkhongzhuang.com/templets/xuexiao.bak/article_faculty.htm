@@ -1,0 +1,162 @@
+<html lang="cmn-hans">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{dede:field.title/}_{dede:field.typename/}_{dede:global.cfg_webname/}</title>
+    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+    <meta name="description" content="{dede:global.cfg_description/}" />
+    {dede:include filename="_meta.htm"/}
+    {dede:include filename="_link.htm"/}
+    <link href="{dede:global.cfg_csspath/}/pc/article_faculty.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/_footer_hidder.css" />
+    <link rel="alternate" media="only screen and(max-width: 640px)" href="https://m.hkhongzhuang.com{dede:field.arcurl/}">
+
+<body>
+    {dede:include filename="_header.htm"/}
+    <img src="{dede:field.pc_banner/}" class="pc_banner" alt="">
+    <!-- part1 开始 -->
+    <div class="part1 po">
+        <div class="bg-wrap">
+            <img data-original="{dede:global.cfg_imgpath/}/pc/part1-bg.jpg" class="lay_com">
+    </div>
+            <div class="po-a">
+                <div class="left-t">
+                    <img data-original="{dede:field.pc_info/}" class="lay_com">
+        </div>
+                    <div class="right-panel">
+                        <div class="t-info">
+                            <div class="intro">
+                                简介
+                            </div>
+                            <div class="line"></div>
+                            <div class="t-name">
+                                {dede:field.title/}
+                                <p>{dede:field.zhiwei/}</p>
+                            </div>
+                            <div class="t-honer">
+                                {dede:field.honor/}
+                            </div>
+                        </div>
+                        <div class="t-pic">
+                            <img src="" data-original="{dede:field.pc_stu/}" class="lay_com">
+            </div>
+                            <div class="t-deeds">
+                                <p>
+                                    {dede:field.description/}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- part1 结束 -->
+                <!-- part2 开始 -->
+                <div class="part2 po">
+                    <div class="bg-wrap">
+                        <img data-original="{dede:global.cfg_imgpath/}/pc/part2-bg.jpg" class="lay_com">
+    </div>
+                        <div class="po-a">
+                            <div class="title">
+                                <img data-original="{dede:global.cfg_imgpath/}/pc/part2-title.png" class="lay_com" />
+        </div>
+                                <div class="part2-con">
+                                    <div class="t-chara">
+                                        教学特色
+                                    </div>
+                                    <div class="line"></div>
+                                    <div class="txt-wrap">
+                                        {dede:field.characteristics/}
+                                    </div>
+                                    <div class="s-logo">
+                                        <img data-original="{dede:global.cfg_imgpath/}/pc/part2-pic-1.png" class="lay_com" />
+            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- part2 结束 -->
+                            <!-- 随拍部分 -->
+                            <div class="_pos_relative sup w1440">
+                                <img data-original="{dede:global.cfg_imgpath/}/pc/sui_banner.jpg" class="sui_banner lay_com" alt="">
+                                <ul>
+                                    <li>
+                                        <img data-original="{dede:field.pc_stu/}" class="lay_com" alt="">
+            </li>
+                                    <li>
+                                        <img data-original="{dede:field.pc_stu2/}" class="lay_com" alt="">
+            </li>
+                                    <li>
+                                        <img data-original="{dede:field.pc_stu3/}" class="lay_com" alt="">
+            </li>
+                                    <li>
+                                        <img data-original="{dede:field.pc_stu4/}" class="lay_com" alt="">
+            </li>
+                                    <li class="sup_bg">
+                                        <p class="title">CLASSROOM FOLLOW UP</p>
+                                        <p class="title_Inf">课堂随拍</p>
+                                        <p class="line"> </p>
+                                        <p class="more"><a href="javascript:;" class="j-consult">查看更多</a></p>
+                                    </li>
+                                    <li>
+                                        <img data-original="{dede:field.pc_stu5/}" alt="" class="lay_com">
+            </li>
+                                </ul>
+                            </div>
+                            <div style="w100%;height: 33px;background: #ebebeb;"> </div>
+                            <!--视频播放部分-->
+                            <div class="video">
+                                <div class="videoCon">
+                                    <div class="video_div">
+                                        <p class="video_title">教学视频</p>
+                                        <p class="video_info">INSTRUCTIONAL VIDEO</p>
+                                        <p class="video_line"> </p>
+                                    </div>
+                                    <!--教学视频主要内容-->
+                                    <!-- Swiper -->
+                                    <div class="swiper-container gallery-thumbs">
+                                    </div>
+                                    <div class="yl" style="display: none">
+                                        {dede:field.yl1/},{dede:field.yl2/},{dede:field.yl3/}
+                                    </div>
+                                    <div class="gallery-top">
+                                        <!-- Swiper -->
+                                        <div class="swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    {dede:field.video1/}
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    {dede:field.video2/}
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    {dede:field.video3/}
+                                                </div>
+                                            </div>
+                                            <!-- Add Pagination -->
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="part1_stu">
+                                <p class="title">学生作品</p>
+                                <p class="title_se">STUDENT WORKS</p>
+                                <p class="part1_stu_line"> </p>
+                                <!-- Swiper -->
+                                <div class="swiper-container swiper-container_art_stu">
+                                    <div class="swiper-wrapper">
+                                        {dede:arclist typeid='8' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
+                                        <div class="swiper-slide">
+                                            <a href="[field:arcurl/]">
+                    <img src="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
+                </a>
+                                        </div>
+                                        {/dede:arclist}
+                                    </div>
+                                </div>
+                                <a  href="/student/" class="part1_stu_more">查看更多 ›</a>
+                            </div>
+                            {dede:include filename="_footer.htm"/}
+</body>
+{dede:include filename="_script.htm"/}
+<script src="{dede:global.cfg_jspath/}/pc/article_faculty.js"></script>
+
+</html>

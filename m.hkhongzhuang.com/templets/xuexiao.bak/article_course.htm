@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+
+   {dede:include filename="_meta.htm"/}
+
+    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+
+    <meta name="description" content="{dede:global.cfg_description/}" />
+
+    <title>{dede:field.title/}_{dede:field.typename/}_{dede:global.cfg_webname/}</title>
+
+    {dede:include filename="_link.htm"/}
+
+    <link rel="stylesheet" href="/static/css/article_course.css" />
+
+    <link rel="stylesheet" href="/static/css/_footer2.css" />
+
+    <link rel="canonical" href="https://www.hkhongzhuang.com{dede:field.arcurl/}" />
+
+</head>
+
+<body>
+
+   {dede:include filename="_header.htm"/}
+
+    <div class="wrapper courses courses_article">
+
+        <div class="g-container banner">
+
+            <div class="g-doc">
+
+             <img src="https://www.hkhongzhuang.com/{dede:field.m_banner/}" alt="">
+
+            </div>
+
+        </div>
+
+        <div class="g-container courseDetail">
+
+            <div class="g-doc">
+
+              <div class="block1">
+
+                <h2>{dede:field.title/}</h2>
+
+                <dl>
+
+                  <dt>学时 </dt>
+
+                  <dd>   {dede:field.period/}</dd>
+
+                </dl>
+
+                 <dl>
+
+                  <dt>学费 </dt>
+
+                  <dd>  <a href="javascript:;" class="art_cor_xf">点击前往咨询</a></dd>
+
+                </dl>
+
+                 <dl>
+
+                  <dt>授课 </dt>
+
+                  <dd>   {dede:field.givlessons/}</dd>
+
+                </dl>
+
+                 <dl>
+
+                  <dt>课时 </dt>
+
+                  <dd>   {dede:field.class_hour/}</dd>
+
+                </dl>
+
+                <p class="firstP"><span>适合人群：</span>{dede:field.suttcrowds/}</p>
+
+                <p><span>就业方向：</span>{dede:field.orientation/}</p>
+
+              </div>
+
+              <div class="block2">
+
+                <h3>课程安排</h3>
+
+                <div class="course-wrapper f-cb">
+
+                   <div class="swiper-container swiper-container-kecheng">
+
+                      <div class="swiper-wrapper">
+
+
+
+                      </div>
+
+                   </div>
+
+                   <!-- <ul>
+
+                     <li>01   化妆理论知识</li>
+
+                     <li>02   化妆理论知识</li>
+
+                     <li>03   化妆理论知识</li>
+
+                     <li>04   化妆理论知识</li>
+
+                   </ul>
+
+                    <ul>
+
+                     <li>01   化妆理论知识</li>
+
+                     <li>02   化妆理论知识</li>
+
+                     <li>03   化妆理论知识</li>
+
+                     <li>04   化妆理论知识</li>
+
+                   </ul>
+
+                    <ul>
+
+                     <li>01   化妆理论知识</li>
+
+                     <li>02   化妆理论知识</li>
+
+                     <li>03   化妆理论知识</li>
+
+                     <li>04   化妆理论知识</li>
+
+                   </ul> -->
+
+                </div>
+
+                <i class="icon_courseMore"></i>
+
+              </div>
+
+            </div>
+
+        </div>
+
+        <div class="g-container coursePic">
+
+           <div class="g-doc">
+
+             <div class="g-title">
+
+               <h2>大型活动实践平台</h2>
+
+               <p>Student Course Works</p>
+
+
+
+             </div>
+
+             <div class="g-content">
+
+                <div class="swiper-container">
+
+                      <div class="swiper-wrapper">
+
+{dede:arclist typeid='19'  row="4" flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list1,pc_list2,pc_large3,pc_list4,pc_list5,pc_list6' channelid='23'}
+
+                          <div class="swiper-slide">
+
+                            <a href="[field:arcurl/]">
+
+                              <h3>[field:title/]</h3>
+
+                              <div class="row ">
+
+                                  <img src="[field:pc_list1 function='replaceurl(@me)/]" alt="[field:title/]" class="imgSize1" />
+
+                                  <img src="[field:pc_list2 function='replaceurl(@me)/]"  alt="[field:title/]" class="imgSize2" />
+
+                              </div>
+
+                              <div class="row  imgSize3" >
+
+                                <img src="[field:pc_large3 function='replaceurl(@me)/]"  alt="[field:title/]">
+
+                                <img src="[field:pc_list4 function='replaceurl(@me)/]"  alt="[field:title/]">
+
+                                <img src="[field:pc_list5 function='replaceurl(@me)/]"  alt="[field:title/]">
+
+                                <img src="[field:pc_list6 function='replaceurl(@me)/]"  alt="[field:title/]">
+
+
+
+                              </div>
+
+
+
+                            </a>
+
+                          </div>
+
+    {/dede:arclist}
+
+                      </div>
+
+                </div>
+
+                <ul class="swiper-pagination">
+
+
+
+                </ul>
+
+             </div>
+
+           </div>
+
+        </div>
+
+        <div class="g-container courseWorks">
+
+            <div class="g-doc">
+
+               <div class="g-title">
+
+                 <h2>学生作品</h2>
+
+                 <p>Student Course Works</p>
+
+               </div>
+
+               <div class="g-content ">
+
+                {dede:arclist typeid='8'  row='2' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
+
+                <div class="item">
+
+                  <a href="[field:arcurl/]">
+
+                  <img src="[field:pc_list function='replaceurl(@me)/]"  alt="[field:title/]">
+
+                 </a>
+
+                </div>
+
+              {/dede:arclist}
+
+               </div>
+
+               <a href="javascript:;" class="consult j-consult">
+
+                 <span class="sr-only">
+
+                   购买课程  在线咨询
+
+                   Online Consulting for Purchasing Courses
+
+                 </span>
+
+               </a>
+
+            </div>
+
+        </div>
+
+        <div class="g-container courseTeacher">
+
+            <div class="g-doc">
+
+                <div class="g-title">
+
+                  <h2>授课老师</h2>
+
+                  <p>Class teacher</p>
+
+                </div>
+
+                <div class="g-content">
+
+                     <div class="swiper-container">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+
+                              <a href="javascript:;">
+
+                              <img src="/static/images/course_teacher_img1.png" class="teacherPic">
+
+                               <div class="head_Info _pos_absolute">
+
+                                  {dede:FIELD.tea_id  function='getTeaHead(@me)'/}
+
+                              </div>
+
+                               <div class="teacherDetail">
+
+                                  <h3>{dede:field.tea_name/}</h3>
+
+                                  <p class="title-txt"> </p>
+
+                                  <p class="title-txt"> </p>
+
+                                  <p class="flag"></p>
+
+                                  <div class="consultMore">
+
+                                     <span class="j-consult">
+
+                                     咨询更多
+
+                                    </span>
+
+                                    {dede:FIELD.tea_id  function='getTeaSu(@me)'/}
+
+                                  </div>
+
+                               </div>
+
+
+
+                              </a>
+
+                            </div>
+
+
+
+                        </div>
+
+                     </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="g-container courseMore">
+
+            <div class="g-doc">
+
+               <div class="g-title">
+
+                  <h2><a href="/course/">更多课程</a></h2>
+
+                  <p>More courses</p>
+
+                </div>
+
+                <div class="g-content">
+
+                   <ul class="f-cb">
+
+                     {dede:arclist typeid='3' row='4' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20'}
+
+                     <li>
+
+                      <a href="[field:arcurl/]">
+
+                        <img src="[field:pc_defau function='replaceurl(@me)/]">
+
+                       <p>[field:title/]</p>
+
+                     </a>
+
+                     </li>
+
+ {/dede:arclist}
+
+                   </ul>
+
+                </div>
+
+                <a href="javascript:;" class="j-consult consult">
+
+                 <span class="sr-only">
+
+                   购买课程  在线咨询
+
+                   Online Consulting for Purchasing Courses
+
+                 </span>
+
+               </a>
+
+            </div>
+
+        </div>
+
+        <div class="g-container courseNews">
+
+            <div class="g-doc">
+
+                <div class="firstNews">
+
+                  <a href="javascript:;" class="j-consult art_more_a">
+
+                    <img src="/static/images/course_consult_bg.jpg">
+
+                    <p>了解更多</p>
+
+                  </a>
+
+                </div>
+
+                <ul>
+
+                  <li>
+
+                   <a href="javascript:;" class="j-consult art_more_a">
+
+                    <span class="num">01</span>
+
+                    <span class="title">学费多少钱?近期有优惠吗？</span>
+
+                    <span class="detail">点击了解 ></span>
+
+                  </a>
+
+                  </li>
+
+                  <li>
+
+                    <a href="javascript:;" class="j-consult art_more_a">
+
+                      <span class="num">02</span>
+
+                    <span class="title">课程免费试听获取</span>
+
+                    <span class="detail">点击了解 ></span>
+
+                  </a>
+
+                  </li>
+
+                  <li>
+
+                   <a href="javascript:;" class="j-consult art_more_a">
+
+                    <span class="num">03</span>
+
+                    <span class="title">我要学习怎么咨询？</span>
+
+                    <span class="detail">点击了解 ></span>
+
+                  </a>
+
+                  </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <p class="zhiweiHide">
+
+            {dede:FIELD.tea_id  function='getTeaZhi(@me)'/}
+
+          </p>
+
+          <div class="art_hor_hide">
+
+          {dede:FIELD.tea_id  function='art_hor_hide(@me)'/}
+
+        </div>
+
+        <div class="kecheng" style="display: none">{dede:field.course_arrangement/}</div>
+
+        {dede:include filename="_footer2.htm"/}
+
+        {dede:include filename="_footerNav.htm"/}
+
+        <div class="footer_mar"> </div>
+
+    </div>
+
+</body>
+
+{dede:include filename="_script.htm"/}
+
+<script type="text/javascript" src="/static/js/article_course.js"></script>
+
+</html>
+

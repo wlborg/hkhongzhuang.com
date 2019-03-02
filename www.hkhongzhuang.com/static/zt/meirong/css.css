@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0
+}
+body{
+	font-family: "微软雅黑";
+	background-color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%; font-weight:normal;
+}
+img {
+	display: block;
+	border:0;
+}
+ul,li {
+	list-style: none
+}
+a {
+	text-decoration: none;
+}
+.bn{width:100%; background:url(/static/zt/meirong/images/bn.jpg) no-repeat top center; height:796px;}
+.line{display:block; width:100%; height: 60px; background-color:#d9c89c;}
+.teach-title{width:100%; height:564px; background:url(/static/zt/meirong/images/cloud.jpg) no-repeat top center; overflow: hidden;}
+.tea-in{width:281px; height:452px; margin:75px auto 0;background:url(/static/zt/meirong/images/stone.png) no-repeat top center; position: relative;}
+.p1, .p2{font-size: 18px; color:#838484;} /*定义p*/
+.tea-in .p1, .tea-in .p2{width:20px; height:213px;letter-spacing: 1px; line-height:20px; position: absolute;}
+.tea-in .p1{top: 235px; left:100px;}
+.tea-in .p2{top: 235px; left:127px}
+.h3{font-size: 58px; color:#e65880;}  /*定义h3*/
+.tea-in .h3{width:56px; height:auto; position: absolute; top:80px; left:190px; line-height:52px; font-family: "宋体"; font-weight: 700}
+/*老师图片*/
+.teacher{width:1200px; height:1098px; margin:0 auto; padding-top:70px;}
+.teacher li{width:296px; height:910px; float:left; margin:0 2px; }
+.teacher li p{font-size: 16px; color:#838484; line-height: 24px; text-align:center;}
+.teacher li .name{width:130px; height:40px; border-bottom: 1px solid #303030; line-height:32px; padding-top:19px;
+                 text-align:center; margin:0 auto 28px; font-size: 28px; color:#000;}
+/*课程分类*/
+.course{width:100%; height:428px; background:url(/static/zt/meirong/images/title2.jpg) no-repeat top center;}
+.course-in{width:1190px; height:172px; margin:0 auto; padding-top:93px;position: relative;}
+.course-in span{position: absolute; width:694px; height:172px; background-color: #fff; opacity: 0.5; filter:alpha(opacity=50)}
+.course-img{width: 325px; position:absolute; top:117px; left:56px;}
+.course-a{width:640px; height: 28px; position: absolute; top:209px; left:53px; font-size: 16px; color:#000;}
+/*课程1*/
+.cou{width:1150px; height: 558px; margin:72px auto 0;}
+.cou1{padding-top:50px;}
+.cou-star{width:534px; height:534px; background-color: #fff; border:5px solid #d2cfc0; border-radius: 50%; overflow: hidden; float: left}
+.cou-star img{width:525px; border-radius: 50%; margin:5px auto 0;}
+.cou-tit{width:36px; height:389px; padding-top:100px; float: left; margin:0 58px; font-size: 36px; color:#000; 
+         font-weight: 700; line-height:36px;  }
+.cou-tit em{writing-mode:tb-rl; font-style:normal; margin:5px 0;} 
+.couarc{width:450px; height: auto; float:left; }
+.couarc p{font-size: 16px; color:#838484; line-height: 24px;}
+.cou1 .couarc{padding-top: 48px}
+.pad-top{padding-top:23px;}
+.pad-top b{color:#585858;}
+.couarc .big-font{font-size:22px; color:#757474;}
+.cou3{padding-top:80px;}
+.cou4{padding-top:60px; height:700px;}
+
+/*课堂风采*/
+.ketang-title{width:100%; height:592px; background: url(/static/zt/meirong/images/yks-bg.png) no-repeat top center;}
+.ketang-title .tea-in{background: url(/static/zt/meirong/images/stone2.png) no-repeat top center; width:330px;}
+.ketang-title .tea-in .h3{top:227px; left:224px;}
+.ketang-title .tea-in .p1{top: 235px; left:149px; writing-mode:tb-rl;}
+.ketang-title .tea-in .p2{top: 235px; left:178px} 
+.fengcai{width:1190px; height: 880px; margin:0 auto; background-color: #fbcec8; padding:5px 0 0 5px;}
+.fengcai img{float:left; margin:5px;}
+.fengcai-l{width:923px; height:100%; float:left;}
+.fengcai-r{width:266px; height:100%; float:left;}
+/*就业保障*/
+.bz{width:100%; height:428px; background: url(/static/zt/meirong/images/jybz.jpg) no-repeat top center;margin-top: 162px;}
+.bz-arc{width:652px; height:126px; font-size: 16px; color:#656464; line-height: 24px;  margin:0 auto; padding:248px 197px 0 0; }
+.baozhang{width:1190px; height:1830px; margin:0 auto;  padding-top: 270px}
+.baozhang li{width:398px; height:780px; margin:0 90px 0; float:left;}
+.kuang{width:370px; height:510px; border:5px solid #dad5bd; position: relative;
+      background-color: #f3f1e6; border-radius: 10px; display: block;}
+.kuang img{position: absolute; bottom: 0;}
+.kuang1 img{left:10px;}
+.baozhang li .name{width:380px; height:40px; background-color: #69605b; text-align: center; line-height:40px; font-size: 28px; color:#ffffff;
+      margin: 40px 0 20px 0;}
+p.brief{width:340px; height:40px; line-height: 40px; padding-left:33px; background: url(/static/zt/meirong/images/pri.png) no-repeat left center; 
+       color:#3b3b3b; font-size: 18px;}
+p.brief i{font-size: 22px; font-style:normal;}
+p.gy{width:100%; height:38px; line-height: 38px;color:#000000; font-size: 18px; }
+.kuang2 img{left:-22px;}
+.kuang3 img{left:14px;}
+.kuang4 img{left:-15px;}
+.kuang3{padding-top: 190px}
+.kuang4{padding-top: 190px} 
+/*奖牌*/
+.jiangpai{width:100%; height:1078px; background-color: #eeebdd}
+.jiangpai-in{width:1090px; height:1038px; padding-top:30px; margin: 0 auto;}
+.medal{width:100%; height:734px; background-color: #fff; margin-top:40px}
+.medal img{float:left; margin:11px 0 0 14px;}
+.htmleaf-container{width:100%; height:600px;}
+.jiangpai-title{width:100%; height:105px; padding-top:60px;}
+.xxryzs{width:338px; height:53px; margin:0 auto;}
+.impor{width:1px; height: 1px; text-indent: 2em; overflow: hidden;}
+p.small{width:100%; height:30px; font-size: 18px; color:#4f4e4e; line-height: 30px; text-align: center;}
+.medal-bg{width:1034px; height:26px; margin:0 auto;}
+
+

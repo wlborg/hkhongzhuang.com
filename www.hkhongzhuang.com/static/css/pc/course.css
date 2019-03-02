@@ -1,0 +1,91 @@
+/*公共样式开始*/
+body {
+	overflow-x: hidden;
+}
+a {
+	display: inline-block;
+}
+img {
+	vertical-align: bottom;
+}
+.w {
+	width: 1440px;
+	margin: 0 auto;
+}
+.po {
+	position: relative;
+}
+
+/*list-wrap 开始*/
+.list-wrap {
+	margin-top: 90px;
+}
+.list-title {
+	width: 491px;
+	/*height: 58px;*/
+	position: relative;
+	/*background: url("../images/list_title_1.jpg") no-repeat top center;*/
+	/*background-size: 100%; */
+	margin-left: 38px;
+}
+.list-title img {
+	width: 100%;
+}
+.list-title .title-txt {
+	position: absolute;
+    top: -8px;
+    left: 74px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #202020;
+}
+.list-1 {
+	width: 1428px;
+	margin: 0 auto;
+	margin-top: 44px;
+}
+.list-1 .item {
+	float: left;
+	position: relative;
+	width: 348px;
+	margin-right: 12px;
+}
+.list-1 .item:last-child {
+	margin-right: 0;
+}
+.list-1 .item img {
+	width: 100%;
+}
+.bot-txt {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 82px;
+	background-color: rgba(54, 55, 53, .4);
+	text-align: center;
+	line-height: 82px;
+}
+.bot-txt span {
+	display: block;
+	font-size: 26px;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+.list-2 {
+	width: 1430px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.list-2 .item {
+	float: left;
+	position: relative;
+	width: 707px;
+}
+.list-2 .item:first-child {
+	margin-right: 16px;
+}
+.list-2 .item img {
+	width: 100%;
+}
+/*list-wrap 结束*/

@@ -1,0 +1,337 @@
+<!--
+* @Author: chaihongjun
+* @email:   root@chaihongjun.me
+* @File name: article_course.htm
+* @Date:   2019-02-23 12:23:58
+* @Last Modified by:   chaihongjun
+* @Last Modified time: 2019-02-23 15:14:50
+* @Description: 课程内容页.
+--><!DOCTYPE html>
+<html lang="cmn-hans">
+
+<head>
+    {dede:include filename="_meta_tdk_article.htm"/}
+    {dede:include filename="_meta.htm"/}
+    {dede:include filename="_link.htm"/}
+  {dede:include filename="_link_article.htm"/}
+    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/article_course.css" />
+    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/_footer_hidder.css" />
+</head>
+
+<body>
+    {dede:include filename="_header.htm"/}
+    <img src="{dede:field.pc_banner/}" class="art_course_pc_banner" alt="">
+    <!-- 后来补充 开始-->
+    <div class="part4">
+        <div class="w po">
+            <div class="bg-wrap">
+                <img src="{dede:global.cfg_imgpath/}/pc/ari_course/part4-bg-1.jpg">
+        </div>
+                <div class="part4-content">
+                    <div class="left-per">
+                        <!-- {dede:FIELD.tea_id  function='getcaseproject(@me)'/} -->
+                        <img src="{dede:field.art_class/}" alt="">
+                        <div class="part4-btn">
+                            <a href="javascript:;" class="j-consult">
+                        <img src="{dede:global.cfg_imgpath/}/pc/ari_course/part4-btn.png">
+                    </a>
+                        </div>
+                    </div>
+                    <div class="right-con">
+                        <div class="title">
+                            {dede:field.title/}
+                        </div>
+                        <div class="t-info">
+                            <p class="te">
+                                <i>学时：</i><span>{dede:field.period/}</span>
+                            </p>
+                            <p class="te">
+                                <i>学费：</i><span><a href="javascript:;">点击前往咨询</a></span>
+                            </p>
+                            <p class="te">
+                                <i>授课：</i><span>{dede:field.givlessons/}</span>
+                            </p>
+                            <p class="te">
+                                <i>课时：</i><span>{dede:field.class_hour/}</span>
+                            </p>
+                            <p>
+                                <i style="float: left;">适合人群：</i>
+                                <em>
+                            <span style="float: left;">{dede:field.suttcrowds/}</span>
+                        </em>
+                            </p>
+                            <p>
+                                <i style="float: left;">就业方向：</i>
+                                <em>
+                            <span >{dede:field.orientation/}</span>
+                        </em>
+                            </p>
+                        </div>
+                        <div class="swiper-1">
+                            <div class="swiper-title">
+                                课程安排
+                            </div>
+                            <div class="swiper-container swiper-container-2">
+                                <div class="swiper-wrapper">
+                                </div>
+                            </div>
+                            <div class="swiper-btn-1">
+                                <div class="swiper-button-prev swiper-button-black swiper-button swiper-prev"></div> <!-- 白色 -->
+                                <div class="swiper-button-next swiper-button-black swiper-button swiper-next"></div> <!-- 黑色 -->
+                            </div>
+                        </div>
+                        <div class="kecheng" style="display: none">{dede:field.course_arrangement/}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="part5">
+            <div class="w po">
+                <div class="bg-wrap">
+                    <img src="{dede:global.cfg_imgpath/}/pc/ari_course/part5-bg-1.jpg">
+        </div>
+                    <div class="swiper-2">
+                        <div class="swiper-container swiper-container-3">
+                            <div class="swiper-wrapper">{dede:arclist typeid='19' row="4" flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list1,pc_list2,pc_large3,pc_list4,pc_list5,pc_list6' channelid='23'}
+                                <div class="swiper-slide">
+                                    <div class="left">
+                                        <div class="top">
+                                            <ul class="clearFix">
+                                                <li class="item">
+                                                    <a href="[field:arcurl/]">
+                                            <img src="[field:pc_list1 function='replaceurl(@me)/]"  alt="[field:title/]">
+                                        </a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="[field:arcurl/]">
+                                            <img src="[field:pc_list2 function='replaceurl(@me)/]"  alt="[field:title/]">
+                                        </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="bot_art_cur">
+                                            <ul class="clearFix">
+                                                <li class="item">
+                                                    <a href="[field:arcurl/]">
+                                            <img src="[field:pc_large3 function='replaceurl(@me)/]"  alt="[field:title/]">
+                                        </a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="[field:arcurl/]">
+                                            <img src="[field:pc_list4 function='replaceurl(@me)/]"  alt="[field:title/]">
+                                        </a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="[field:arcurl/]">
+                                            <img src="[field:pc_list5 function='replaceurl(@me)/]"  alt="[field:title/]">
+                                        </a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="[field:arcurl/]">
+                                            <img src="[field:pc_list6 function='replaceurl(@me)/]"  alt="[field:title/]">
+                                        </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <div class="top-num">
+                                            [field:global.autoindex/]
+                                        </div>
+                                        <div class="mid-title"><a href="[field:arcurl/]">[field:title/]</a></div>
+                                        <div class="txt">
+                                            [field:description/]
+                                        </div>
+                                    </div>
+                                </div>
+                                {/dede:arclist}
+                                <div class="swiper-pagination">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="part5-btn">
+                        <a href="javascript:;" class="j-consult">
+                了解更多
+            </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 后来补充 结束-->
+            <!-- part1 开始 -->
+            <div class="part1">
+                <div class="title">
+                    <img src="{dede:global.cfg_imgpath/}/pc/ari_course/part1-title.png">
+    </div>
+                    <div class="swiper po swiper_st_con">
+                        <div class="swiper-container swiper-container-1">
+                            <div class="swiper-wrapper">
+                                {dede:arclist typeid='8' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
+                                <div class="swiper-slide">
+                                    <div class="swiper-item">
+                                        <a href="[field:arcurl/]">
+                            <img src="[field:pc_list function='replaceurl(@me)/]"  alt="[field:title/]">
+                        </a>
+                                    </div>
+                                </div>
+                                {/dede:arclist}
+                            </div>
+                        </div>
+                        <div class="mask maskL"> </div>
+                        <div class="mask maskR"> </div>
+                        <p class="arrowL"> </p>
+                        <p class="arrowR"> </p>
+                    </div>
+                    <div class="part1-btn">
+                        <a href="javascript:;" class="j-consult">
+            <img src="{dede:global.cfg_imgpath/}/pc/ari_course/part1-btn.png">
+        </a>
+                    </div>
+                </div>
+                <!-- part1 结束 -->
+                <!-- part2 开始 -->
+                <div class="part2 po">
+                    <div class="w po">
+                        <div class="t-con">
+                            <div class="left">
+                                <img src="{dede:global.cfg_imgpath/}/pc/part2-pic-3.jpg">
+            </div>
+                                <div class="right">
+                                    <img src="{dede:global.cfg_imgpath/}/pc/part2-pic-1.jpg">
+            </div>
+                                </div>
+                            </div>
+                            <div class="t-detail">
+                                <div class="w po">
+                                    <div class="left-name per-info">
+                                        {dede:field.tea_name/}
+                                    </div>
+                                    <div class="head_Info _pos_absolute">
+                                        {dede:FIELD.tea_id function='getTeaHead(@me)'/}
+                                    </div>
+                                    <div class="mid-detail per-info">
+                                        <div class="title">
+                                            <div class="title-txt"> </div>
+                                            <div class="title-txt">
+                                            </div>
+                                            <p class="zhiweiHide">
+                                                {dede:FIELD.tea_id function='getTeaZhi(@me)'/}
+                                            </p>
+                                            <div class="k-more">
+                                                <a href="javascript:;" class="j-consult">
+                            咨询更多
+                        </a>
+                                            </div>
+                                        </div>
+                                        <div class="info-tap">
+                                            <ul class="clearFix">
+                                            </ul>
+                                        </div>
+                                        <div class="art_hor_hide">
+                                            {dede:FIELD.tea_id function='art_hor_hide(@me)'/}
+                                        </div>
+                                        <div class="t-descr">
+                                            {dede:FIELD.tea_id function='getTeaDes(@me)'/}
+                                        </div>
+                                    </div>
+                                    <div class="right-pic per-info">
+                                        {dede:FIELD.tea_id function='getTeaSu(@me)'/}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- part2 结束 -->
+                        <!-- part3 开始 -->
+                        <div class="part3">
+                            <div class="w po part3-con">
+                                <div class="title">
+                                    <img src="{dede:global.cfg_imgpath/}/pc/ari_course/part3-title.jpg">
+        </div>
+                                    <div class="more-cour">
+                                        <ul class="clearFix">
+                                            {dede:arclist typeid='3' row='4' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20'}
+                                            <li class="cour-item">
+                                                <a href="[field:arcurl/]">
+                        <img src="[field:pc_defau function='replaceurl(@me)/]" />
+                    </a>
+                                                <div class="cour-name">
+                                                    [field:title/]
+                                                </div>
+                                            </li>
+                                            {/dede:arclist}
+                                        </ul>
+                                    </div>
+                                    <div class="part3-btn po">
+                                        <a href="javascript:;" class="j-consult">
+                <img src="//v3.hkhongzhuang.com/static/images/pc/ari_course/part1-btn.png">
+            </a>
+                                    </div>
+                                    <div class="part3-bot">
+                                        <div class="left">
+                                            <img src="{dede:global.cfg_imgpath/}/pc/ari_course/part3-pic-5.jpg">
+            </div>
+                                            <div class="right">
+                                                <div class="panel-title">
+                                                    <a href="javascript:;" class="j-consult">
+                        了解更多
+                    </a>
+                                                </div>
+                                                <div class="panel-link">
+                                                    <ul class="clearFix">
+                                                        <li class="link-item clearFix">
+                                                            <div class="link-left">
+                                                                <span>01</span>
+                                                                <span>学费多少钱?近期有优惠吗？</span>
+                                                            </div>
+                                                            <div class="link-right">
+                                                                <a href="javascript:;" class="j-consult">
+                                    点击了解 >
+                                </a>
+                                                            </div>
+                                                        </li>
+                                                        <li class="link-item clearFix">
+                                                            <div class="link-left">
+                                                                <span>02</span>
+                                                                <span>课程免费试听获取</span>
+                                                            </div>
+                                                            <div class="link-right">
+                                                                <a href="javascript:;" class="j-consult">
+                                    点击了解 >
+                                </a>
+                                                            </div>
+                                                        </li>
+                                                        <li class="link-item clearFix">
+                                                            <div class="link-left">
+                                                                <span>03</span>
+                                                                <span>我要学习怎么咨询？</span>
+                                                            </div>
+                                                            <div class="link-right">
+                                                                <a href="javascript:;" class="j-consult">
+                                    点击了解 >
+                                </a>
+                                                            </div>
+                                                        </li>
+                                                        <li class="link-item clearFix">
+                                                            <div class="link-left">
+                                                                <span>04</span>
+                                                                <span>我要看学校位置在哪？怎么走？</span>
+                                                            </div>
+                                                            <div class="link-right">
+                                                                <a href="javascript:;" class="j-consult">
+                                    点击了解 >
+                                </a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- part3 结束 -->
+                                {dede:include filename="_footer.htm"/}
+</body>
+{dede:include filename="_script.htm"/}
+<script src="{dede:global.cfg_jspath/}/pc/article_course.js"></script>
+
+</html>

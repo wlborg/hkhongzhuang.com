@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+   {dede:include filename="_meta.htm"/}
+    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+    <meta name="description" content="{dede:global.cfg_description/}" />
+    <title>{dede:field.title/}_{dede:field.typename/}_{dede:global.cfg_webname/}</title>
+    {dede:include filename="_link.htm"/}
+    <link rel="stylesheet" href="/static/css/list_new.css" />
+    <link rel="stylesheet" href="/static/css/_footer2.css" />
+    <link rel="stylesheet" href="/static/css/art_new.css" />
+    <link rel="canonical" href="https://www.hkhongzhuang.com{dede:field.arcurl/}" />
+</head>
+<body>
+ {dede:include filename="_header.htm"/}
+  <div class="wrapper news news_list">
+        <div class="g-container head">
+          <div class="g-doc">
+            <p>NEWS AND INFORMATION</p>
+            <div class="line"></div>
+            <h1>新闻资讯</h1>
+          </div>
+        </div>
+        <div class="g-container banner">
+    <div class="g-doc">
+        <div class="slider-wrapper">
+            <ul class="slider-container">
+                 {dede:include filename="_top_new.htm"/}
+            </ul>
+        </div>
+    </div>
+</div>
+       <div class="news_article">
+          <div class="g-container ">
+          	<div class="g-doc article">
+          	   <div class="article-head">
+                      <h2>{dede:field.title/}</h2>
+                      <p>发布时间：{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)" /}</p>
+                     <p> 作者：红妆美容化妆学校  来源：红妆美容化妆学校</p>
+                 </div>
+                 <div class="article-content">
+                              {dede:field.body/}
+                 </div>
+                 <div class="tools">
+
+                  <div class="share-wrapper">
+                    <i class="icon_share"></i>
+                    分享到：<img src="/static/images/pc/icon_shares.png" alt="">
+                  </div>
+                </div>
+                  <div class="bottomnav">
+                      <div class="prev"><i class="icon_prev"></i>
+                      {dede:prenext get='pre'/}
+                      </div>
+                      <div class="next">  <i class="icon_next"></i>
+                        {dede:prenext get='next'/}
+                      </div>
+                  </div>
+          	</div>
+          </div>
+        </div>
+	</div>
+   {dede:include filename="_footer2.htm"/}
+{dede:include filename="_footerNav.htm"/}
+<div class="footer_mar"> </div>
+</body>
+{dede:include filename="_script.htm"/}
+<script type="text/javascript" src="/static/js/list_new.js"></script>
+</html>

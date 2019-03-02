@@ -1,0 +1,96 @@
+/*
+* @Author: Administrator
+* @FileName:_footer1.css
+* @Date:   2019-01-28 13:42:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-01-30 10:42:25
+*/
+/* 底部导航样式 */
+.index_footer_index {
+    background: url("index_footer_1.jpg") 5.26933rem 2.048rem;
+}
+.index_footer_cour {
+    background: url("index_footer_2.jpg") 5.29067rem 2.048rem;
+}
+.index_footer_sx {
+    background: url("index_footer_3.jpg") 5.29067rem 2.048rem;
+}
+.index_footer_index,
+.index_footer_cour,
+.index_footer_sx {
+    position: relative;
+
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    -webkit-box-sizing: border-box; /* Safari */
+       -moz-box-sizing: border-box; /* Firefox */
+            box-sizing: border-box;
+
+    border-left: .05rem solid #fff;
+}
+.index_footer_index a,
+.index_footer_cour a,
+.index_footer_sx a {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    text-align: CENTER;
+}
+.index_footer_index a span,
+.index_footer_cour a span,
+.index_footer_sx a span {
+    display: block;
+
+    font-size: .42667rem;
+    line-height: .42667rem;
+}
+.index_footer_cour a span {
+    margin-top: .23467rem;
+}
+
+.index_footer_sx a span {
+    margin-top: .14933rem;
+}
+.index_footer_index {
+    box-sizing: border-box;
+
+    border-left: 0rem solid #fff!important;
+}
+.index_footer_index a span {
+    margin-top: 1.30133rem;
+}
+.index_footer_nav {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+
+    width: 16rem;
+    height: 2.048rem;
+    margin: auto;
+
+    background: #fff;
+}
+.index_footer_1_icon {
+    position: absolute;
+    top: -.72533rem;
+    left: 50%;
+
+    width: 1.94133rem;
+    height: 1.94133rem;
+    margin-left: -.97067rem;
+}
+.index_footer_2_icon {
+    display: block;
+    width: .98133rem;
+    height: .768rem;
+    margin: .36267rem auto 0;
+}
+.index_footer_3_icon {
+    width: 1.088rem;
+    height: .98133rem;
+    margin: .27733rem auto 0;
+}

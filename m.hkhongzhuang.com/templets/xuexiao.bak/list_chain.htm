@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {dede:include filename="_meta.htm"/}
+    <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+    <meta name="description" content="{dede:global.cfg_description/}" />
+    <title>{dede:field.seotitle/}_{dede:global.cfg_webname/}</title>
+    {dede:include filename="_link.htm"/}
+    <link rel="stylesheet" href="/static/css/list_chain.css" />
+    <link rel="stylesheet" href="/static/css/_footer2.css" />
+  	<link rel="canonical" href="https://www.hkhongzhuang.com{dede:type typeid=0 row=1}[field:typelink /]{/dede:type}">
+</head>
+<body>
+{dede:include filename="_header.htm"/}
+<img src="/static/images//environmentdisplay/environmentdisplayBanner.jpg" class="environmentdisplayBanner" alt="">
+<div class="list_chain_con_Main_C _pos_relative _w1440">
+                        <div class="list_chain_con_Main">
+                        	  <img src="/static/images/environmentdisplay/list_chain_title.png" class="list_chain_title">
+                             <!--代码部分begin-->
+                                <div class="jq22">
+                                    <div class="hidden">
+                                    	  {dede:arclist typeid='2'  flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list,des' channelid='18'}
+                                        <li>
+                                            <img src="images/1px.gif" realSrc="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]"/>
+                                            <p>[field:title/]</p>
+                                            <p>[field:des/]</p>
+                                        </li>
+                                    {/dede:arclist}
+
+                                    </div>
+                                    <ul class="list">
+
+                                      </ul>
+                                    <div class="more">
+                                        <a href="javascript:;">
+                                           <img src="/static/images/environmentdisplay/environment_list_more.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                        </div>
+    <!--</div>-->
+                        <div class="article_chain_sw">
+                                   
+                        </div>
+                         <div class="article_chain_sw_sw">
+                                    <!-- Swiper -->
+                                      <div class="article_chain_sw_sw_c swiper-container">
+                                        <div class="swiper-wrapper">
+
+
+                                        </div>
+
+    {dede:arclist typeid='2'  flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_index,des' channelid='18'}
+                                          <div class="hidwSw" style="display: none">
+
+
+                                             <div class="swiper-slide">
+                                                  <img src="images/1px.gif" realSrc="[field:pc_index function='replaceurl(@me)/]" alt="[field:title/]"/>
+                                                  <p><span>[field:title/]</span> <span>[field:des/]</span></p>
+
+                                              </div>
+
+
+                                          </div>
+                                             {/dede:arclist}
+                                      <img src="/static/images/environmentdisplay/list_chain_close.png" class="list_chain_close" alt="list_chain_close">
+                             <img src="/static/images/environmentdisplay/article_chain_left.png" class="article_chain_left _pos_absolute" alt="">
+                             <img src="/static/images/environmentdisplay/article_chain_right.png" class="article_chain_right _pos_absolute" alt="">
+                        </div>
+               </div>
+             </div>
+
+               {dede:include filename="_footer2.htm"/}
+{dede:include filename="_footerNav.htm"/}
+<div class="footer_mar"> </div>
+</body>
+{dede:include filename="_script.htm"/}
+<script type="text/javascript" src="/static/js/list_environmentdisplay.js"></script>
+</html>

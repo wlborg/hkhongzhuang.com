@@ -1,0 +1,105 @@
+/**
+* demo V1.0.0
+* By å°ç
+* http://www.baidu.com/
+ */
+@charset "utf-8";
+
+/* ***reset*** */
+a, body { color: #000; }
+body, dd, dl, dt, form, h1, h2, h3, h4, h5, h6, html, input, label, li, p, textarea, ul { margin: 0; padding: 0; }
+form { display: inline; }
+img { border: 0; }
+td { word-break: break-all; }
+dd, dl, dt, li, ul { list-style: none; }
+a { text-decoration: none; }
+
+/* a:hover {
+    color:black;
+} */
+body { background: #fff; font-family: "å¾®è½¯é›…é»‘", sans-serif, Verdana, Arial; }
+.f-fr { float: right; }
+.f-fl { float: left; }
+.f-cb:after { display: block; visibility: hidden; height: 0; overflow: hidden; clear: both; content: "."; }
+.f-cb { zoom: 1; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+.brand .g-container { min-width: 1440px; overflow: hidden; max-width: 1920px; margin: 0 auto; }
+.brand .g-container .g-doc { width: 1440px; margin: 0 auto; }
+.brand .g-container .g-doc .g-title h2 { font-size: 40px; font-weight: normal; font-stretch: normal; line-height: 40px; letter-spacing: 0px; text-align: center; }
+.brand .g-container .g-doc .g-title p { font-size: 26px; font-weight: normal; font-stretch: normal; line-height: 26px; letter-spacing: 0px; opacity: 0.8; margin-top: 10px; text-align: center; }
+.brand .g-container .g-doc .consult { display: block; }
+.brand .banner { background: url('/static/images/pc/brand_banner.jpg') center top no-repeat; height: 710px; }
+.brand .banner .g-doc { position: relative; height: 710px; }
+.brand .banner h1 { position: absolute; top: 296px; left: 30px; background: url('/static/images/pc/brand_banner_bg1.png') center top no-repeat; height: 60px; width: 354px; }
+.brand .banner .consult { position: absolute; right: 0; bottom: 10px; background: url('/static/images/pc/brand_consult0_bg.png') center top no-repeat; height: 40px; width: 160px; }
+.brand .m1 { background: url('/static/images/pc/brand_bg1.jpg') center top no-repeat; height: 674px; }
+.brand .m1 .g-doc { padding-top: 136px; }
+.brand .m1 .g-doc .g-title h2 { color: #001621; }
+.brand .m1 .g-doc .g-title p { color: #3b4147; }
+.brand .m1 .g-doc .g-content p { margin-top: 50px; font-size: 22px; font-weight: normal; font-stretch: normal; line-height: 44px; letter-spacing: 4px; color: #878585; text-align: center; }
+.brand .m1 .g-doc .consult { margin: 20px auto 0; background: url('/static/images/pc/brand_consult1_bg.png') center top no-repeat; height: 40px; width: 160px; }
+.brand .m2 { background: url('/static/images/pc/brand_bg2.jpg') center top no-repeat; height: 962px; }
+.brand .m2 .g-doc { padding-top: 140px; }
+.brand .m2 .g-doc .g-title h2 { color: #f97547; }
+.brand .m2 .g-doc .g-title p { color: #f8835b; }
+.brand .m2 .g-doc .g-content { margin-top: 50px; }
+.brand .m2 .g-doc .g-content img { display: block; }
+.brand .m2 .g-doc .consult { margin: 50px auto 0; background: url('/static/images/pc/brand_consult2_bg.png') center top no-repeat; height: 40px; width: 160px; }
+.brand .m3 { height: 1080px; }
+.brand .m3 .g-doc { padding-top: 140px; background: url('/static/images/pc/brand_bg3.jpg') center 140px no-repeat; }
+.brand .m3 .g-doc .g-title h2 { color: #7b7d81; }
+.brand .m3 .g-doc .g-title p { color: #8d8f92; }
+.brand .m3 .g-doc .g-content { margin-top: 70px; }
+.brand .m3 .g-doc .g-content .col { float: left; }
+.brand .m3 .g-doc .g-content .col img { display: block; }
+.brand .m3 .g-doc .g-content .col1 { width: 366px; }
+.brand .m3 .g-doc .g-content .col1 .item2 { height: 132px; background-color: #f9f2ef; padding-top: 62px; }
+.brand .m3 .g-doc .g-content .col1 .item2 .consult { margin: 0 auto; background: url('/static/images/pc/brand_consult3_bg.png') center top no-repeat; height: 69px; width: 292px; }
+.brand .m3 .g-doc .g-content .col2 { width: 510px; margin-left: 26px; }
+.brand .m3 .g-doc .g-content .col2 .item { position: relative; margin-bottom: 26px; }
+.brand .m3 .g-doc .g-content .col2 .item p { position: absolute; left: 0; bottom: 0; width: 502px; height: 42px; padding-top: 54px; padding-left: 8px; background: url('/static/images/pc/brand_bg3_1.png') left center no-repeat; font-size: 29px; font-weight: normal; font-stretch: normal; line-height: 30px; letter-spacing: 1px; color: #ffffff; }
+.brand .m3 .g-doc .g-content .col3 { width: 510px; margin-left: 26px; }
+.brand .m3 .g-doc .g-content .col3 .item { position: relative; margin-bottom: 26px; }
+.brand .m3 .g-doc .g-content .col3 .item p { position: absolute; left: 0; bottom: 0; width: 502px; height: 42px; padding-top: 54px; padding-right: 8px; background: url('/static/images/pc/brand_bg3_2.png') right center no-repeat; font-size: 29px; font-weight: normal; font-stretch: normal; line-height: 30px; letter-spacing: 1px; color: #ffffff; text-align: right; }
+.brand .m4 { background: url('/static/images/pc/brand_bg4.jpg') center top no-repeat; height: 810px; position: relative; }
+.brand .m4 .g-doc { padding-top: 70px; }
+.brand .m4 .g-doc .g-title h2 { color: #2b2c2d; }
+.brand .m4 .g-doc .g-title p { color: #b3b2b5; }
+.brand .m4 .des {position: absolute;bottom: 0;height: 99px;background: rgba(208,201,201,0.5);/* opacity: 0.5; */width: 100%;}
+.brand .m4 .des .g-doc { padding-top: 0; position: relative; }
+.brand .m4 .des .g-doc .g-content { margin-top: 8px; }
+.brand .m4 .des .g-doc .g-content p {font-size: 16px;font-weight: normal;font-stretch: normal;line-height: 28px;letter-spacing: 0px;color: rgb(253,252,251);text-align: center;}
+.brand .m4 .des .g-doc .consult { position: absolute; right: 0; top: 30px; background: url('/static/images/pc/brand_consult4_bg.png') center top no-repeat; height: 40px; width: 160px; }
+.brand .m5 { background: url('/static/images/pc/brand_bg5.jpg') center top no-repeat; height: 1054px; }
+.brand .m5 .g-doc { padding-top: 140px; }
+.brand .m5 .g-doc .g-title h2 { color: #f96a36; }
+.brand .m5 .g-doc .g-title p { color: #f77d52; }
+.brand .m5 .g-doc .g-content { margin-top: 90px; height: 500px; }
+.brand .m5 .g-doc .g-content .item { float: left; margin-left: 14px; position: relative; }
+.brand .m5 .g-doc .g-content .item img { display: block; }
+.brand .m5 .g-doc .g-content .item p { position: absolute; width: 100%; left: 0; bottom: 0; text-align: center; font-size: 29px; font-weight: normal; font-stretch: normal; line-height: 60px; letter-spacing: 1px; color: #ffffff; }
+.brand .m5 .g-doc .g-content .item1 { margin-left: 0; }
+.brand .m5 .g-doc .consult { margin: 70px auto 0; background: url('/static/images/pc/brand_consult5_bg.png') center top no-repeat; height: 72px; width: 314px; }
+.brand .m6 { height: 1520px; padding-bottom: 150px;}
+.brand .m6 .g-doc { padding-top: 140px; background: url('/static/images/pc/brand_bg6_1.jpg') center 140px no-repeat; }
+.brand .m6 .g-doc .g-title h2 { color: #f96a36; }
+.brand .m6 .g-doc .g-title p { color: #f77d52; }
+.brand .m6 .g-doc .g-content .swiper-pagination { position: absolute; left: 0; right: 0; margin: auto; z-index: 3; }
+.brand .m6 .g-doc .g-content .swiper-pagination .swiper-pagination-bullet { margin: 0 10px; width: 18px; height: 18px; background-color: #b6b6b5; }
+.brand .m6 .g-doc .g-content .swiper-pagination .swiper-pagination-bullet-active { opacity: 1; background-color: #ce946d; }
+.brand .m6 .pagination { position: relative; padding-top: 50px; }
+.brand .m6 .pagination .consult { position: absolute; right: 0; top: 16px; background: url('/static/images/pc/brand_consult6_bg.png') center top no-repeat; height: 72px; width: 314px; }
+.brand .m6 .des { margin-top: 40px; background: url('/static/images/pc/brand_bg6.jpg') center top no-repeat; height: 1110px;}
+.brand .m6 .des .g-doc { padding-top: 114px; }
+.brand .m6 .des .g-doc .g-title h2 { color: #f96a36; }
+.brand .m6 .des .g-doc .g-title p { color: #f77d52; }
+.brand .m6 .des .g-doc .g-content { position: relative; }
+.brand .m6 .des .g-doc .g-content .swiper-container { width:; }
+.brand .m6 .des .g-doc .g-content .swiper-container .swiper-wrapper .swiper-slide .box { padding: 70px 60px 30px; background: #fff; }
+.brand .m6 .des .g-doc .g-content .swiper-container .swiper-wrapper .swiper-slide .box  .imgbox{
+  height: 750px;
+  overflow: hidden;
+}
+.brand .m6 .des .g-doc .g-content .swiper-container .swiper-wrapper .swiper-slide .box img { width: 1310px; margin: 0 auto; min-height: 750px;}
+.brand .m6 .des .g-doc .g-content .swiper-container .swiper-wrapper .swiper-slide .box p { margin-top: 20px; font-size: 24px; font-weight: normal; font-stretch: normal; line-height: 24px; letter-spacing: 0px; color: #000000; opacity: 0.8; }
+.brand .m6 .des .g-doc .g-content .swiper-container .swiper-wrapper .swiper-slide .box p span { padding-left: 30px; font-size: 16px; font-weight: normal; font-stretch: normal; line-height: 24px; letter-spacing: 0px; color: #000000; opacity: 0.5; }

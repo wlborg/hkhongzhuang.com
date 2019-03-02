@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+ {dede:include filename="_meta.htm"/}
+  <meta name="keywords" content="{dede:global.cfg_keywords/}" />
+    <meta name="description" content="{dede:global.cfg_description/}" />
+    <meta name="google-site-verification" content="Odmo8X4zeUG1WPcCrCAueZz-dyBPFBs4Zqlb9FBT5z4" />
+    <link rel="canonical" href="https://www.hkhongzhuang.com{dede:field.arcurl/}" />
+ <title>{dede:field.title/}_{dede:field.typename/}_{dede:global.cfg_webname/}</title>
+    {dede:include filename="_link.htm"/}
+ {dede:field.ztmeta_sj/}
+ <meta property="article:published_time" content="{dede:field.pubdate function=" MyDate( 'Y-m-d',@me) "/}T{dede:field.pubdate function="MyDate( 'H:i:s',@me) "/}+08:00" />
+</head>
+<body>
+<!-- header -->
+{dede:include filename="_header.htm"/}
+{dede:field.body_sj/}
+<!-- footer -->
+ {dede:include filename="_footerNav.htm"/}
+ {dede:include filename="_script.htm"/}
+{dede:field.ztscript_sj/}
+</body>
+
+
+</html>

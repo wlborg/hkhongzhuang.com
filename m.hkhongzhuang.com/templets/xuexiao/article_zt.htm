@@ -1,0 +1,32 @@
+<!--
+* @Author: chaihongjun
+* @email:   root@chaihongjun.me
+* @File name: article_zt.htm
+* @Date:   2019-02-18 10:16:40
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-02-25 08:48:09
+* @Description: 专题页
+--><!DOCTYPE html>
+<html lang="cmn-hans">
+
+<head>
+    {dede:include filename="_meta_tdk_article.htm"/}
+    {dede:include filename="_meta.htm"/}
+    {dede:include filename="_link_article.htm"/}
+    {dede:include filename="_link.htm"/}
+    {dede:field.ztmeta_sj/}
+    <meta property="article:published_time" content="{dede:field.pubdate function=" MyDate( 'Y-m-d' ,@me) "/}T{dede:field.pubdate function=" MyDate( 'H:i:s' ,@me) "/}+08:00" />
+</head>
+
+<body>
+    <!-- header -->
+    {dede:include filename="_header.htm"/}
+    {dede:field.body_sj/}
+    <div style="height: 4.098rem"></div>
+    <!-- footer -->
+    {dede:include filename="_footerNav.htm"/}
+    {dede:include filename="_script.htm"/}
+    {dede:field.ztscript_sj/}
+</body>
+
+</html>

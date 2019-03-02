@@ -1,0 +1,120 @@
+
+/*  miSlider Core Styles ========================================== */
+/* Version: 0.1.11 */
+
+/*  Resets */
+.mis-stage, .mis-slider, .mis-slide, .mis-container, .mis-container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mis-stage, .mis-slider {
+    position: relative;
+    overflow: hidden;
+}
+.mis-stage {
+    width: 100%; /*  Set stage width as desired */
+    text-align: center; /*  Center list navigation */
+}
+    .mis-slider {
+	    list-style: none;
+	    overflow: visible;
+	    height: 100%;
+	    margin-top: 0;
+    }
+        /*  Set slide width and padding */
+        .mis-slide {
+            /*  Set width in pixels to restrict width of slides 
+                for multi-item slider, default is 100%
+                for single-item slider. Use padding to add space 
+                between slides */
+	        width: 100%;
+            height: auto;
+	        padding: 0;
+            display: block;
+            position: relative;
+            float: left;
+            overflow: visible !important;
+        }
+        .mis-slide.mis-current {
+            z-index: 100;
+        }
+            /*  Slide container - inserted around the contents
+                of each slide by the plugin */
+            .mis-container {
+                display: block;
+                width: auto;
+                height: auto;
+                border: 0;
+            }
+    /*  Style list navigation */
+	.mis-nav-list {
+		position: absolute;
+		bottom: .5em;
+        width: 1128px; 
+        height:230px;
+        margin: 0 auto; /* center it */
+        z-index: 300;
+        padding: 0;
+        left:50%; margin-left:-564px;
+        border:1px solid #ccc;
+	}
+		.mis-nav-list li {
+			/*display: inline-block;*/
+			margin: 0 .25em;
+            width:100%; height: 190px;
+            position: absolute;
+            display:none;
+            padding-top:40px;
+		}
+
+			.mis-nav-list li.mis-current {
+                display:block;
+			}
+
+    .mis-nav-buttons {
+        display: block;
+        position: absolute;
+        height: 0;
+        top: 0;
+        opacity: 0.5;
+        z-index: 200;
+    }
+        .mis-nav-buttons a {
+            position: absolute;
+            color: #eee;
+            font-size: 0; /* Hide for browser except Android */
+            line-height: .01; /* 0 is inconsistent in Opera */
+            font-family: Verdana, Geneva, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            text-indent: -9999px; /* Hide for Android */
+        }
+            .mis-nav-buttons a:hover {
+                color: #ccc;
+            }
+            .mis-nav-buttons a.mis-next {
+                left: auto;
+                right: 0;
+            }
+            .mis-nav-buttons a.mis-prev {
+                left: 0;
+            }
+            .mis-nav-buttons a.mis-prev:before, .mis-nav-buttons a.mis-next:after {
+                content: "\2039"; /* left single angle quote */
+                display: block;
+                font-size: 80px;
+                text-indent: 0;
+            }
+            .mis-nav-buttons a.mis-next:after {
+                content: "\203A"; /* right single angle quote */
+            }
+
+
+
+.mis-stage{height:600px!important;}
+.mis-slider li article{display: none;}
+.mis-nav-list li p{line-height:30px; font-size: 18px; color:#3d3b3c;}
+.mis-nav-list li p.tese{font-size: 24px;}

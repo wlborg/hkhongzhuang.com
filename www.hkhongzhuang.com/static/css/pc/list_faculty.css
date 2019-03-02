@@ -1,0 +1,202 @@
+/*
+* @Author: August1Rush
+* @FileName:list_faculty.css
+* @Date:   2019-01-04 09:45:18
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-01-08 14:00:25
+*/
+* {
+    padding: 0;
+    margin: 0;
+
+    border: 0;
+}
+ul {
+    list-style: none;
+}
+.list_faculty_banner {
+    width: 100%;
+    height: auto;
+}
+#teacher_tab {
+    width: 720px;
+    margin: 87px auto 41px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+#teacher_tab ul li {
+    /* background: url(list_teach_tab2.png) no-repeat 25px; */
+    float: left;
+    width: 160px;
+    height: 43px;
+    margin: 0 4px;
+    font-size: 18px;
+    line-height: 43px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    text-indent: 2em;
+    color: rgba(23,25,38,.6);
+    /* background-color: #e3dee3; */
+    border: 1px solid rgb(226,226,226);
+}
+#teacher_tab > ul > li.teacher_fli2{
+}
+#teacher_tab > ul > li {
+    background-position: 15px 15px;
+}
+#teacher_tab > ul > li:nth-of-type(1) {
+    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab1.png") no-repeat 25px;
+}
+#teacher_tab > ul > li:nth-of-type(1).teacher_fli2 {
+    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab1_foucs.png") no-repeat 25px rgb(248,77,4) !important;
+    background: rgb(248,77,4);
+}
+#teacher_tab > ul > li:nth-of-type(2) {
+    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab2.png") no-repeat 25px;
+}
+#teacher_tab > ul > li:nth-of-type(2).teacher_fli2 {
+    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab2_foucs.png") no-repeat 25px  rgb(248,77,4) !important;
+    background: rgb(248,77,4);
+}
+#teacher_tab > ul > li:nth-of-type(3) {
+    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab3.png") no-repeat 25px;
+}
+#teacher_tab > ul > li:nth-of-type(3).teacher_fli2{
+    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab3_foucs.png") no-repeat 25px  rgb(248,77,4) !important;
+}
+#teacher_tab > ul > li:nth-of-type(4) {
+    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab4.png") no-repeat 25px;
+}
+#teacher_tab > ul > li:nth-of-type(4).teacher_fli2 {
+    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab4_foucs.png") no-repeat 25px rgb(248,77,4) !important;
+    background: rgb(248,77,4);
+}
+#tea_list_Con > div {
+    display: none;
+}
+.tea_list_Con {
+    display: block!important;
+}
+.teacher_fli2 {
+    color: rgb(255,255,255)!important;
+    border: 1px solid rgb(248,77,4)!important;
+    background: rgb(248,77,4)!important;
+}
+#tea_list_Con > div {
+    display: none;
+}#tea_list_Con .tea_fdiv2 {
+
+     display: block!important;
+ }
+#tea_list_Con {
+    width: 1440px;
+    margin: auto;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+#tea_list_Con > div > ul > li {
+    position: relative;
+    float: left;
+    width: 422px;
+    height: 662px;
+    margin: 0 13px 50px;
+    border: 1px solid rgba(255,255,255,1);
+    padding:7px 7px 0px;
+    /* background: #fdfdfd; */
+} #tea_list_Con > div > ul > li > a {
+
+      display: block;
+      width: 100%;
+      height: 542px;
+      background:rgb(238,238,238);
+      cursor: pointer;
+  }
+.tea_xm,
+.tea_zw,
+.tea_zc {
+    margin-left: 30px;
+}
+.tea_xm {
+    margin-top: 13px;
+
+    font-size: 24px;
+    line-height: 32px;
+
+    color: rgb(0,0,0);
+}
+.tea_zw {
+    margin-top: 8px;
+
+    font-size: 18px;
+    line-height: 18px;
+
+    color: rgba(0,0,0,.6);
+}
+.tea_zc {
+    margin-top: 6px;
+
+    font-size: 18px;
+    line-height: 18px;
+
+    color: rgba(0,0,0,.6);
+}
+.tea_xz,
+.tea_xz1 {
+    position: absolute;
+
+    width: 71px;
+    height: 71px;
+
+    border: 1px solid rgb(185,185,185);
+    border-radius: 7px;
+}
+.tea_xz {
+    position: absolute;
+    right: 13px;
+    bottom: 26px;
+}.tea_xz1 {
+
+     right: 17px;
+     bottom: 30px;
+ }
+.tea_more {
+    position: absolute;
+    right: 29px;
+    bottom: 47px;
+
+    width: 39px;
+    height: 40px;
+
+    cursor: pointer;
+}
+.tea_more a {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    font-size: 18px;
+    line-height: 23px;
+
+    text-decoration: none;
+
+    color: rgb(146,146,146);
+}
+.tea_fouce {
+    border: 1px solid rgba(234,84,19,.6)!important;
+    background: #fdfdfd;
+
+}
+.tea_fouce .tea_xz,
+.tea_fouce .tea_xz1 {
+    border: 1px solid rgb(234,84,19);
+}.tea_fouce .tea_more a {
+
+     color: rgb(248,77,4);
+ }
+.tea_hidee {
+    display: none;
+}
+.tea_fouce a{
+    background: #ffffff!important;
+}

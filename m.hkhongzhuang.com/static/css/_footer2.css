@@ -1,0 +1,93 @@
+/*
+* @Author: Administrator
+* @FileName:_footer2.css
+* @Date:   2019-01-28 13:42:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-01-30 10:23:43
+*/
+.footer2 {
+    position: relative;
+
+    width: 16.0rem;
+    height: 8.96rem;
+}
+.footer2_bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.footer2_con {
+    position: absolute;
+    top: 1.13067rem;
+    left: 1.06667rem;
+    z-index: 1;
+
+    width: 1.088rem;
+    height: 0.08533rem;
+}
+.footer2_contac {
+    position: absolute;
+    top: 1.728rem;
+    left: 0.96rem;
+
+    width: 5.33333rem;
+    height: 0.832rem;
+}
+.footer2_zzbm {
+    position: absolute;
+    top: 3.22133rem;
+    left: 1.024rem;
+
+    font-size: 0.448rem;
+    line-height: 0.448rem;
+
+    color: rgb(255,255,255);
+}
+.footer2_ipone {
+    position: absolute;
+    top: 3.84rem;
+    left: 1.024rem;
+
+    font-size: 0.59733rem;
+
+    color: rgb(255,255,255);
+}
+.footer2_dz {
+    position: absolute;
+    top: 4.736rem;
+    left: 1.024rem;
+
+    font-size: 0.384rem;
+
+    color: rgb(255,255,255);
+}
+.footer2_hzxcx {
+    position: absolute;
+    top: 1.344rem;
+    right: 1.06667rem;
+
+    width: 3.328rem;
+    height: 3.328rem;
+
+    border-radius: 50%;
+    background: #fff;
+}
+.footer2_xcxsm {
+    position: absolute;
+    top: 4.82133rem;
+    right: 0.85333rem;
+
+    font-size: 0.384rem;
+
+    color: rgb(255,255,255);
+}
+.footer2_dbsm {
+    position: absolute;
+    top: 7.68rem;
+    left: 50%;
+    width: 10.24rem;
+    margin-left: -5.12rem;
+    font-size: 0.42667rem;
+    line-height: 0.42667rem;
+    color: rgb(255,255,255);
+}

@@ -1,0 +1,230 @@
+<!--
+* @Author: chaihongjun
+* @email:   root@chaihongjun.me
+* @File name: article_faculty.htm
+* @Date:   2019-02-18 10:16:20
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-02-27 13:53:45
+* @Description: 教师列表页.
+-->
+<!DOCTYPE html>
+<html lang="cmn-hans">
+
+<head>
+       {dede:include filename="_meta_tdk_article.htm"/}
+    {dede:include filename="_meta.htm"/}
+    {dede:include filename="_link_article.htm"/}
+    {dede:include filename="_link.htm"/}
+    <link rel="stylesheet" href="/static/css/article_faculty.css" />
+</head>
+
+<body>
+    {dede:include filename="_header.htm"/}
+    <img src="//www.hkhongzhuang.com/{dede:field.m_banner/}" class="art_tea_banner" alt="">
+    <div class="tea"> </div>
+    <div class="part1 po">
+        <div class="right-panel">
+            <div class="t-info">
+                <div class="intro">
+                    简介
+                </div>
+                <div class="line"></div>
+                <div class="t-name">
+                    {dede:field.title/}
+                    <p>{dede:field.zhiwei/}</p>
+                </div>
+                <div class="t-honer">
+                    {dede:field.honor/}
+                </div>
+            </div>
+            <div class="t-pic">
+                <img  data-original="{dede:field.pc_stu/}" class="lazy_Comm">
+            </div>
+                <div class="t-deeds">
+                    <p>
+                        {dede:field.description/}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="part2 po">
+            <div class="bg-wrap">
+                <img src="/static/images/part2-bg.jpg" class="lazy_Comm">
+    </div>
+                <div class="po-a">
+                    <div class="title">
+                        TEACHING CHARACTERISTICS
+                    </div>
+                    <div class="part2-con">
+                        <div class="t-chara">
+                            教学特色
+                        </div>
+                        <div class="line"></div>
+                        <div class="txt-wrap">
+                            {dede:field.characteristics/}
+                        </div>
+                        <div class="s-logo">
+                            <img data-original="/static/images/part2-pic-1.png" class="lazy_Comm"  style="">
+            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 随拍部分 -->
+                <div class="_pos_relative sup w1440">
+                    <img data-original="/static/images/sui_banner.jpg" class="sui_banner lazy_Comm" alt=""  style="">
+                    <ul>
+                        <li>
+                            <img data-original="{dede:field.pc_stu/}" class="lazy_Comm" alt="" src="img/1.jpg" style="">
+            </li>
+                        <li>
+                            <img data-original="{dede:field.pc_stu2/}" class="lazy_Comm" alt="" src="img/1.jpg" style="">
+            </li>
+                        <li>
+                            <img data-original="{dede:field.pc_stu3/}" class="lazy_Comm" alt="" src="img/1.jpg" style="">
+            </li>
+                        <li class="sup_bg">
+                            <p class="title">CLASSROOM FOLLOW UP</p>
+                            <p class="title_Inf">课堂随拍</p>
+                            <p class="line"> </p>
+                            <p class="more"><a href="javascript:;" class="j-consult">查看更多</a></p>
+                        </li>
+                        <li>
+                            <img data-original="{dede:field.pc_stu4/}" class="lazy_Comm" alt="" src="img/1.jpg" style="">
+            </li>
+                        <li>
+                            <img data-original="{dede:field.pc_stu5/}" class="lazy_Comm" alt="" src="img/1.jpg" style="">
+            </li>
+                    </ul>
+                </div>
+                <div class="yl" style="display: none">
+                    {dede:field.yl1/},{dede:field.yl2/},{dede:field.yl3/}
+                </div>
+                <!-- 教学视频 -->
+                <div class="video">
+                    <p class="video_title">教学视频</p>
+                    <p class="video_info">INSTRUCTIONAL VIDEO</p>
+                    <p class="video_line"> </p>
+                    <div class="video1">
+                        <!-- <img src="art_video_bf.png" class="art_video_bf" alt=""> -->
+                        {dede:field.video1/}
+                    </div>
+                    <ul class="video2">
+                        <li>
+                            {dede:field.video2/}
+                            <!-- <img src="art_video_bf.png" class="art_video_bf" alt=""> -->
+                        </li>
+                        <li>
+                            {dede:field.video3/}
+                            <!-- <img src="art_video_bf.png" class="art_video_bf" alt=""> -->
+                        </li>
+                    </ul>
+                    <p class="video_more_href">
+                        <a href="#">
+     查看更多 >
+ </a>
+                    </p>
+                </div>
+                <!-- 学生作品 -->
+                <div class="part1_stu">
+                    <p class="title">学生作品</p>
+                    <p class="title_se">STUDENT WORKS</p>
+                    <p class="part1_stu_line"> </p>
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper-container_art_stu swiper-container-horizontal">
+                        <div class="swiper-wrapper" style="transform: translate3d(-4410px, 0px, 0px); transition-duration: 0ms;">
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="8" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/dressing/52.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z114105215336.jpg" alt="李颜">
+                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="9" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/dressing/51.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z114104J9192.jpg" alt="黄果果">
+                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-invisible-blank swiper-slide-duplicate" data-swiper-slide-index="10" style="width: 337.5px; margin-right: 30px;"></div>
+                            <div class="swiper-slide swiper-slide-invisible-blank swiper-slide-duplicate" data-swiper-slide-index="11" style="width: 337.5px; margin-right: 30px;"></div>
+                            <div class="swiper-slide" data-swiper-slide-index="0" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/cosmetology/61.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190115/1-1Z1151H953964.jpg" alt="李蔓">
+                </a>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="1" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/cosmetology/60.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190117/1-1Z11F94616447.jpg" alt="张昕">
+                </a>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="2" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/manicure/58.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z11415254Y55.jpg" alt="高西兮">
+                </a>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="3" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/manicure/57.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z114151453A3.jpg" alt="胡遥闪">
+                </a>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="4" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/manicure/56.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z11415095B10.jpg" alt="杨娟">
+                </a>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="5" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/manicure/55.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z114150332622.jpg" alt="陆筱">
+                </a>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="6" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/manicure/54.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z114145I2I6.jpg" alt="赵晓敏">
+                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="7" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/dressing/53.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z114145Z0X5.jpg" alt="方黛">
+                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="8" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/dressing/52.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z114105215336.jpg" alt="李颜">
+                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="9" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/dressing/51.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z114104J9192.jpg" alt="黄果果">
+                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-invisible-blank" data-swiper-slide-index="10" style="width: 337.5px; margin-right: 30px;"></div>
+                            <div class="swiper-slide swiper-slide-invisible-blank" data-swiper-slide-index="11" style="width: 337.5px; margin-right: 30px;"></div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/cosmetology/61.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190115/1-1Z1151H953964.jpg" alt="李蔓">
+                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/cosmetology/60.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190117/1-1Z11F94616447.jpg" alt="张昕">
+                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/manicure/58.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z11415254Y55.jpg" alt="高西兮">
+                </a>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" style="width: 337.5px; margin-right: 30px;">
+                                <a href="/student/manicure/57.html">
+                    <img src="https://v3.hkhongzhuang.com/uploads/190114/1-1Z114151453A3.jpg" alt="胡遥闪">
+                </a>
+                            </div>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                    <a href="/student/" class="part1_stu_more">查看更多 ›</a>
+                </div>
+                {dede:include filename="_footerNav.htm"/}
+                <div class="footer_mar"> </div>
+</body>
+{dede:include filename="_script.htm"/}
+<script type="text/javascript" src="/static/js/article_faculty.js"></script>
+
+</html>
