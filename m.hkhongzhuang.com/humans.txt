@@ -1,0 +1,11 @@
+/* TEAM */
+UI Designers：观；老师
+FE Developers：陈晓珍 陈庭奋
+Location：海口 中国
+
+/* SITE */
+Language：中文
+Doctype:HTML5
+Standards:HTML5,CSS3,Javascript...
+Components：jQuery,swiper,quicklink,pwa,pagespeed,etc
+IDE: Sublime Text,VS Code, Photoshop,FlashFXP,Github,etc
