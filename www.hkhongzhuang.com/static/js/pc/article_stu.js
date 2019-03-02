@@ -6,7 +6,9 @@ $(function(){
           }
     });
      $("#art_video .item a").each(function(index,el){
-          if($(this).text()==""){
+      console.log($(this).text()+"text");
+      console.log($(this).html()+"html");
+          if($(this).text()==""||$(this).html()==""){
               $(this).parent("li").addClass("videoHide");
           }
     });
