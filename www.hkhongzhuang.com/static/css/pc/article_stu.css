@@ -286,3 +286,6 @@ span {
     top: -34px;
     left: 0;
 }
+.videoHide {
+    display: none;
+}
