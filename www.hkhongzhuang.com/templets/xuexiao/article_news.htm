@@ -4,7 +4,7 @@
 * @File name: article_news.htm
 * @Date:   2019-02-20 11:55:50
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-03-02 15:27:32
+* @Last Modified time: 2019-03-02 16:18:14
 * @Description: 新闻内容页.
 -->
 <!DOCTYPE html>
@@ -28,10 +28,10 @@
  </div>
         <div class="article_news_c">
             <div class="article_new_CON _pos_relative">
-                <img src="{dede:global.cfg_imgpath/}/pc/home.png" class="home" alt="">
-                <p class="article_news_line"> </p>
-                <span class="article_new_po">{dede:field name='position'/}</span>
-                <p class="article_news_line article_news_line1"></p>
+                <img src="{dede:global.cfg_imgpath/}/pc/home.png" class="home" alt="当前位置">
+                <p class="article_news_line"></p>
+                <span class="article_new_po">{dede:field name='position' runphp='yes'}$a=mb_strlen(@me);@me=cn_substr(@me,$a-2,-1);{/dede:field}</span>
+                <!-- <p class="article_news_line article_news_line1"></p> -->
                 <p class="article_news_line_top _pos_absolute"></p>
                 <h1 class="list_news_h1"><a style="color:rgb(0,0,0);" href="/news/16675.html">{dede:field.title/}</a></h1>
                 <p class="f14 c999 p-b20 m-t10">发布时间：{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)" /} <span class="pipe"></span> <i class="icon-eye-open m-r10">作者：红妆美容化妆学校      来源：红妆美容化妆学校</i><i class="icon-comment m-r10"></i><a href="#ds-reset"><strong><span class="ds-thread-count cf30" data-thread-key="7880"></span></strong></a></p>

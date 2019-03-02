@@ -3,7 +3,7 @@
 * @FileName:article_news.css
 * @Date:   2018-12-27 16:06:09
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-02-27 17:24:38
+* @Last Modified time: 2019-03-02 16:16:09
 */
 body {
     background: #f0f0f0;
@@ -29,27 +29,27 @@ body {
 
     width: 1px;
     height: 20px;
+    margin-top: 4px;
 
     opacity: .3;
     background: rgb(102,101,108);
 }
 .article_new_po {
     display: block;
-    float: left;
+    /* float: left; */
     /* line-height: 19px; */
     /* clear: both; */
-    width: 160px;
-    margin-left: 19px;
+    /* width: 160px; */
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 20px;
 }
 .article_new_po a {
-    position: ABSOLUTE;
+    /* position: ABSOLUTE; */
     top: 20px;
 
-    display: block;
     display: inline-block;
-    float: left;
     /* float: left; */
-    margin-top: 4px;
 
     font-size: 12px;
 
@@ -69,7 +69,9 @@ body {
             transform: rotate(30deg);
 }
 .home {
+    display: block;
     float: left;
+    margin-top: 2px;
 }
 .article_news_line_top {
     top: 56px;
@@ -81,7 +83,8 @@ body {
     background: rgb(205,205,205);
 }
 .list_news_h1 {
-    margin-top: 67px;
+    /*  margin-top: 67px; */
+    margin: 50px 0 20px 0;
     clear: both;
 
     font-size: 28px;
