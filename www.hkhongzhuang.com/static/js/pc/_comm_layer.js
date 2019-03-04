@@ -52,7 +52,7 @@ window.addEventListener('load', () =>{
     // tools_kst.addKSTScript();
 
    // 初始化 quicklink
-       quicklink();
+       quicklink({priority : true });
 
 //                //添加百度快商通
 // var tools_kst = (

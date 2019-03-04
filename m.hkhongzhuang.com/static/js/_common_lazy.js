@@ -23,7 +23,7 @@ $(function() {
 
 //初始化quicklink
 window.addEventListener('load', () =>{
-   quicklink();
+   quicklink({priority:true });
 });
 
 
