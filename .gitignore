@@ -12,11 +12,15 @@ environmentdisplay/
 faculty/
 shooting/
 student/
+www.hkhongzhuang.com/zt/
+m.hkhongzhuang.com/zt/
 *.7z
 *.html
 *.tar.gz
 *.tar
 !*.php
+webhook.php
+config.cache.inc.php
 !*.css
 !*.js
 !www.hkhongzhuang.com/data/
