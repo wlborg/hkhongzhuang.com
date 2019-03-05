@@ -46,6 +46,13 @@ $(function(){
 //注册  serviceWorker
 if('serviceWorker'in navigator){navigator.serviceWorker.register('/serviceworker.js');}
 
+//显示service worker缓存占用情况
+if ('storage' in navigator && 'estimate' in navigator.storage) {
+  navigator.storage.estimate().then(estimate => {
+    console.log(`Using ${estimate.usage/1024/1024} out of ${estimate.quota/1024/1024} MB.And the proportion is ${estimate.usage/estimate.quota*100}%`);
+  });
+}
+
 
 //初始化
 window.addEventListener('load', () =>{
