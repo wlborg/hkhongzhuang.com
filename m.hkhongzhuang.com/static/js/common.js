@@ -4,7 +4,7 @@
  * @File name: common.js
  * @Date:   2019-02-23 16:40:21
  * @Last Modified by:   chaihongjun
- * @Last Modified time: 2019-03-05 14:33:06
+ * @Last Modified time: 2019-03-05 16:08:20
  * @Description: 移动端JS配置文件.
  */
 $(function() {
@@ -169,5 +169,13 @@ if ('storage' in navigator && 'estimate' in navigator.storage) {
         e.timeoutFn(function() { e.urls ? e.urls.forEach(a) : Array.from(e.el.querySelectorAll("a"), function(e) { f.observe(e), n.length && !n.includes(e.hostname) || function e(n, t) { return Array.isArray(t) ? t.some(function(t) { return e(n, t) }) : (t.test || t).call(t, n.href, n) }(e, t) || c.add(e.href) }) }, { timeout: e.timeout }) } });
 //初始化quicklink
 window.addEventListener('load', () => {
-    quicklink({ priority: true });
+    quicklink({
+        priority: true,
+
+    ignores:[
+          uri => uri.includes('baidu'),
+          uri => uri.includes('kuaishang')
+       ]
+
+     });
 });

@@ -50,7 +50,15 @@ if ('storage' in navigator && 'estimate' in navigator.storage) {
 window.addEventListener('load', () => {
     // tools_kst.addKSTScript();
     // 初始化 quicklink
-    quicklink({ priority: true });
+    quicklink({ priority: true,
+
+
+    ignores:[
+          uri => uri.includes('baidu'),
+          uri => uri.includes('kuaishang')
+       ]
+
+     });
     //                //添加百度快商通
     // var tools_kst = (
     //     function(module) {
