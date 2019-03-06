@@ -1643,3 +1643,11 @@ body {
 
     color: #ea5413;
 }
+.courses_list .course2 .swiper-container,
+.courses_list .course3 .swiper-container,
+.courses_list .course4 .swiper-container {
+    width: 15.44368601rem;
+    margin: 0 auto;
+    overflow: hidden;
+    /*height: 13.65187713rem;*/
+}
