@@ -52,10 +52,10 @@ window.addEventListener('load', () => {
     // 初始化 quicklink
     quicklink({ priority: true,
 
-
-    ignores:[
-          uri => uri.includes('baidu'),
-          uri => uri.includes('kuaishang')
+      ignores:[
+             /baidu/,
+             /kuaishang/,
+              uri => uri.includes('.php'),
        ]
 
      });

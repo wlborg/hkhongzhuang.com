@@ -4,7 +4,7 @@
  * @File name: common.js
  * @Date:   2019-02-23 16:40:21
  * @Last Modified by:   chaihongjun
- * @Last Modified time: 2019-03-05 16:08:20
+ * @Last Modified time: 2019-03-07 10:30:44
  * @Description: 移动端JS配置文件.
  */
 $(function() {
@@ -171,10 +171,10 @@ if ('storage' in navigator && 'estimate' in navigator.storage) {
 window.addEventListener('load', () => {
     quicklink({
         priority: true,
-
-    ignores:[
-          uri => uri.includes('baidu'),
-          uri => uri.includes('kuaishang')
+        ignores:[
+             /baidu/,
+             /kuaishang/,
+              uri => uri.includes('.php'),
        ]
 
      });
