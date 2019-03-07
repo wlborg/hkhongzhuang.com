@@ -25,7 +25,7 @@ function marqueeBanner(containerClass, itemClass) {
         if (window.requestAnimationFrame && !stop) {
             requestAnimationFrame(marqueeTargetFun);
         } else if (!window.requestAnimationFrame && timer == null) {
-            timer = setInterval(marqueeTargetFun, 20);
+            timer = setInterval(marqueeTargetFun, 50);
         }
     };
 

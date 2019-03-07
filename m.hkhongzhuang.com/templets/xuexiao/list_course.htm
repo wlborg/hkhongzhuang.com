@@ -3,8 +3,8 @@
 * @email:   root@chaihongjun.me
 * @File name: list_course.htm
 * @Date:   2019-02-18 10:14:30
-* @Last Modified by:   chaihongjun
-* @Last Modified time: 2019-02-23 17:32:20
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-06 10:12:29
 * @Description: 课程列表页.
 --><!DOCTYPE html>
 <html lang="cmn-hans">
@@ -15,7 +15,7 @@
     {dede:include filename="_meta.htm"/}
     {dede:include filename="_link_list.htm"/}
     {dede:include filename="_link.htm"/}
-    <link rel="stylesheet" href="/static/css/list_course.css" />
+    <link rel="stylesheet" href="/static/css/list_course.css?v=0.1" />
     <link rel="stylesheet" href="/static/css/_footer2.css">
 
 </head>
@@ -60,17 +60,21 @@
                     <p>COSMETIC TRAINING COURSE</p>
                 </div>
                 <div class="g-content">
-                    <div class="slider-wrapper">
-                        <ul class="slider-container">
-                            {dede:arclist typeid='5' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20'}
-                            <li class="item">
-                                <a href="[field:arcurl/]">
-                                        <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
-                                       <p>[field:title/]</p>
-                                   </a>
-                            </li>
-                            {/dede:arclist}
-                        </ul>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <ul class="f-cb">
+                                    {dede:arclist typeid='5' row='6' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20' limit='0,6'}
+                                    <li>
+                                        <a href="[field:arcurl/]">
+                                            <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
+                                           <p>[field:title/]</p>
+                                       </a>
+                                    </li>
+                                    {/dede:arclist}
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -83,17 +87,21 @@
                     <p>COSMETIC TRAINING COURSE</p>
                 </div>
                 <div class="g-content">
-                    <div class="slider-wrapper">
-                        <ul class="slider-container">
-                            {dede:arclist typeid='6' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20'}
-                            <li class="item">
-                                <a href="[field:arcurl/]">
-                                        <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
-                                       <p>[field:title/]</p>
-                                   </a>
-                            </li>
-                            {/dede:arclist}
-                        </ul>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <ul class="f-cb">
+                                    {dede:arclist typeid='6' row='6' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20' limit='0,6'}
+                                    <li>
+                                        <a href="[field:arcurl/]">
+                                            <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
+                                           <p>[field:title/]</p>
+                                       </a>
+                                    </li>
+                                    {/dede:arclist}
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -106,17 +114,21 @@
                     <p>COSMETIC TRAINING COURSE</p>
                 </div>
                 <div class="g-content">
-                    <div class="slider-wrapper">
-                        <ul class="slider-container">
-                            {dede:arclist typeid='7' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20'}
-                            <li class="item">
-                                <a href="[field:arcurl/]">
-                                        <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
-                                       <p>[field:title/]</p>
-                                   </a>
-                            </li>
-                            {/dede:arclist}
-                        </ul>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <ul class="f-cb">
+                                    {dede:arclist typeid='7' row='6' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20' limit='0,6'}
+                                    <li>
+                                        <a href="[field:arcurl/]">
+                                            <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
+                                           <p>[field:title/]</p>
+                                       </a>
+                                    </li>
+                                    {/dede:arclist}
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
