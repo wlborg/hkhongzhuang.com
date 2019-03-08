@@ -864,3 +864,18 @@ body #LXB_CONTAINER.lxb-container-mobile-4 .lxb-cb-input-feedback {
 .footer2 {
     margin-bottom: 2.048rem!important;
 }
+.head_mrspan {
+    margin-top: .2rem;
+}
+.head_syLi {
+    margin-top: .13rem;
+}
+.head_szll {
+    margin-top: -.12rem;
+}
+.head_xwzx {
+    margin-top: .2rem;
+}
+.head_xwzx span {
+    margin-top: .42rem;
+}
