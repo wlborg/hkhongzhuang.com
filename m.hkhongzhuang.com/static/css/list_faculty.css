@@ -114,7 +114,7 @@
     position: relative;
 
     float: left;
-    width: 7.296rem;
+    width: 7.25rem;
     height: 11.56267rem;
     /* padding: 7px 9px 0; */
     margin: 0 0 .49067rem .32rem;
@@ -198,15 +198,14 @@
 }
 .tea_more {
     position: absolute;
-    right: .55467rem;
-    bottom: .768rem;
-
+    right: .1467rem;
+    bottom: .28568rem;
     width: .85333rem;
     height: .85333rem;
-
     cursor: pointer;
-
-    color: rgb(248,77,4);
+    color: #f84d04;
+    width: 1.38667rem;
+    height: 1.38667rem;
 }
 .tea_more a {
     display: block;
