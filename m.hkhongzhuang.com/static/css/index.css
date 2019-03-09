@@ -2,8 +2,8 @@
 * @Author: Administrator
 * @FileName:index.css
 * @Date:   2019-01-16 14:06:05
-* @Last Modified by:   Administrator
-* @Last Modified time: 2019-02-27 14:07:14
+* @Last Modified by:   August1Rush
+* @Last Modified time: 2019-03-09 11:07:33
 */
 .index_tea {
     display: block;
@@ -772,7 +772,7 @@ img {
     display: block;
     margin: auto;
 }
-.index_coure_top_nav li span {
+.index_coure_top_nav li span:nth-of-type(2) {
     display: block;
     height: .597333rem;
     margin-top: .277333rem;
@@ -780,12 +780,49 @@ img {
     font-size: .512rem;
     line-height: .597333rem;
 
-    color: rgb(252,100,0);
-}
-.index_coure_top_nav li:nth-of-type(2) span,
-.index_coure_top_nav li:nth-of-type(4) span {
     color: rgb(254,143,0);
 }
+.index_coure_top_nav li:nth-of-type(1) span:nth-of-type(1) {
+    display: block;
+    width: 54px;
+    height: 58px;
+    margin: AUTO;
+
+    background: url(/static/images/nav_icon/nav_hzn.png) no-repeat center top;
+    background-size: 54px 58px;
+}
+.index_coure_top_nav li:nth-of-type(2) span:nth-of-type(1) {
+    display: block;
+    width: 54px;
+    height: 58px;
+    margin: AUTO;
+
+    background: url(/static/images/nav_icon/top_nav_mr.png) no-repeat center top;
+    background-size: 54px 58px;
+}
+.index_coure_top_nav li:nth-of-type(3) span:nth-of-type(1) {
+    display: block;
+    width: 54px;
+    height: 58px;
+    margin: AUTO;
+
+    background: url(/static/images/nav_icon/nav_mjn.png) no-repeat center top;
+    background-size: 54px 58px;
+}
+.index_coure_top_nav li:nth-of-type(4) span:nth-of-type(1) {
+    display: block;
+    width: 54px;
+    height: 58px;
+    margin: AUTO;
+
+    background: url(/static/images/nav_icon/top_nav_sy.png) no-repeat center top;
+    background-size: 54px 58px;
+}
+/* .index_coure_top_nav li:nth-of-type(2) span:nth-of-type(2),
+.index_coure_top_nav li:nth-of-type(4) span:nth-of-type(2) {
+    color: rgb(254,143,0);
+}
+ */
 .courseCon .swiper-slide > ul {
     height: 16.256rem;
 }
