@@ -48,12 +48,20 @@ $(function(){
               var num=(this.realIndex);
               if(num==0){
                 $(".index_coure_title").html("化妆课程");
+                indexCA(num);
               }else if (num==1) {
                 $(".index_coure_title").html("美容课程");
+                 indexCA(num);
               }else if (num==2) {
                 $(".index_coure_title").html("美甲课程");
+                 indexCA(num);
               }else if (num==3) {
                 $(".index_coure_title").html("摄影课程");
+                 indexCA(num);
+              }
+              function indexCA(index){
+                   $(".index_coure_top_nav>li").eq(index).addClass('index_cou_active');
+                   $(".index_coure_top_nav>li").eq(index).siblings("li").removeClass('index_cou_active');
               }
             },
           }
