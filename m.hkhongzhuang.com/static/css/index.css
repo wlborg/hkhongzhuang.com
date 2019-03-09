@@ -3,7 +3,7 @@
 * @FileName:index.css
 * @Date:   2019-01-16 14:06:05
 * @Last Modified by:   August1Rush
-* @Last Modified time: 2019-03-09 11:42:23
+* @Last Modified time: 2019-03-09 11:43:53
 */
 .index_tea {
     display: block;
@@ -839,7 +839,7 @@ img {
 .index_coure_top_nav li:nth-of-type(3) {
     margin-top: .084rem;
 }
-.index_coure_top_nav li:nth-of-type(3) {
+.index_coure_top_nav li:nth-of-type(4) {
     margin-top: .25rem;
 }
 .courseCon .swiper-slide > ul {
