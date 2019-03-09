@@ -3,7 +3,7 @@
 * @FileName:index.css
 * @Date:   2019-01-16 14:06:05
 * @Last Modified by:   August1Rush
-* @Last Modified time: 2019-03-09 11:25:12
+* @Last Modified time: 2019-03-09 11:29:38
 */
 .index_tea {
     display: block;
@@ -816,7 +816,7 @@ img {
     background-size: 54px 58px;
 }
 .index_coure_top_nav li:nth-of-type(3).index_cou_active span:nth-of-type(1) {
-    background: url(/static/images/nav_icon/nav_mj.jpg) no-repeat center top;
+    background: url(/static/images/nav_icon/nav_mj.png) no-repeat center top;
 }
 .index_coure_top_nav li:nth-of-type(4) span:nth-of-type(1) {
     display: block;
@@ -835,6 +835,9 @@ img {
     color: rgb(254,143,0);
 }
  */
+.index_cou_active span:nth-of-type(2) {
+    color: rgb(243,80,12)!important;
+}
 .courseCon .swiper-slide > ul {
     height: 16.256rem;
 }

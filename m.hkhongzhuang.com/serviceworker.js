@@ -1,5 +1,5 @@
 'use strict';
-const version = 'v20190309';
+const version = 'v201903091130';
 const __DEVELOPMENT__ = false;
 const __DEBUG__ = false;
 const offlineResources = ['/', '/offline.html', '/offline.svg'];
