@@ -3,7 +3,7 @@
 * @FileName:index.css
 * @Date:   2019-01-16 14:06:05
 * @Last Modified by:   August1Rush
-* @Last Modified time: 2019-03-09 11:15:56
+* @Last Modified time: 2019-03-09 11:25:12
 */
 .index_tea {
     display: block;
@@ -791,6 +791,9 @@ img {
     background: url(/static/images/nav_icon/nav_hzn.png) no-repeat center top;
     background-size: 54px 58px;
 }
+.index_coure_top_nav li:nth-of-type(1).index_cou_active span:nth-of-type(1) {
+    background: url(/static/images/nav_icon/nav_hz.png) no-repeat center top;
+}
 .index_coure_top_nav li:nth-of-type(2) span:nth-of-type(1) {
     display: block;
     width: 56px;
@@ -799,6 +802,9 @@ img {
 
     background: url(/static/images/nav_icon/top_nav_mr.png) no-repeat center top;
     background-size: 54px 58px;
+}
+.index_coure_top_nav li:nth-of-type(2).index_cou_active span:nth-of-type(1) {
+    background: url(/static/images/nav_icon/nav_mr.png) no-repeat center top;
 }
 .index_coure_top_nav li:nth-of-type(3) span:nth-of-type(1) {
     display: block;
@@ -809,6 +815,9 @@ img {
     background: url(/static/images/nav_icon/nav_mjn.png) no-repeat center top;
     background-size: 54px 58px;
 }
+.index_coure_top_nav li:nth-of-type(3).index_cou_active span:nth-of-type(1) {
+    background: url(/static/images/nav_icon/nav_mj.jpg) no-repeat center top;
+}
 .index_coure_top_nav li:nth-of-type(4) span:nth-of-type(1) {
     display: block;
     width: 64px;
@@ -817,6 +826,9 @@ img {
 
     background: url(/static/images/nav_icon/top_nav_sy.png) no-repeat center top;
     background-size: 54px 58px;
+}
+.index_coure_top_nav li:nth-of-type(4).index_cou_active span:nth-of-type(1) {
+    background: url(/static/images/nav_icon/nav_sy.png) no-repeat center top;
 }
 /* .index_coure_top_nav li:nth-of-type(2) span:nth-of-type(2),
 .index_coure_top_nav li:nth-of-type(4) span:nth-of-type(2) {
