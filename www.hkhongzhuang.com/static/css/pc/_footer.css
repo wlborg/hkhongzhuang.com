@@ -33,7 +33,7 @@ img {
 
 .link-item {
     display: inline-block;
-    width: 126px;
+    min-width: 126px;
     margin-right: 60px;
 
     text-align: left;
