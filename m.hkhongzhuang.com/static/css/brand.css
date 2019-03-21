@@ -327,14 +327,25 @@ body {
     color: #b3b2b5;
 }
 .brand .m4 .g-doc .g-content {
+    position: absolute;
+    bottom: 0rem;
+
+    width: 100%;
+    height: 3rem;
     padding-bottom: .85324232rem;
     margin-top: 5.46075085rem;
 
     opacity: .55;
     background-color: #7c787b;
 }
-.brand .m4 .g-doc .g-content p {
+.brand .m4 .g-doc .g-content p,
+.g-content-p {
+    position: absolute;
+    bottom: .2rem;
+    left: 0rem;
+
     width: 14.54778157rem;
+    width: 100%;
     padding-top: .85324232rem;
     margin: 0 auto;
 
@@ -344,10 +355,9 @@ body {
     line-height: .63993174rem;
 
     text-indent: 2em;
-    letter-spacing: 0rem;
+    letter-spacing: 0;
 
     opacity: 1;
-    color: #fff;
 }
 .brand .m4_2 .consult {
     width: 6.69795222rem;
@@ -498,7 +508,8 @@ body {
     background: url("/static/images/brand_consult6.png") center top no-repeat;
     background-size: auto 100%;
 }
-.m3,
+/* .m3,
 .m5 {
     display: none;
 }
+ */
