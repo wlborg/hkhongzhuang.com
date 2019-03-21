@@ -4,7 +4,7 @@
  * @File name: common.js
  * @Date:   2019-02-23 16:40:21
  * @Last Modified by:   chaihongjun
- * @Last Modified time: 2019-03-07 10:30:44
+ * @Last Modified time: 2019-03-21 15:29:52
  * @Description: 移动端JS配置文件.
  */
 $(function() {
@@ -111,13 +111,45 @@ $(function() {
 
 /* Serviceworker */
 //注册 Serviceworker
-if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/serviceworker.js'); }
+//if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/serviceworker.js'); }
+// 延迟注册serviceWorker
+window.addEventListener('load', function() {
+  if('serviceWorker' in navigator){
+     navigator.serviceWorker.register('/serviceworker.js').then(function (registration) {
+      console.log('Service Worker Registered,register script: serviceworker.js.');
+    }).catch(function (error) {
+      // registration failed
+      console.log('Registration failed with ' + error);
+    });
+  }
+});
 // 控制台显示service worker缓存占用情况
 if ('storage' in navigator && 'estimate' in navigator.storage) {
     navigator.storage.estimate().then(estimate => {
         console.log(`Using ${estimate.usage/1024/1024} out of ${estimate.quota/1024/1024} MB.And the proportion is ${estimate.usage/estimate.quota*100}%`);
     });
 }
+
+//PWA 用户端监测
+self.addEventListener('error', function (event) {
+  var msg = {
+    message: event.message,
+    filename: event.filename,
+    lineno: event.lineno,
+    stack: event.error && event.error.stack
+  };
+  // report error msg
+});
+
+self.addEventListener('unhandledrejection', function (event) {
+  // event.reason
+  if (/Quota exceeded/i.test(event.reason)) {
+    // maybe clean some cache here
+  }
+});
+
+
+
 
 /* 百度推送 */
 // 百度推送 改良版
