@@ -333,7 +333,8 @@ body {
     opacity: .55;
     background-color: #7c787b;
 }
-.brand .m4 .g-doc .g-content p {
+.brand .m4 .g-doc .g-content p,
+.g-content-p {
     width: 14.54778157rem;
     padding-top: .85324232rem;
     margin: 0 auto;
