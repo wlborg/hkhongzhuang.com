@@ -4,7 +4,7 @@
  * @File name: common.js
  * @Date:   2019-02-23 16:40:21
  * @Last Modified by:   chaihongjun
- * @Last Modified time: 2019-03-21 15:29:52
+ * @Last Modified time: 2019-03-25 11:48:17
  * @Description: 移动端JS配置文件.
  */
 $(function() {
@@ -129,6 +129,13 @@ if ('storage' in navigator && 'estimate' in navigator.storage) {
         console.log(`Using ${estimate.usage/1024/1024} out of ${estimate.quota/1024/1024} MB.And the proportion is ${estimate.usage/estimate.quota*100}%`);
     });
 }
+
+// 让 PWA 安装提示在首次访问时弹出
+window.addEventListener('beforeinstallprompt', event => {
+  event.userChoice.then(result => {console.log(result.outcome)
+  })
+})
+
 
 //PWA 用户端监测
 self.addEventListener('error', function (event) {
