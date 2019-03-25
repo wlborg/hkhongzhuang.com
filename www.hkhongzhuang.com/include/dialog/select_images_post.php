@@ -105,7 +105,7 @@ AddMyAddon($fid, $activepath.'/'.$filename);
 $CKUpload = isset($CKUpload)? $CKUpload : FALSE;
 if ($GLOBALS['cfg_html_editor']=='ckeditor' && $CKUpload)
 {
-    $fileurl = $activepath.'/'.$filename;
+    $fileurl = "https://www.hkhongzhuang.com".$activepath.'/'.$filename;
     $message = '';
     
     $str='<script type="text/javascript">window.parent.CKEDITOR.tools.callFunction('.$CKEditorFuncNum.', \''.$fileurl.'\', \''.$message.'\');</script>';
