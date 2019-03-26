@@ -8,13 +8,6 @@
  * @Description: 移动端JS配置文件.
  */
 $(function() {
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?e763d33211a14384cbe70ea9604da82c";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
     var banner_swiper = new Swiper('.banner_swiper_container', {
         slidesPerView: 1,
         autoplay: {
