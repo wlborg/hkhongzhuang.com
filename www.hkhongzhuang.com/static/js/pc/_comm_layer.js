@@ -1,12 +1,4 @@
 $(function() {
-    // 添加百度统计
-    var _hmt = _hmt || [];
-    (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?0ec64a7f2e99d185fb3828bb2afa93a2";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();
     //此js为懒加载对象
     function loadLazyFn() {
         $("img.lay_com").lazyload({
