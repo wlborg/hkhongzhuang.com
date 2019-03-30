@@ -51,7 +51,8 @@
     border-radius: 12px;
 }
 .navNav ul li a:hover {
-    background: #f97136;
+    background: rgba(255,168,55,.5);
+    box-shadow: 5px 5px 8px rgba(245,99,37,.51);
 }
 .navNav .foc {
     border-radius: 12px;
