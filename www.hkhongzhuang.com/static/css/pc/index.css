@@ -557,7 +557,7 @@
     top: 84px;
     left: 50%;
 
-    width: 179px;
+    width: 180px;
     margin-left: -101.5px;
 }
 .sw {
@@ -876,3 +876,11 @@
 
     color: rgba(87,78,75,.49);
 }
+.video_tit {
+    left: 160px;
+    color: rgb(245,99,37);
+    font-size: 44px;
+    top: 38px;
+}
+
+
