@@ -563,10 +563,9 @@
 .sw {
     top: 211px;
     left: -34px;
-
-    height: 600.25px;
-    padding: 42px 34px;
-
+    height: 600px;
+    margin: 0px 0px 42px 34px;
+    padding-right: 34px;
     background: rgba(255,255,255,.85);
 }
 .sw > ul > li {
@@ -628,7 +627,7 @@
 }
 .environmentdisplay_Right .swiper-pagination {
     margin-top: 46px;
-    left: 1081px;
+    left: 1046px;
 }
 .m {
     position: absolute;
