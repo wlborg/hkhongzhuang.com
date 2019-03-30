@@ -18,14 +18,14 @@
     height: 187px;
 }
 
-.video_tit {
+.video_art {
     top: 47px;
     left: 161px;
 
     font-size: 44px;
     line-height: 26px;
 
-    color: rgb(234,84,19);
+    color: rgb(3,22,36);
 }
 .video_art {
     font-size: 16px;
@@ -148,17 +148,13 @@
     width: 163px;
     height: 41px;
     margin: 0 5.5px;
-
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 18px;
     line-height: 41px;
-
     cursor: pointer;
     text-align: center;
-
-    color: rgb(100,99,101);
-    /* background-color: #e3dee3; */
-    border: 1px solid rgb(166,165,165);
+    color: #646365;
+    background: rgb(237,237,237);
+    color: rgba(100,99,101,0.7);
 }
 .courseCon .course_Index {
     display: none;
@@ -168,9 +164,9 @@
     /* margin-top: 147px; */
     overflow: hidden;
 }
-.course_fli2 {
-    color: rgb(248,77,4)!important;
-    border: 1px solid rgb(234,84,19)!important;
+#course_tab ul li.course_fli2 {
+    background: rgb(154,154,154)!important;
+    color: rgb(255,255,255);
 }
 #courseCon > div {
     display: none;
@@ -243,13 +239,13 @@
     background: rgb(254, 123, 0);
 }
 .new_tq2 {
-    background: rgb(246,151,0);
+    background: rgb(250,183,27);
 }
 .new_tq3 {
-    background: rgb(2,111,195);
+    background: rgb(254, 123, 0);
 }
 .new_tq4 {
-    background: rgb(110,203,189);
+    background: rgb(250,183,27);
 }
 .new_tit_tq_In {
     width: 110px;
@@ -536,7 +532,7 @@
 /* 环境部分样式 */
 .environmentdisplay {
     width: 1440px;
-    height: 1006px;
+    height: 932px;
     margin: auto;
     /* border: 1px solid red; */
 }
@@ -555,7 +551,7 @@
     font-size: 58px;
     line-height: 48px;
 
-    color: rgba(255,255,255,.2);
+    color: rgb(255,255,255);
 }
 .environmentdisplayImg_TIT {
     top: 84px;
@@ -586,16 +582,16 @@
 .environmentdisplay_Right_index {
     font-size: 84px;
     line-height: 84px;
-
-    color: rgb(248,77,4);
+    color: rgba(188,188,188,0.78);
+    text-align: right;
+    text-indent: 303px;
+    font-weight: bold;
 }
 .environmentdisplay_Right_T {
     margin-top: 20px;
-
     font-size: 40px;
     line-height: 41px;
-
-    color: rgb(248,77,4);
+    color: rgb(0,22,33);
 }
 .environmentdisplay_Right_T {
     margin-top: 24px;
@@ -621,17 +617,18 @@
     width: 32px;
     height: 8px;
     margin-right: 10px;
-
     border-radius: 10px;
     outline: medium;
+    opacity: 0.25;
 }
 
 .environmentdisplay_Right .swiper-pagination-bullet-active {
     opacity: 1;
-    background: rgb(243,163,39);
+    background: rgb(250,183,27);
 }
 .environmentdisplay_Right .swiper-pagination {
     margin-top: 46px;
+    left: 1081px;
 }
 .m {
     position: absolute;
@@ -650,24 +647,19 @@
     margin: 31px auto 50px;
     /* border: 1px solid red; */
     overflow: hidden;
-}#std_tab ul li {
-
+}
+#std_tab ul li {
     float: left;
     width: 163px;
     height: 41px;
     margin: 0 1px;
-
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 18px;
+    /* font-weight: bold; */
     line-height: 41px;
-
     cursor: pointer;
     text-align: center;
-
-    color: rgba(100,99,101,.7);
+    color: rgba(100,99,101,0.7);
     background: rgb(237,237,237);
-    /* background-color: #e3dee3; */
-    /* border: 1px solid rgb(166,165,165); */
 }
 .stdCon {
     width: 1440px;
@@ -751,27 +743,22 @@
 }
 .std_3_1_Click a {
     position: relative;
-
-    background: rgb(248, 77, 4);
+    background: rgb(245,99,37);
 }
 .std_3_1_Click a > span:nth-of-type(1) {
     display: block;
     padding: 51px 0 0 44px;
-
     font-size: 24px;
     line-height: 26px;
-
-    color: rgba(255,255,255,.6);
+    color: rgb(255,255,255);
 }
 .std_3_1_Click a > span:nth-of-type(2) {
     display: block;
     margin-top: 10px;
     margin-left: 43px;
-
     font-size: 34px;
     line-height: 26px;
-
-    color: rgba(255,255,255,.4);
+    color: rgb(255,255,255);
 }
 .std_3_1_Click a > span:nth-of-type(3) {
     display: block;
@@ -795,7 +782,7 @@
 }
 .std_fli2 {
     color: rgb(255,255,255)!important;
-    background: rgb(109, 107, 106)!important;
+    background: rgb(153,153,153)!important;
 }
 .std_fdiv2 {
     display: block!important;
@@ -840,12 +827,12 @@
 .index_zx {
     left: 409px;
 
-    background: rgba(247, 149, 10, .9);
+    background: rgba(250,183,27,0.9);
 }
 .index_more {
     left: 733px;
 
-    background: rgba(248,77,4,.9);
+    background: rgba(245,99,37,0.9);
 }
 .stu_zp_zx,
 .stu_zp_href {
