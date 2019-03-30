@@ -1,214 +1,107 @@
 <!--
-
 * @Author: chaihongjun
-
 * @email:   root@chaihongjun.me
-
 * @File name: list_news.htm
-
 * @Date:   2019-02-23 12:26:06
-
 * @Last Modified by:   Administrator
-
-* @Last Modified time: 2019-02-27 17:25:49
-
+* @Last Modified time: 2019-03-30 15:01:10
 * @Description: 新闻列表页.
-
 --><!DOCTYPE html>
-
 <html lang="cmn-hans">
-
 <head>
-
     {dede:include filename="_meta_tdk_list.htm"/}
-
     {dede:include filename="_meta.htm"/}
-
     {dede:include filename="_link.htm"/}
-
    {dede:include filename="_link_list.htm"/}
-
-    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/list_news.css" />
-
-    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/_footer_hidder.css" />
-
+    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/list_news.css?v=20190330" />
+    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/_footer_hidder.css?v=20190330" />
 </head>
-
 <body>
-
     {dede:include filename="_header.htm"/}
-
     {dede:include filename="_banner.htm"/}
-
     <div class="list_new_top">
-
         <img src="{dede:global.cfg_imgpath/}/pc/new_top.jpg" alt=""/>
-
          {dede:include filename="_topNew.htm"/}
-
     </div>
-
     <div class="new_list_po">
-
         <ul class="new_list_con">
-
             {dede:list pagesize='6' orderby='id' flag='c' orderway='desc' addfields="pc_list"}
-
             <li>
-
                 <ul>
-
                     <li>
-
                         <a href="[field:arcurl/]">
-
                     <img src="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]">
-
                 </a>
-
                     </li>
-
                     <li>
-
                         <p class="new_list_p">
-
                             <a href="[field:arcurl/]">[field:fulltitle/]</a></p>
-
                         <p class="new_list_zhai"><a href="[field:arcurl/]">[field:description function='cn_substr(@me,200)'/]......<span>[详细]</span></a></p>
-
                         <img src="https://v3.hkhongzhuang.com/static/images/pc/list_new_Clik.png" class="list_new_Clik" alt="">
-
                         <p class="new_list_click_S">点击：[field:click/]</p>
-
                         <p class="new_list_time">[field:pubdate function='strftime("%Y-%m-%d",@me)'/] </p>
-
                         <img src="https://v3.hkhongzhuang.com/static/images/pc/list_new_share.png" class="list_new_share" alt="" />
-
                         <p class="new_list_sha">分享到：</p>
-
                         <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone"></a><a href="#" class="bds_tsina" data-cmd="tsina"></a><a href="#" class="bds_tqq" data-cmd="tqq"></a><a href="#" class="bds_renren" data-cmd="renren"></a><a href="#" class="bds_weixin" data-cmd="weixin"></a></div>
-
                     </li>
-
                 </ul>
-
             </li>
-
             {/dede:list}
-
             <p class="list_new_line">
-
             </p>
-
             <!-- 大线分割 -->
-
             <div class="list_new_line_check">
-
                 <p class="list_new_fouce_line list_new_fouce_line1 list_new_fouce_line_s">
-
                     <span> </span>
-
                     <span> </span>
-
                 </p>
-
                 <img src="{dede:global.cfg_imgpath/}/pc/list_new_mid.png" class="list_new_mid" alt="">
-
                 <p class="list_new_fouce_line list_new_fouce_line2 list_new_fouce_line_f">
-
                     <span> </span>
-
                     <span> </span>
-
                 </p>
-
             </div>
-
             <!-- 大线分割 -->
-
             <div class="list_new_line_check list_new_line_check2">
-
                 <p class="list_new_fouce_line list_new_fouce_line1 list_new_fouce_line_s">
-
                     <span> </span>
-
                     <span> </span>
-
                 </p>
-
                 <img src="{dede:global.cfg_imgpath/}/pc/list_new_mid.png" class="list_new_mid" alt="">
-
                 <p class="list_new_fouce_line list_new_fouce_line2 list_new_fouce_line_f">
-
                     <span> </span>
-
                     <span> </span>
-
                 </p>
-
             </div>
-
             <!-- 大线分割 -->
-
             <div class="list_new_line_check list_new_line_check3">
-
                 <p class="list_new_fouce_line list_new_fouce_line1 list_new_fouce_line_s">
-
                     <span> </span>
-
                     <span> </span>
-
                 </p>
-
                 <img src="{dede:global.cfg_imgpath/}/pc/list_new_mid.png" class="list_new_mid" alt="">
-
                 <p class="list_new_fouce_line list_new_fouce_line2 list_new_fouce_line_f">
-
                     <span> </span>
-
                     <span> </span>
-
                 </p>
-
             </div>
-
         </ul>
-
         <div class="list_new_pagginat clearFix">
-
             <ul class="pagination clearFix">
-
                 {dede:pagelist istitem="pre,next,pageno,index,end" listsize="3"/}
-
             </ul>
-
         </div>
-
         <p class="list_new_line_bottom">
-
         </p>
-
     </div>
-
     {dede:include filename="_footer.htm"/}
-
 </body>
-
 {dede:include filename="_script.htm"/}
-
 <script>
-
 window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {}, "image": { "viewList": ["qzone", "tsina", "tqq", "renren", "weixin"], "viewText": "分享到：", "viewSize": "16" }, "selectShare": { "bdContainerClass": null, "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"] } };
-
 with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'https://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
-
 </script>
-
 <script src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js"></script>
-
-<script src="{dede:global.cfg_jspath/}/pc/list_news.js"></script>
-
-<script src="{dede:global.cfg_jspath/}/pc/_footer_hidd.js"></script>
-
+<script src="{dede:global.cfg_jspath/}/pc/list_news.js?v=20190330"></script>
+<script src="{dede:global.cfg_jspath/}/pc/_footer_hidd.js?v=20190330"></script>
 </html>
-
