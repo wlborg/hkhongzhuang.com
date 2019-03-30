@@ -1,352 +1,176 @@
 <!--
-
 * @Author: chaihongjun
-
 * @email:   root@chaihongjun.me
-
 * @File name: list_stu.htm
-
 * @Date:   2019-02-23 12:32:26
-
 * @Last Modified by:   Administrator
-
-* @Last Modified time: 2019-02-27 17:29:50
-
+* @Last Modified time: 2019-03-30 15:01:33
 * @Description: 学生作品列表页
-
 --><!DOCTYPE html>
-
 <html lang="cmn-hans">
-
 <head>
-
     {dede:include filename="_meta_tdk_list.htm"/}
-
     {dede:include filename="_meta.htm"/}
-
     {dede:include filename="_link.htm"/}
-
-  	 {dede:include filename="_link_list.htm"/}
-
-    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/list_stu.css?v=0.3" />
-
-    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/_footer_hidder.css" />
-
-    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/_media.css" />
-
+     {dede:include filename="_link_list.htm"/}
+    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/list_stu.css?v=20190330" />
+    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/_footer_hidder.css?v=20190330" />
+    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/_media.css?v=20190330" />
 </head>
-
 <body>
-
     {dede:include filename="_header.htm"/}
-
     <div class="stu_list" id="list_id">
-
         <div id="stu_tab">
-
             <ul class="clearFix">
-
                 <li class="stu_fli2">
-
                     <span> </span>
-
                     <!-- <img src="stu_default1.png" alt=""> -->
-
                     化妆课程作品
-
                     <p> </p>
-
                     <p> </p>
-
                 </li>
-
                 <li>
-
                     <span> </span>
-
                     美容课程作品
-
                     <p> </p>
-
                     <p> </p>
-
                 </li>
-
                 <li>
-
                     <span> </span>
-
                     美甲课程作品
-
                     <p> </p>
-
                     <p> </p>
-
                 </li>
-
                 <li>
-
                     <span> </span>
-
                     摄影课程作品
-
                     <p> </p>
-
                     <p> </p>
-
                 </li>
-
             </ul>
-
         </div>
-
         <div id="stu_list_Con">
-
             <!-- 化妆课程作品 -->
-
             <div class="stu_fdiv2">
-
                 <img src="{dede:global.cfg_imgpath/}/pc/stu_list_top.png" class="stu_list_top" alt="">
-
                 <ul class="stu_list_info">
-
                 </ul>
-
                 <p class="stu_list_more stu_list_more1">MORE更多</p>
-
                 <ul class="list_stu_video">
-
                 </ul>
-
                 <p class="stu_list_video_more stu_list_video_more1">MORE更多</p>
-
             </div>
-
             <!-- 美容课程作品 -->
-
             <div>
-
                 <img src="{dede:global.cfg_imgpath/}/pc/stu_list_top_mr.png"  class="stu_list_top_mr" alt="">
-
                 <ul class="stu_list_info">
-
                 </ul>
-
                 <p class="stu_list_more stu_list_more2">MORE更多</p>
-
                 <ul class="list_stu_video">
-
                 </ul>
-
                 <p class="stu_list_video_more stu_list_video_more2">MORE更多</p>
-
             </div>
-
             <!-- 美甲课程作品 -->
-
             <div>
-
                 <img src="{dede:global.cfg_imgpath/}/pc/stu_list_top_mj.png" class="stu_list_top_mj" alt="">
-
                 <ul class="stu_list_info">
-
                 </ul>
-
                 <p class="stu_list_more stu_list_more3">MORE更多</p>
-
                 <ul class="list_stu_video">
-
                 </ul>
-
                 <p class="stu_list_video_more stu_list_video_more3">MORE更多</p>
-
             </div>
-
             <!-- 摄影课程作品 -->
-
             <div>
-
                 <img src="{dede:global.cfg_imgpath/}/pc/stu_list_top_sy.png" class="stu_list_top_sy" alt="">
-
                 <ul class="stu_list_info">
-
                 </ul>
-
                 <p class="stu_list_more stu_list_more4">MORE更多</p>
-
                 <ul class="list_stu_video">
-
                 </ul>
-
                 <p class="stu_list_video_more stu_list_video_more4">MORE更多</p>
-
             </div>
-
         </div>
-
     </div>
-
     <div class="jq22">
-
         {dede:arclist typeid='15' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
-
         <li>
-
             <a href="[field:arcurl/]">
-
                 <img src="images/1px.gif" realSrc="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
-
             </a>
-
         </li>
-
         {/dede:arclist}
-
     </div>
-
     <div class="jq22">
-
         {dede:arclist typeid='16' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
-
         <li>
-
             <a href="[field:arcurl/]">
-
                <img src="images/1px.gif" realSrc="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
-
            </a>
-
         </li>
-
         {/dede:arclist}
-
     </div>
-
     <div class="jq22">
-
         {dede:arclist typeid='17' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
-
         <li>
-
             <a href="[field:arcurl/]">
-
                <img src="images/1px.gif" realSrc="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
-
            </a>
-
         </li>
-
         {/dede:arclist}
-
     </div>
-
     <div class="jq22">
-
         {dede:arclist typeid='18' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
-
         <li>
-
             <a href="[field:arcurl/]">
-
               <img src="images/1px.gif" realSrc="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
-
           </a>
-
         </li>
-
         {/dede:arclist}
-
     </div>
-
     <div class="vi">
-
         {dede:arclist typeid='15' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_video_list' channelid='21'}
-
         <li>
-
             <a href="[field:arcurl/]#art_video">
-
              <img src="/static/images/pc/1px.gif" realSrc="[field:pc_video_list function='replaceurl(@me)/]" class="pc_video_list" alt="[field:title/]" />
-
              <img src="/static/images/pc/list_start.png" class="list_start" alt="">
-
          </a>
-
         </li>
-
         {/dede:arclist}
-
     </div>
-
     <div class="vi">
-
         {dede:arclist typeid='16' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_video_list' channelid='21'}
-
         <li>
-
             <a href="[field:arcurl/]">
-
              <img src="/static/images/pc/1px.gif" realSrc="[field:pc_video_list function='replaceurl(@me)/]" class="pc_video_list" alt="[field:title/]" />
-
              <img src="/static/images/pc/list_start.png" class="list_start" alt="">
-
          </a>
-
         </li>
-
         {/dede:arclist}
-
     </div>
-
     <div class="vi">
-
         {dede:arclist typeid='17' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_video_list' channelid='21'}
-
         <li>
-
             <a href="[field:arcurl/]">
-
              <img src="/static/images/pc/1px.gif" realSrc="[field:pc_video_list function='replaceurl(@me)/]" class="pc_video_list" alt="[field:title/]" />
-
              <img src="/static/images/pc/list_start.png" class="list_start" alt="">
-
          </a>
-
         </li>
-
         {/dede:arclist}
-
     </div>
-
     <div class="vi">
-
         {dede:arclist typeid='18' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_video_list' channelid='21'}
-
         <li>
-
             <a href="[field:arcurl/]">
-
              <img src="/static/images/pc/1px.gif" realSrc="[field:pc_video_list function='replaceurl(@me)/]" class="pc_video_list" alt="[field:title/]" />
-
              <img src="/static/images/pc/list_start.png" class="list_start" alt="">
-
          </a>
-
         </li>
-
         {/dede:arclist}
-
     </div>
-
     {dede:include filename="_footer.htm"/}
-
 </body>
-
 {dede:include filename="_script.htm"/}
-
-<script src="{dede:global.cfg_jspath/}/pc/_footer_hidd.js"></script>
-
-<script src="{dede:global.cfg_jspath/}/pc/list_stu.js"></script>
-
+<script src="{dede:global.cfg_jspath/}/pc/_footer_hidd.js?v=20190330"></script>
+<script src="{dede:global.cfg_jspath/}/pc/list_stu.js?v=20190330"></script>
 </html>
-
