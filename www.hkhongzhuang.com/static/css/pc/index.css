@@ -567,7 +567,7 @@
     top: 211px;
     left: -34px;
 
-    height: 600px;
+    height: 650px;
     padding-right: 34px;
     margin: 0 0 42px 34px;
 
@@ -577,11 +577,11 @@
     float: left;
 }
 .environmentdisplay_Li {
-    width: 970px;
+    width: 944px;
     height: 100%;
 }
 .environmentdisplay_Right {
-    margin-left: 62px;
+    margin-left: 60px;
 }
 .environmentdisplay_Right_index {
     font-size: 84px;
@@ -866,8 +866,8 @@
 }
 .environmentdisplay_Li .index_environmentdisplay_swiper .swiper-slide a img {
     display: block;
-    width: 970px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
 }
 .kc_hz_course5_title {
     position: absolute;
