@@ -88,7 +88,7 @@ img {
     padding-left: 20px;
     box-sizing: border-box;
     color: #fff;
-    background: url("/static/images/pc/bot_panel.png") no-repeat;
+    background: url("/static/images/pc/bot_panel.png?v=0.1") no-repeat;
     background-size: 100%;
     box-shadow: 0px 8px 22px 0px rgba(38, 58, 98, 0.15);
 }
