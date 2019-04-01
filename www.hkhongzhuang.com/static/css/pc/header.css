@@ -3,7 +3,7 @@
 * @FileName:header.css
 * @Date:   2018-12-25 10:48:21
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-03-30 09:40:56
+* @Last Modified time: 2019-04-01 09:31:05
 */
 .nav {
     width: 100%;
@@ -50,14 +50,15 @@
     color: rgb(255,255,255);
     border-radius: 12px;
 }
-.navNav ul li a:hover {
+.navNav ul li:hover {
+    border-radius: 12px;
     background: rgba(255,168,55,.5);
-    box-shadow: 5px 5px 8px rgba(245,99,37,.51);
+    box-shadow: 5px 5px 8px #ea6136;
 }
 .navNav .foc {
     border-radius: 12px;
     background: rgba(255,168,55,.5);
-    box-shadow: 5px 5px 8px rgba(245,99,37,.51);
+    box-shadow: 5px 5px 8px #ea6136;
 }
 .navNav img {
     position: absolute;
