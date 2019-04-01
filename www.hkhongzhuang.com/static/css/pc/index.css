@@ -568,7 +568,7 @@
     left: -34px;
 
     height: 650px;
-    padding-right: 34px;
+    /*padding-right: 34px;*/
     margin: 0 0 42px 34px;
 
     background: rgba(255,255,255,.85);
@@ -592,9 +592,10 @@
     text-indent: 303px;
 
     color: rgba(188,188,188,.78);
+    margin-top: 29px;
 }
 .environmentdisplay_Right_T {
-    margin-top: 20px;
+    margin-top: 42px;
 
     font-size: 40px;
     line-height: 41px;
@@ -636,7 +637,7 @@
     background: rgb(250,183,27);
 }
 .environmentdisplay_Right .swiper-pagination {
-    left: 1046px;
+    left: 1018px;
 
     margin-top: 46px;
 }
