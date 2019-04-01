@@ -571,7 +571,7 @@
     /*padding-right: 34px;*/
     margin: 0 0 42px 34px;
 
-    background: rgba(255,255,255,.85);
+    background: rgb(255,255,255);
 }
 .sw > ul > li {
     float: left;
@@ -582,6 +582,17 @@
 }
 .environmentdisplay_Right {
     margin-left: 60px;
+    position: relative;
+}
+.environmentdisplay_Right_line
+{  position: absolute;
+    width: 2px;
+    height: 117px;
+    background: rgb(242,242,242);
+    /* background: red; */
+    right: 16px;
+    top: 117px;
+    z-index: 11111111;
 }
 .environmentdisplay_Right_index {
     font-size: 84px;
@@ -615,7 +626,7 @@
     color: rgba(77,83,86,.78);
 }
 .environmentdisplay_Right_more {
-    margin-left: 12px;
+    margin-left: 3px;
 
     cursor: pointer;
 }
@@ -637,7 +648,7 @@
     background: rgb(250,183,27);
 }
 .environmentdisplay_Right .swiper-pagination {
-    left: 1018px;
+    left: 65px;
 
     margin-top: 62px;
 }
