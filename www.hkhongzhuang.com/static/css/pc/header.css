@@ -3,7 +3,7 @@
 * @FileName:header.css
 * @Date:   2018-12-25 10:48:21
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-04-01 09:26:44
+* @Last Modified time: 2019-04-01 09:31:05
 */
 .nav {
     width: 100%;
@@ -51,11 +51,9 @@
     border-radius: 12px;
 }
 .navNav ul li:hover {
+    border-radius: 12px;
     background: rgba(255,168,55,.5);
     box-shadow: 5px 5px 8px #ea6136;
-}
-.navNav ul li a:hover {
-    border-radius: 12px;
 }
 .navNav .foc {
     border-radius: 12px;
