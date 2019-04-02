@@ -2,20 +2,20 @@
 * @Author: Administrator
 * @FileName:index.css
 * @Date:   2019-01-16 14:06:05
-* @Last Modified by:   August1Rush
-* @Last Modified time: 2019-03-09 11:43:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-04-01 17:58:13
 */
 .index_tea {
     display: block;
     width: 16.0rem;
-    height: 10.773333rem;
+    height: 19.114667rem;
     margin: 0rem auto 0rem;
     overflow: hidden;
 }
 .index_envicon {
     display: block;
     width: 16.0rem;
-    height: 18.81rem;
+    height: 19.136rem;
     margin: 1.408rem auto 0;
     overflow: hidden;
     /* border: 1px solid red; */
@@ -299,8 +299,8 @@
     left: 10.261333rem;
 
     display: block;
-    width: 4.202667rem;
-    height: 1.258667rem;
+    width: 4.16rem;
+    height: 1.024rem;
 }
 .index_envicon_more_href img {
     display: block;
@@ -394,13 +394,13 @@
     text-align: center;
 }
 .new_tq2 {
-    background: rgb(246,151,0);
+    background: rgb(250,183,27);
 }.new_tq3 {
 
-    background: rgb(2,111,195);
+    background: rgb(254, 123, 0);
 }.new_tq4 {
 
-    background: rgb(110,203,189);
+    background: rgb(250,183,27);
 }
 .new_tq2_in1 {
     width: 100%;
