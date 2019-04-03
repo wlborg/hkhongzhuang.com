@@ -3,7 +3,7 @@
 * @FileName:index.css
 * @Date:   2019-01-16 14:06:05
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-04-02 15:12:26
+* @Last Modified time: 2019-04-03 10:09:36
 */
 .index_tea {
     display: block;
@@ -245,6 +245,7 @@
 }
 .index_envi {
     width: 13.504rem!important;
+    padding-top: .256rem;
     /* height: 8.341333rem; */
     margin: 2.3rem auto 0!important;
     /* border: 1px solid red; */
@@ -280,7 +281,7 @@
     font-size: .597333rem;
     line-height: .874667rem;
 
-    color: rgb(248,77,4);
+    color: rgb(0,22,33);
 }
 .index_envi_des_info {
     /* color: black; */
@@ -291,7 +292,7 @@
     font-size: .384rem;
     line-height: .49067rem;
 
-    color: rgb(77,83,86);
+    color: rgba(77,83,86,.78);
 }
 .index_envicon_more_href {
     position: absolute;
@@ -315,7 +316,7 @@
     font-size: 1.301333rem;
     line-height: .874667rem;
 
-    color: rgb(248,77,4);
+    color: rgb(236,236,236);
 }
 .index_new {
     position: relative;
