@@ -3,7 +3,7 @@
 * @FileName:index.css
 * @Date:   2019-01-16 14:06:05
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-04-03 10:09:36
+* @Last Modified time: 2019-04-03 10:37:41
 */
 .index_tea {
     display: block;
@@ -15,7 +15,7 @@
 .index_envicon {
     display: block;
     width: 16.0rem;
-    height: 19.136rem;
+    height: 20.266667rem;
     margin: 1.408rem auto 0;
     overflow: hidden;
     /* border: 1px solid red; */
@@ -271,23 +271,23 @@
     display: block;
     width: 4.394667rem;
     height: .853333rem;
-    margin: .533333rem auto 0 1.578667rem;
+    margin: .149333rem auto 0 1.578667rem;
 }
 .index_envi_des {
     display: block;
-    margin-top: .32rem;
+    margin-top: .874667rem;
     margin-left: 1.578667rem;
 
     font-size: .597333rem;
     line-height: .874667rem;
 
-    color: rgb(0,22,33);
+    color: #001621;
 }
 .index_envi_des_info {
     /* color: black; */
     display: block;
     width: 12.416rem;
-    margin: .234667rem 0 0 1.578667rem;
+    margin: .682667rem 0 0 1.578667rem;
 
     font-size: .384rem;
     line-height: .49067rem;
@@ -296,7 +296,7 @@
 }
 .index_envicon_more_href {
     position: absolute;
-    top: 14.954667rem;
+    top: 17.2rem;
     left: 10.261333rem;
 
     display: block;
@@ -310,13 +310,14 @@
 }
 .index_envicon_index {
     position: absolute;
-    top: 11.242667rem;
+    top: 12.864rem;
     left: 12.864rem;
 
-    font-size: 1.301333rem;
+    font-size: 1.493333rem;
+    font-weight: bold;
     line-height: .874667rem;
 
-    color: rgb(236,236,236);
+    color: #ececec;
 }
 .index_new {
     position: relative;
