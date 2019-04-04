@@ -866,5 +866,5 @@ body {
     /*background-size: cover;*/
 /*}*/
 .videoHide {
-    display: none;
+    display: none!important;
 }
