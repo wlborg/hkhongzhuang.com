@@ -1055,7 +1055,7 @@ body {
 .courses_article .courseDetail .block1 h2 {
     margin-bottom: .2559727rem;
 
-    font-size: .72525597rem;
+    font-size: .853333rem;
     font-weight: normal;
     font-stretch: normal;
     line-height: .85324232rem;
@@ -1078,7 +1078,7 @@ body {
     width: 1.30119454rem;
     height: .76791809rem;
 
-    font-size: .42662116rem;
+    font-size: .576rem;
     font-weight: normal;
     font-stretch: normal;
     line-height: .76791809rem;
@@ -1090,7 +1090,7 @@ body {
     background-color: #ee7a4b;
 }
 .courses_article .courseDetail .block1 dl dd {
-    font-size: .42662116rem;
+    font-size: .576rem;
     font-weight: normal;
     line-height: .76791809rem;
 
@@ -1101,10 +1101,10 @@ body {
 .courses_article .courseDetail .block1 p {
     position: relative;
 
-    padding-left: 2.1331058rem;
+    padding-left: 2.3331058rem;
     margin-top: .42662116rem;
 
-    font-size: .42662116rem;
+    font-size: .567rem;
     font-weight: normal;
     font-stretch: normal;
     line-height: .63993174rem;
@@ -1694,10 +1694,10 @@ body {
     width: 4.47952218rem;
     overflow: hidden;
 
-    font-size: .38395904rem;
+    font-size: .682667rem;
     font-weight: normal;
     font-stretch: normal;
-    line-height: .59726962rem;
+    line-height: .682667rem;
 
     text-align: left;
     white-space: nowrap;
