@@ -2,20 +2,20 @@
 * @Author: Administrator
 * @FileName:index.css
 * @Date:   2019-01-16 14:06:05
-* @Last Modified by:   August1Rush
-* @Last Modified time: 2019-03-09 11:43:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-04-03 10:37:41
 */
 .index_tea {
     display: block;
     width: 16.0rem;
-    height: 10.773333rem;
+    height: 12.458667rem;
     margin: 0rem auto 0rem;
     overflow: hidden;
 }
 .index_envicon {
     display: block;
     width: 16.0rem;
-    height: 18.81rem;
+    height: 20.266667rem;
     margin: 1.408rem auto 0;
     overflow: hidden;
     /* border: 1px solid red; */
@@ -245,6 +245,7 @@
 }
 .index_envi {
     width: 13.504rem!important;
+    padding-top: .256rem;
     /* height: 8.341333rem; */
     margin: 2.3rem auto 0!important;
     /* border: 1px solid red; */
@@ -270,37 +271,37 @@
     display: block;
     width: 4.394667rem;
     height: .853333rem;
-    margin: .533333rem auto 0 1.578667rem;
+    margin: .149333rem auto 0 1.578667rem;
 }
 .index_envi_des {
     display: block;
-    margin-top: .32rem;
+    margin-top: .874667rem;
     margin-left: 1.578667rem;
 
     font-size: .597333rem;
     line-height: .874667rem;
 
-    color: rgb(248,77,4);
+    color: #001621;
 }
 .index_envi_des_info {
     /* color: black; */
     display: block;
     width: 12.416rem;
-    margin: .234667rem 0 0 1.578667rem;
+    margin: .682667rem 0 0 1.578667rem;
 
     font-size: .384rem;
     line-height: .49067rem;
 
-    color: rgb(77,83,86);
+    color: rgba(77,83,86,.78);
 }
 .index_envicon_more_href {
     position: absolute;
-    top: 14.954667rem;
+    top: 17.2rem;
     left: 10.261333rem;
 
     display: block;
-    width: 4.202667rem;
-    height: 1.258667rem;
+    width: 4.16rem;
+    height: 1.024rem;
 }
 .index_envicon_more_href img {
     display: block;
@@ -309,13 +310,14 @@
 }
 .index_envicon_index {
     position: absolute;
-    top: 11.242667rem;
+    top: 12.864rem;
     left: 12.864rem;
 
-    font-size: 1.301333rem;
+    font-size: 1.493333rem;
+    font-weight: bold;
     line-height: .874667rem;
 
-    color: rgb(248,77,4);
+    color: #ececec;
 }
 .index_new {
     position: relative;
@@ -394,13 +396,13 @@
     text-align: center;
 }
 .new_tq2 {
-    background: rgb(246,151,0);
+    background: rgb(250,183,27);
 }.new_tq3 {
 
-    background: rgb(2,111,195);
+    background: rgb(254, 123, 0);
 }.new_tq4 {
 
-    background: rgb(110,203,189);
+    background: rgb(250,183,27);
 }
 .new_tq2_in1 {
     width: 100%;
