@@ -3,7 +3,7 @@
 * @FileName:list_stu.css
 * @Date:   2019-01-03 16:25:09
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-02-27 17:29:30
+* @Last Modified time: 2019-04-08 09:40:13
 */
 .nav {
     height: 714px;
@@ -238,4 +238,10 @@ ul {
 }
 .stu_fli2 > p {
     border: 1px solid #f75903!important;
+}
+.navNav .foc {
+    box-shadow: 5px 5px 8px 0 rgba(172, 96, 67, .51)!important;
+}
+.navNav ul li:hover {
+    box-shadow: 5px 5px 8px rgba(172, 96, 67, .51)!important;
 }
