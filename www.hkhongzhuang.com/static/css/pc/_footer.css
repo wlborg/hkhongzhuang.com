@@ -33,6 +33,7 @@ img {
 
 .link-item {
     display: inline-block;
+    width: 126px;
     min-width: 126px;
     margin-right: 60px;
 
@@ -83,14 +84,16 @@ img {
     position: absolute;
     right: 180px;
     bottom: 0;
+
     width: 312px;
     height: 506px;
     padding-left: 20px;
     box-sizing: border-box;
+
     color: #fff;
     background: url("/static/images/pc/bot_panel.png?v=0.1") no-repeat;
     background-size: 100%;
-    box-shadow: 0px 8px 22px 0px rgba(38, 58, 98, 0.15);
+    box-shadow: 0 8px 22px 0 rgba(38, 58, 98, .15);
 }
 .online-Reg {
     height: 27px;
@@ -169,6 +172,7 @@ img {
     width: 158px;
     margin-top: 14px;
     margin-left: 40px;
+
     text-align: center;
 }
 .er-icon img {
@@ -182,7 +186,9 @@ img {
 }
 .er-icon .er-txt {
     margin-top: 2px;
+
     font-size: 14px;
+
     color: #fff;
 }
 
@@ -203,15 +209,20 @@ img {
 }
 #footer p {
     font-size: 13px;
+
     opacity: .7;
     color: #fff;
 }
 #footer a {
     /* color: #ccc; */
     font-size: 13px;
+
     opacity: .7;
     color: #fff;
-}#footer .copy {font-size: 13px;}
+}#footer .copy {
+
+    font-size: 13px;
+}
 
 #flink {
     width: 900px;
@@ -235,10 +246,10 @@ img {
     margin-right: 10px;
 }a,
 
- a:focus,
- a:hover {
-     text-decoration: none;
- }
+a:focus,
+a:hover {
+    text-decoration: none;
+}
 .footer_HAIKOU,
 .Footer_Copyright {
     opacity: 1!important;
