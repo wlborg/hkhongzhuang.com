@@ -546,15 +546,12 @@
 .index_envi_title {
     top: 77px;
     left: 50%;
-
     display: block;
     width: 752px;
     margin-left: -376px;
-
     font-size: 58px;
     line-height: 48px;
-
-    color: rgb(255,255,255);
+    color: rgba(255,255,255,0.59);
 }
 .environmentdisplayImg_TIT {
     top: 84px;
