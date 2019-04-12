@@ -74,14 +74,12 @@ self.addEventListener('unhandledrejection', function (event) {
 window.addEventListener('load', () => {
     // tools_kst.addKSTScript();
     // 初始化 quicklink
-    quicklink({ priority: true,
-
-      ignores:[
-             /baidu/,
-             /kuaishang/,
-              uri => uri.includes('.php'),
-       ]
-
+    quicklink({
+        priority: true,
+        origins:[
+            'www.hkhongzhuang.com',
+            'm.hkhongzhuang.com'
+        ]
      });
     //                //添加百度快商通
     // var tools_kst = (
