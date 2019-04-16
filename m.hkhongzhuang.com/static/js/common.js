@@ -4,7 +4,7 @@
  * @File name: common.js
  * @Date:   2019-02-23 16:40:21
  * @Last Modified by:   chaihongjun
- * @Last Modified time: 2019-03-25 11:48:17
+ * @Last Modified time: 2019-04-15 08:45:33
  * @Description: 移动端JS配置文件.
  */
 $(function() {
@@ -141,12 +141,12 @@ self.addEventListener('error', function (event) {
   // report error msg
 });
 
-self.addEventListener('unhandledrejection', function (event) {
-  // event.reason
-  if (/Quota exceeded/i.test(event.reason)) {
-    // maybe clean some cache here
-  }
+self.addEventListener('unhandledrejection', function(event) {
+    reportError({
+        message: event.reason
+    })
 });
+
 
 
 
@@ -203,11 +203,10 @@ self.addEventListener('unhandledrejection', function (event) {
 window.addEventListener('load', () => {
     quicklink({
         priority: true,
-        ignores:[
-             /baidu/,
-             /kuaishang/,
-              uri => uri.includes('.php'),
-       ]
+         origins:[
+            'www.hkhongzhuang.com',
+            'm.hkhongzhuang.com'
+        ]
 
      });
 });
