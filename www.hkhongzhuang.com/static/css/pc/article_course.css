@@ -68,12 +68,12 @@ img {
 }
 .swiper-button-next.swiper-button-black,
 .swiper-container-rtl .swiper-button-prev.swiper-button-black {
-    background-image: url("https://v3.hkhongzhuang.com/static/images/pc/ari_course/swiper-right.png");
+    background-image: url("https://www.hkhongzhuang.com/static/images/pc/ari_course/swiper-right.png");
     background-size: 22px 41px;
 }
 .swiper-button-prev.swiper-button-black,
 .swiper-container-rtl .swiper-button-next.swiper-button-black {
-    background-image: url("https://v3.hkhongzhuang.com/static/images/pc/ari_course/swiper-left.png");
+    background-image: url("https://www.hkhongzhuang.com/static/images/pc/ari_course/swiper-left.png");
     background-size: 22px 41px;
 }
 .swiper .swiper-button-next,
@@ -574,12 +574,12 @@ img {
 
 .swiper-1 .swiper-button-next.swiper-button-black,
 .swiper-container-rtl .swiper-button-prev.swiper-button-black {
-    background-image: url("https://v3.hkhongzhuang.com/static/images/pc/ari_course/swiper1-right.jpg");
+    background-image: url("https://www.hkhongzhuang.com/static/images/pc/ari_course/swiper1-right.jpg");
     background-size: 11px 20px;
 }
 .swiper-1 .swiper-button-prev.swiper-button-black,
 .swiper-container-rtl .swiper-button-next.swiper-button-black {
-    background-image: url("https://v3.hkhongzhuang.com/static/images/pc/ari_course/swiper1-left.jpg");
+    background-image: url("https://www.hkhongzhuang.com/static/images/pc/ari_course/swiper1-left.jpg");
     background-size: 11px 20px;
 }
 .swiper-1 .swiper-button-next,
