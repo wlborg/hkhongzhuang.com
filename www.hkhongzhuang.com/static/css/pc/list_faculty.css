@@ -46,30 +46,30 @@ ul {
     background-position: 15px 15px;
 }
 #teacher_tab > ul > li:nth-of-type(1) {
-    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab1.png") no-repeat 25px;
+    background: url("https://www.hkhongzhuang.com/static/images/pc/icon/list_teach_tab1.png") no-repeat 25px;
 }
 #teacher_tab > ul > li:nth-of-type(1).teacher_fli2 {
-    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab1_foucs.png") no-repeat 25px rgb(248,77,4) !important;
+    background: url("https://www.hkhongzhuang.com/static/images/pc/icon/list_teach_tab1_foucs.png") no-repeat 25px rgb(248,77,4) !important;
     background: rgb(248,77,4);
 }
 #teacher_tab > ul > li:nth-of-type(2) {
-    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab2.png") no-repeat 25px;
+    background: url("https://www.hkhongzhuang.com/static/images/pc/icon/list_teach_tab2.png") no-repeat 25px;
 }
 #teacher_tab > ul > li:nth-of-type(2).teacher_fli2 {
-    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab2_foucs.png") no-repeat 25px  rgb(248,77,4) !important;
+    background: url("https://www.hkhongzhuang.com/static/images/pc/icon/list_teach_tab2_foucs.png") no-repeat 25px  rgb(248,77,4) !important;
     background: rgb(248,77,4);
 }
 #teacher_tab > ul > li:nth-of-type(3) {
-    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab3.png") no-repeat 25px;
+    background: url("https://www.hkhongzhuang.com/static/images/pc/icon/list_teach_tab3.png") no-repeat 25px;
 }
 #teacher_tab > ul > li:nth-of-type(3).teacher_fli2{
-    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab3_foucs.png") no-repeat 25px  rgb(248,77,4) !important;
+    background: url("https://www.hkhongzhuang.com/static/images/pc/icon/list_teach_tab3_foucs.png") no-repeat 25px  rgb(248,77,4) !important;
 }
 #teacher_tab > ul > li:nth-of-type(4) {
-    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab4.png") no-repeat 25px;
+    background: url("https://www.hkhongzhuang.com/static/images/pc/icon/list_teach_tab4.png") no-repeat 25px;
 }
 #teacher_tab > ul > li:nth-of-type(4).teacher_fli2 {
-    background: url("//v3.hkhongzhuang.com/static/images/pc/icon/list_teach_tab4_foucs.png") no-repeat 25px rgb(248,77,4) !important;
+    background: url("https://www.hkhongzhuang.com/static/images/pc/icon/list_teach_tab4_foucs.png") no-repeat 25px rgb(248,77,4) !important;
     background: rgb(248,77,4);
 }
 #tea_list_Con > div {
