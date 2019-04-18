@@ -856,11 +856,11 @@ body #LXB_CONTAINER.lxb-container-mobile-4 .lxb-cb-input-feedback {
 }
 
 .index_footer {
-    margin-bottom: 4.048rem!important;
+    /*margin-bottom: 4.048rem!important;*/
 }
-.index_footer_nav {
-    bottom: 2.05rem!important;
-}
+/*.index_footer_nav {*/
+    /*bottom: 2.05rem!important;*/
+/*}*/
 .footer2 {
     margin-bottom: 2.048rem!important;
 }
