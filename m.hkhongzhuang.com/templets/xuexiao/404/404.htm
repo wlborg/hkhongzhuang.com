@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>对不起，您访问的页面不存在！</title>
+    {dede:include filename="_meta_tdk_index.htm"/}
+    {dede:include filename="_meta.htm"/}
+    {dede:include filename="_link_index.htm"/}
+    {dede:include filename="_link.htm"/}
+    <script type="text/javascript" src="/static/js/mobile-util.js"></script>
+    <style>
+        a, body { color: #000; }
+        body, dd, dl, dt, form, h1, h2, h3, h4, h5, h6, html, input, label, li, p, textarea, ul { margin: 0; padding: 0; }
+        form { display: inline; }
+        img { border: 0; }
+        td { word-break: break-all; }
+        dd, dl, dt, li, ul { list-style: none; }
+        a { text-decoration: none; }
+
+        /* a:hover {
+            color:black;
+        } */
+        body { background: #fff; font-family: "微软雅黑", sans-serif, Verdana, Arial; }
+        .f-fr { float: right; }
+        .f-fl { float: left; }
+        .f-cb:after { display: block; visibility: hidden; height: 0; overflow: hidden; clear: both; content: "."; }
+        .f-cb { zoom: 1; }
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; }
+        .notfind .g-container { min-width: 15.99829352rem; }
+        .notfind .g-container .g-doc { width: 15.99829352rem; margin: 0 auto; }
+        .notfind .banner { background: url('https://m.hkhongzhuang.com/static/images/banner404.jpg') center center no-repeat; height: 21.5443686rem; background-size: auto 100%; }
+        .notfind .heading { margin-top: 1.70648464rem; padding-bottom: 0.63993174rem; position: relative; }
+        .notfind .heading h2 { margin-left: 1.0665529rem; position: relative; font-size: 0.63993174rem; font-weight: normal; font-stretch: normal; line-height: 0.63993174rem; letter-spacing: 0px; color: #4d4d4d; }
+        .notfind .heading h2:after { display: block; content: 'COSMETIC TRAINING COURSE'; text-transform: uppercase; position: absolute; left: 0; bottom: -0.42662116rem; font-size: 0.34129693rem; font-weight: normal; font-stretch: normal; line-height: 0.34129693rem; letter-spacing: 1px; color: #202020; opacity: 0.3; }
+        .notfind .heading .more { position: absolute; top: 0; right: 0.63993174rem; margin-right: 0.21331058rem; width: 2.1331058rem; height: 0.72525597rem; border: solid 1px #8c8c8b; text-align: center; font-size: 0.42662116rem; font-weight: normal; font-stretch: normal; line-height: 0.72525597rem; letter-spacing: 0px; color: #4d4d4d;  /*float: right;*/ }
+        .notfind .morepcourse { margin-top: 0.63993174rem; margin-bottom: 3.11433447rem; padding: 0 0.68259386rem; }
+        .notfind .morepcourse a { display: block; float: left; border-radius: 10px; overflow: hidden; margin: 0.12798635rem; }
+        .notfind .morepcourse a img { width: 7.03924915rem; height: 4.43686007rem; display: block; }
+
+    </style>
+</head>
+
+<body>
+    <div class="notfind">
+        <div class="g-container banner">
+            <div class="g-doc">
+                <h1 class="sr-only">
+                    404,页面不慎走丢哦！
+                </h1>
+              
+            </div>
+        </div>
+        <div class="g-container ">
+            <div class="g-doc">
+                <div class="heading ">
+                    <h2>更多精彩课程</h2>
+                    <a class="more" href="https://m.hkhongzhuang.com/course">
+                        更多+
+                    </a>
+                </div>
+                <div class="g-content morepcourse f-cb">
+                    {dede:arclist typeid='3' row='4' flag='c' orderby='id' orderway='desc' infolen='30' addfields='pc_coures_artnew' channelid='20'}
+                    <a href="[field:arcurl/]">
+                        <img src="[field:pc_coures_artnew function='replaceurl(@me)/]" alt="[field:title/]">
+                    </a>
+                    {/dede:arclist}
+                </div>
+            </div>
+        </div>
+    </div>
+    {dede:include filename="_footer.htm"/}
+</body>
+
+</html>
