@@ -764,7 +764,7 @@ img {
     font-size: 22px;
 
     color: rgba(255, 255, 255, .9);
-    background: url("../images/part5-j.jpg") no-repeat right 5px;
+    background: url("../../images/part5-j.jpg") no-repeat right 5px;
     background-size: 25px 17px;
 }
 .swiper-container-2 .swiper-wrapper .swiper-slide li {
