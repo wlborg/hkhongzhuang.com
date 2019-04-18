@@ -58,10 +58,14 @@
                         </div>
                         <div class="bottomnav">
                             <div class="prev"><i class="icon_prev"></i>
-                                {dede:prenext get='pre'/}
+                                {dede:likearticle orderby='ids' row='1'}
+                              <a href="[field:arcurl/]"  title="[field:fulltitle/]" target="_blank">[field:title/]</a>
+                                {/dede:likearticle}
                             </div>
                             <div class="next"> <i class="icon_next"></i>
-                                {dede:prenext get='next'/}
+                                {dede:likearticle orderby='id' row='1'}
+                              <a href="[field:arcurl/]"  title="[field:fulltitle/]" target="_blank">[field:title/]</a>
+                                {/dede:likearticle}
                             </div>
                         </div>
                     </div>
