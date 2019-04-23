@@ -51,6 +51,8 @@ foreach($_FILES as $_key=>$_value)
     if(in_array(strtolower(trim(${$_key.'_type'})), $imtypes))
     {
         $image_dd = @getimagesize($$_key);
+             //修复 dedecms上传漏洞
+        if($image_dd == false){ continue; }
         if (!is_array($image_dd))
         {
             exit('Upload filetype not allow !');

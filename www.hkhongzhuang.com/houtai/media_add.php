@@ -67,6 +67,12 @@ if($dopost=="upload")
                 MkdirAll($cfg_basedir.$savePath,777);
                 CloseFtp();
             }
+            //修复 dedecms后台文件任意上传漏洞
+            if (preg_match('#\.(php|pl|cgi|asp|aspx|jsp|php5|php4|php3|shtm|shtml)[^a-zA-Z0-9]+$#i', trim($filename))) 
+                    { 
+                        ShowMsg("你指定的文件名被系统禁止！", 'javascript:;');
+                            exit(); 
+                     }
             $fullfilename = $cfg_basedir.$filename;
             if($mediatype==1)
             {
