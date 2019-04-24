@@ -41,15 +41,17 @@
             </div>
             <div class="article_main_con_1">
                 <ul class="page _pos_relative ">
-                   <li><img src="{dede:global.cfg_imgpath/}/pc/page_pre.png" alt="">
-                            {dede:likearticle orderby='ids' row='1'}
-                              <a href="[field:arcurl/]"  title="[field:fulltitle/]" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;上一篇:&nbsp;[field:title/]</a>
-                            {/dede:likearticle}
-                   </li>
-                    <li><img src="{dede:global.cfg_imgpath/}/pc/page_next.png" class="page_next" alt="">
-                            {dede:likearticle orderby='id' row='1'}
-                              <a href="[field:arcurl/]"  title="[field:fulltitle/]" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;下一篇:&nbsp;[field:title/]</a>
-                            {/dede:likearticle}
+                    <li>
+                        <img src="{dede:global.cfg_imgpath/}/pc/page_pre.png" alt="">
+                        {dede:likearticle col='2' row='1' titlelen='48' orderby='ids' eregtype=all|tag|keyword}
+                             <a href="[field:arcurl/]"  title="[field:fulltitle/]" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;上一篇:&nbsp;[field:title/]</a>
+                        {/dede:likearticle}
+                    </li>
+                    <li>
+                        <img src="{dede:global.cfg_imgpath/}/pc/page_next.png" class="page_next alt="">
+                        {dede:likearticle col='2' row='1' titlelen='48' orderby='id' eregtype=all|tag|keyword}
+                             <a href="[field:arcurl/]"  title="[field:fulltitle/]" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;下一篇:&nbsp;[field:title/]</a>
+                        {/dede:likearticle}
                     </li>
                 </ul>
                 <p class="article_news_c">相关新闻</p>
