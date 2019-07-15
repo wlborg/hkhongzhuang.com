@@ -108,14 +108,14 @@ body {
 .box3_min-ca2 li img{width: 14.933333rem;height: 18.069333rem;}
 .box3_min-ca2 li p:nth-of-type(1){font-size: 0.682667rem;color: rgb(77,74,71);font-family: "SourceHanSansCN-Normal";position: absolute;left:1.6rem;top: 13.930667rem;}
 .box3_min-ca2 li p:nth-of-type(2){width: 14.08rem; font-size: 0.426667rem;color: rgb(77,74,71);font-family: "SourceHanSansCN-Normal";position: absolute;left:0.426667rem;top: 15.36rem;}
-.box3 .box_zx{width: 6.677333rem;height: 1.450667rem;margin: 0 auto; margin-top: 1.066667rem;display: block;}
+.box3 .box_zx{width: 8.128rem;height: 1.450667rem;margin: 0 auto; margin-top: 1.066667rem;display: block;}
 
 .box4{width: 100%; margin-top: 1.92rem;}
 .box4_min{margin-top: 1.066667rem;}
 .box4_min_ca{overflow: hidden;margin-bottom: 1.6rem;}
 .box4_min_ca_left{width: 5.781333rem;float: left;margin-right: 1.28rem;margin-left: 1.066667rem;}
 .box4_min_ca_left img{width: 5.781333rem;height: 5.781333rem;}
-.box4_min_ca_right{width: 5.866667rem;float: left;margin-top: 0.64rem;}
+.box4_min_ca_right{width: 5.866667rem;float: left;margin-top: 0rem;}
 .t_name{font-size: 0.746667rem;color: rgb(222,87,31);font-family: "SourceHanSansCN-Medium";}
 .t_name span{vertical-align: -6%;margin-right: 0.213333rem;}
 .t_name span img{width: 0.533333rem;height: 0.768rem;}
