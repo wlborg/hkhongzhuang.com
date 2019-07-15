@@ -1,0 +1,160 @@
+html,body{width: 100%;padding: 0;margin: 0;}
+a{ -webkit-tap-highlight-color: transparent;-webkit-touch-callout: none;-webkit-user-select: none;text-decoration: none;}
+a:hover{text-decoration: none;}
+p,ul, ol{list-style: none;margin: 0;padding: 0;}
+
+body {
+    font-family: "Microsoft YaHei","SourceHanSansCN-Bold",Arial,Helvetica,sans-serif;
+    overflow-x: hidden;
+    position: relative;
+}
+
+@font-face {
+    font-family: "SourceHanSansCN-Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/SourceHanSansCN-Bold.ttf") format("truetype"),url("../fonts/SourceHanSansCN-Bold.woff") format("woff"), url("../fonts/SourceHanSansCN-Bold.svg") format("svg");
+}
+@font-face {
+    font-family: "FuturaStd-Book";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/FuturaStd-Book.ttf") format("truetype"),url("../fonts/FuturaStd-Book.woff") format("woff"), url("../fonts/FuturaStd-Book.svg") format("svg");
+}
+@font-face {
+    font-family: "SourceHanSansCN-Normal";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/SourceHanSansCN-Normal.ttf") format("truetype"),url("../fonts/SourceHanSansCN-Normal.woff") format("woff"), url("../fonts/SourceHanSansCN-Normal.svg") format("svg");
+}
+@font-face {
+    font-family: "SourceHanSansCN-Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/SourceHanSansCN-Medium.ttf") format("truetype"),url("../fonts/SourceHanSansCN-Medium.woff") format("woff"), url("../fonts/SourceHanSansCN-Medium.svg") format("svg");
+}
+@font-face {
+    font-family: "SourceHanSansCN-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/SourceHanSansCN-Regular.ttf") format("truetype"),url("../fonts/SourceHanSansCN-Regular.woff") format("woff"), url("../fonts/SourceHanSansCN-Regular.svg") format("svg");
+}
+
+.main{width: 16.0rem;margin: 0 auto;}
+.banner{width: 100%;line-height: 0;}
+.banner a img{width: 100%;height: auto;}
+.box1{width: 100%;margin-top: 2.133333rem;padding: 0 0.426667rem;box-sizing: border-box;}
+.box_title{text-align: center;}
+.box_title img{width: 7.829333rem;height: 0.298667rem;}
+.box_title_Z{font-size: 0.96rem;color: rgb(77,74,71);font-family: "SourceHanSansCN-Bold";line-height: 0.96rem;margin-bottom: 0.149333rem;}
+.box_title_E{font-size: 0.384rem;color: rgb(254,195,76);font-family: "FuturaStd-Book";margin-top: 0.106667rem;}
+.box1_con{width: 13.333333rem;margin: 0 auto; margin-top: 0.490667rem;font-size: 0.469333rem;font-family: "SourceHanSansCN-Normal";text-align: center;color: rgb(77,75,71);}
+.box1_con span{color: rgb(222,87,31);}
+.box1 ul{width: 15.146667rem;overflow: hidden;margin-top: 0.96rem;}
+.box1 li{width: 15.146667rem;height: 5.376rem;margin-bottom: 0.170667rem;position: relative;}
+.box1 li img{width: 100%;height: 100%;}
+.box1_ti1{position: absolute;top:1.002667rem;left:0.533333rem;}
+.box1_ti1 p:nth-of-type(1){font-size: 0.746667rem;font-family: "SourceHanSansCN-Medium";color: rgb(222,87,31);line-height: 0.746667rem;}
+.box1_ti1 p:nth-of-type(2){width: 9.706667rem; font-size: 0.469333rem;font-family: "SourceHanSansCN-Normal";color: rgb(77,74,71);line-height: 0.746667rem;margin-top: 0.64rem;}
+.box1_ti1 p span{display: block;}
+.box1 .box_zx{width: 8.597333rem;height: 1.450667rem;margin: 0 auto; margin-top: 0.853333rem;display: block;}
+.box_zx img{width: 100%;height: 100%;}
+
+.box2{width: 100%; margin-top: 0.853333rem;padding-top: 0.96rem;background: rgb(250,250,250);padding-bottom: 0.64rem;}
+.box2_min{width: 100%;margin-top: 0.853333rem;background: rgb(230,230,230);overflow: hidden;padding-top: 0.768rem;padding-bottom: 1.28rem;}
+.box2_min_left{float: left;}
+.box2_min_left ul{width: 2.090667rem;}
+.box2_min_left li{width: 2.090667rem;height: 3.84rem;padding-top: 1.066667rem;padding-left: 0.426667rem;box-sizing: border-box;position: relative;}
+.box2_min_left li p{width: 1.28rem;height: 1.706667rem; font-size: 0.512rem;color: rgb(77,74,71);font-family: "SourceHanSansCN-Regular";line-height: 0.597333rem;padding-left: 0.170667rem;box-sizing: border-box;}
+.p_line{border-left: 0.064rem solid rgb(222,87,31);}
+.bg_active{background: rgb(254,195,76);}
+.box2_min_left li:last-of-type .p_line{height: 2.304rem;}
+.box2_min_left li.bg_active img{display: block; position: absolute;right:-0.234667rem;top:1.792rem;width: 0.234667rem;height: 0.469333rem;z-index: 11;}
+.box2_min_left li img{display: none;}
+.box2_min_right{float: left;background: #ffffff;position: relative;}
+.box2_min_right li{width: 13.504rem;height: 15.936rem;display: none;}
+.box2_min_right li.right_active{display: block;}
+.box2_li_right_con{margin-top: 1.173333rem;display: none;overflow: hidden;}
+.right_con_ka{width: 6.613333rem;padding-left: 0.704rem;box-sizing: border-box;float: left;height: 7.04rem;}
+.tais{height: 8.106667rem;}
+.taid{height: 6.186667rem;}
+.right_con_ka p{font-size: 0.426667rem;color: rgb(77,74,71);font-family: "SourceHanSansCN-Normal";line-height: 0.64rem;}
+.right_con_ka p:first-of-type{font-size: 0.554667rem;font-family: "SourceHanSansCN-Regular";margin-bottom: 0.32rem;}
+.right_con_ka p span{display: inline-block;width: 0.128rem;height: 0.128rem;border-radius: 50%;background: rgb(222,87,31);vertical-align: -36%;margin-right: 0.106667rem;}
+.con_active{display: block;}
+.right_anniu{position: absolute;bottom: 0.64rem;right: 0.32rem;}
+.right_anniu p{width: 58px;height: 1.066667rem;font-size: 0.682667rem;color: #ffffff;font-family: "SourceHanSansCN-Regular";line-height: 1.066667rem;text-align: center;background: rgb(220,220,220);float: left;margin-right: 0.213333rem;}
+.right_anniu p:nth-of-type(1){border-radius: 0.533333rem 0 0 0.533333rem;}
+.right_anniu p:nth-of-type(2){border-radius: 0 0.533333rem 0.533333rem 0;}
+.right_anniu p.bg_anniu{background: rgb(222,87,31);}
+.box2 .box_zx{width: 10.133333rem;height: 1.450667rem;margin: 0 auto; margin-top: 0.853333rem;display: block;}
+
+.box3{width: 100%; margin-top: 0.426667rem;}
+.box3_min{width: 14.933333rem;margin: 0 auto;}
+.box3_min-ca1{overflow: hidden;margin-top: 0.853333rem;}
+.box3_min-ca1 li{width: 7.36rem;height: 2.944rem;background: rgb(254,195,76);float: left;margin-right: 0.213333rem;margin-bottom: 0.170667rem;}
+.box3_min-ca1 li:nth-of-type(2n){margin-right: 0;}
+.box3_min-ca1 li:nth-of-type(1) img{width: 1.28rem;height: 1.088rem;margin-top: 1.024rem;margin-left: 1.258667rem;float: left;margin-right: 0.512rem;}
+.box3_min-ca1 li p{font-size: 0.512rem;color: rgb(55,50,45);font-family: "SourceHanSansCN-Medium";line-height: 0.704rem;float: left;margin-top: 0.874667rem;}
+.box3_min-ca1 li:nth-of-type(1) p{width: 2.56rem;}
+.box3_min-ca1 li:nth-of-type(2) img{width: 1.066667rem;height: 1.109333rem;margin-top: 1.024rem;margin-left: 1.258667rem;float: left;margin-right: 0.512rem;}
+.box3_min-ca1 li:nth-of-type(2) p{width: 3.2rem;}
+.box3_min-ca1 li:nth-of-type(3) img{width: 0.832rem;height: 1.194667rem;margin-top: 0.96rem;margin-left: 1.386667rem;float: left;margin-right: 0.704rem;}
+.box3_min-ca1 li:nth-of-type(3) p{width: 2.133333rem;}
+.box3_min-ca1 li:nth-of-type(4) img{width: 1.109333rem;height: 1.088rem;margin-top: 1.024rem;margin-left: 1.258667rem;float: left;margin-right: 0.512rem;}
+.box3_min-ca1 li:nth-of-type(4) p{width: 2.666667rem;}
+.box3_min-ca2{overflow: hidden;margin-top: 0.853333rem;}
+.box3_min-ca2 li{width: 14.933333rem;height: 18.069333rem;margin-bottom: 0.64rem;position: relative;}
+.box3_min-ca2 li img{width: 14.933333rem;height: 18.069333rem;}
+.box3_min-ca2 li p:nth-of-type(1){font-size: 0.682667rem;color: rgb(77,74,71);font-family: "SourceHanSansCN-Normal";position: absolute;left:1.6rem;top: 13.930667rem;}
+.box3_min-ca2 li p:nth-of-type(2){width: 14.08rem; font-size: 0.426667rem;color: rgb(77,74,71);font-family: "SourceHanSansCN-Normal";position: absolute;left:0.426667rem;top: 15.36rem;}
+.box3 .box_zx{width: 6.677333rem;height: 1.450667rem;margin: 0 auto; margin-top: 1.066667rem;display: block;}
+
+.box4{width: 100%; margin-top: 1.92rem;}
+.box4_min{margin-top: 1.066667rem;}
+.box4_min_ca{overflow: hidden;margin-bottom: 1.6rem;}
+.box4_min_ca_left{width: 5.781333rem;float: left;margin-right: 1.28rem;margin-left: 1.066667rem;}
+.box4_min_ca_left img{width: 5.781333rem;height: 5.781333rem;}
+.box4_min_ca_right{width: 5.866667rem;float: left;margin-top: 0.64rem;}
+.t_name{font-size: 0.746667rem;color: rgb(222,87,31);font-family: "SourceHanSansCN-Medium";}
+.t_name span{vertical-align: -6%;margin-right: 0.213333rem;}
+.t_name span img{width: 0.533333rem;height: 0.768rem;}
+.t_con{font-size: 0.64rem;color: rgb(77,74,71);font-family: "SourceHanSansCN-Medium";border-bottom: 0.042667rem solid rgb(153,153,153);line-height: 1.28rem;}
+.t_xue{font-size: 0.469333rem;color: rgb(77,74,71);font-family: "SourceHanSansCN-Normal";margin-top: 0.426667rem;}
+.t_xue span{display: block;}
+.last_ca{width: 7.04rem;}
+.box4 .box_zx{width: 6.677333rem;height: 1.450667rem;margin: 0 auto; margin-top: 1.066667rem;display: block;}
+
+.box5{width: 100%; margin-top: 1.92rem;}
+.box5_min{width: 14.933333rem;margin: 0 auto;margin-top: 1.066667rem;}
+.box5_min img{width: 100%;height: auto;margin-bottom: 0.128rem;}
+.box5 .box_zx{width: 6.101333rem;height: 1.450667rem;margin: 0 auto; margin-top: 1.066667rem;display: block;}
+
+.box6{width: 100%; margin-top: 1.92rem;}
+.box6_min{width: 14.933333rem;margin: 0 auto;margin-top: 1.066667rem;}
+.box6_min img{width: 100%;height: auto;margin-bottom: 0.128rem;}
+.box6 .box_zx{width: 5.610667rem;height: 1.450667rem;margin: 0 auto; margin-top: 0.853333rem;display: block;}
+
+.box7{width: 100%; margin-top: 1.92rem;padding-bottom: 1.066667rem;}
+.box7_min{width: 13.845333rem;margin: 0 auto;margin-top: 0.853333rem;}
+.box7_min a{width: 13.845333rem;height: 1.6rem;background: rgb(217,217,217);font-size: 0.64rem;color: rgb(77,74,71);font-family: "SourceHanSansCN-Medium";line-height: 1.6rem;display: block;margin-bottom: 0.597333rem;}
+.box7_min span img{width: 0.896rem;height: 0.896rem;margin-right: 0.64rem;margin-left: 1.28rem; vertical-align: -15%;}
+
+
+
+.zx{animation: myfirst 1s infinite;}
+
+@keyframes myfirst {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
