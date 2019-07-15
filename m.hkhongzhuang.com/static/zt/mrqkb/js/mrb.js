@@ -15,5 +15,15 @@ $(document).ready(function () {
         $(this).parents(".right_active").find(".box2_li_right_con").removeClass("con_active");
         $(this).parents(".right_active").find(".box2_li_right_con").eq(p).addClass("con_active");
     })
+	setInterval(function () {
+       var y=$(".box2_min_left li.bg_active").index();
+       console.log(y);
+       if (y>1){
+           y=-1;
+           $(".box2_min_left li").eq(y+1).click();
+       }else {
+           $(".box2_min_left li").eq(y+1).click();
+       }
+    },2000);
 
 })
