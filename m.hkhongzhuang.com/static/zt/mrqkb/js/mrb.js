@@ -1,5 +1,5 @@
 $(document).ready(function () {
-     $(".box2_min_left li").mouseenter(function () {
+     $(".box2_min_left li").click(function () {
          $(".box2_min_left li").removeClass("bg_active");
          $(this).addClass("bg_active");
          $(".box2_min_left li p").removeClass("p_line");
