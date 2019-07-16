@@ -45,7 +45,7 @@ body {
 .banner img{width: 100%;min-width: 1400px;}
 .box1{width: 1231px;margin: 0 auto; margin-top: 100px;}
 .box_title{text-align: center;}
-.box_title img{width: 539px;height: 13px;}
+.box_title img{width: 539px;height: 13px;margin: 0 auto;}
 .box_title_Z{font-size: 65px;color: rgb(77,74,71);font-family: "SourceHanSansCN-Bold";line-height: 65px;margin-bottom: 10px;}
 .box_title_E{font-size: 40px;color: rgb(254,195,76);font-family: "DIN-Bold";margin-top: 10px;opacity: 0.3;}
 .box1_con{margin-top: 50px; text-align: center;font-family: "SourceHanSansCN-Normal";font-size: 22px;color: rgb(49,49,49);line-height: 36px;}
@@ -53,7 +53,7 @@ body {
 .box1 ul{margin-top: 70px;overflow: hidden;}
 .box1 li{width: 294px;height: 377px;background: rgb(242,242,242);text-align: center;float: left;margin-right: 17px;}
 .box1 li:last-of-type{margin-right: 0;}
-.box1 li img{margin-top: 38px;}
+.box1 li img{margin: 0 auto;margin-top: 38px;}
 .box1_ti1{margin-top: 20px;}
 .box1_ti1 p{font-size: 30px;font-family: "SourceHanSansCN-Regular";color: rgb(49,49,49);text-align: center;line-height: 33px;}
 .box1_ti1 p:nth-of-type(1){margin-bottom: 10px;}
@@ -139,11 +139,11 @@ body {
 .box5 .box_zx{width: 338px;height: 80px;margin: 0 auto; margin-top: 70px;display: block;}
 
 .box7{width: 1332px;margin: 0 auto;margin-top: 100px;padding-bottom: 100px;}
-.box7 .box_title_Z img{width: 59px;height: 66px;vertical-align: -10%;}
+.box7 .box_title_Z img{width: 59px;height: 66px;vertical-align: -10%;display:inline-block;}
 .box7_min{margin-top: 80px;overflow: hidden;}
 .box7_min a{width: 649px;height: 83px;background: rgb(217,217,217);font-size: 32px;color: rgb(77,74,71);font-family: "SourceHanSansCN-Medium";line-height: 83px;display: block;margin-bottom: 40px;float: left;margin-right: 30px;}
 .box7_min a:nth-of-type(2n){margin-right: 0;}
-.box7_min span img{width:52px;height:52px;margin-right: 14px;margin-left: 31px; vertical-align: -15%;}
+.box7_min span img{width:52px;height:52px;margin-right: 14px;margin-left: 31px; vertical-align: -15%;display:inline-block;}
 
 .zx{animation: myfirst 1s infinite;}
 
