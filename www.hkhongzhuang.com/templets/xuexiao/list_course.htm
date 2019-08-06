@@ -4,7 +4,7 @@
 * @File name: list_course.htm
 * @Date:   2019-02-23 12:27:04
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-03-30 15:00:36
+* @Last Modified time: 2019-08-02 12:19:46
 * @Description: 课程列表页.
 --><html lang="cmn-hans">
 <head>
@@ -26,7 +26,7 @@
             </div>
             <div class="list-1">
                 <ul class="clearFix">
-                    {dede:arclist typeid='4' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_defau' channelid='20'}
+                    {dede:arclist typeid='4' flag='c' orderby='weight' orderway='desc' infolen='70' addfields='pc_defau' channelid='20'}
                     <li class="item">
                         <a href="[field:arcurl/]">
                         <img src="[field:pc_defau function='replaceurl(@me)/]" alt="[field:title/]">
