@@ -10,7 +10,7 @@
 
 * @Last Modified by:   Administrator
 
-* @Last Modified time: 2019-08-19 16:01:14
+* @Last Modified time: 2019-08-20 15:45:33
 
 * @Description: 首页
 
@@ -753,114 +753,45 @@
         <div class="index_new_swiper">
 
             <div class="swiper-wrapper">
-
+                {dede:arclist typeid='1' row='3' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='17'}
                 <div class="swiper-slide">
 
-                    <a href="/news/29.html">
+                    <a href="[field:arcurl/]">
 
-                        <img alt="年度回顾 | 2018感恩所有遇" class="swiper-lazy" src="https://v3.hkhongzhuang.com/uploads/190111/1-1Z1111F419453.jpg">
+                        <img alt="[field:title/]" class="swiper-lazy" src="[field:pc_list function='replaceurl(@me)/]">
 
                         <div class="index_new_tmd _pos_absolute "> </div>
 
                         <div class="index_new_ny _pos_absolute">
 
-                            12-30
+                            [field:pubdate function='strftime("%m-%d",@me)'/]
 
                         </div>
 
                         <div class="index_new_r _pos_absolute">
 
-                            2018
+                             [field:pubdate function='strftime("%Y",@me)'/]
 
                         </div>
 
                         <div class="index_new_sw_nr  _pos_absolute">
 
-                            超100万关注！2018海南风尚大典--名企联盟VIP盛会圆满举办，
+                            [field:title/]
 
                         </div>
 
                     </a>
 
                 </div>
-
-                <div class="swiper-slide">
-
-                    <a href="/news/29.html">
-
-                        <img alt="年度回顾 | 2018感恩所有遇" class="swiper-lazy" src="https://v3.hkhongzhuang.com/uploads/190111/1-1Z1111F419453.jpg">
-
-                        <div class="index_new_tmd _pos_absolute "> </div>
-
-                        <div class="index_new_ny _pos_absolute">
-
-                            12-30
-
-                        </div>
-
-                        <div class="index_new_r _pos_absolute">
-
-                            2018
-
-                        </div>
-
-                        <div class="index_new_sw_nr  _pos_absolute">
-
-                            超100万关注！2018海南风尚大典--名企联盟VIP盛会圆满举办，
-
-                        </div>
-
-                    </a>
-
-                </div>
-
-                <div class="swiper-slide">
-
-                    <a href="/news/29.html">
-
-                        <img alt="年度回顾 | 2018感恩所有遇" class="swiper-lazy" src="https://v3.hkhongzhuang.com/uploads/190111/1-1Z1111F419453.jpg">
-
-                        <div class="index_new_tmd _pos_absolute "> </div>
-
-                        <div class="index_new_ny _pos_absolute">
-
-                            12-30
-
-                        </div>
-
-                        <div class="index_new_r _pos_absolute">
-
-                            2018
-
-                        </div>
-
-                        <div class="index_new_sw_nr  _pos_absolute">
-
-                            超100万关注！2018海南风尚大典--名企联盟VIP盛会圆满举办，
-
-                        </div>
-
-                    </a>
-
-                </div>
-
+ {/dede:arclist}
+  {dede:arclist typeid='1' row='6' flag='c' orderby='id' orderway='desc' infolen='70' addfields='' channelid='17'}
                 <div class="newNone" style="display: none">
 
-                    <li>12&2019-01&关于近期有人冒充我公司&/news/48.html&红妆美业从未在任何时间、任何途径以任何方式开展过纹</li>
+                    <li>[field:pubdate function='strftime("%d",@me)'/]& [field:pubdate function='strftime("%Y-%m",@me)'/]& [field:title/]&[field:arcurl/]&[field:description function='cn_substr(@me,60)'/]</li>
 
                 </div>
+{/dede:arclist}
 
-                <div class="newNone" style="display: none">
-
-                    <li>08&2019-01&不知道这些美甲知识，怎&/news/30.html&美甲可是爱美的仙女们乐此不疲的美事， 对于美甲控来</li>
-
-                </div>
-
-                <div class="newNone" style="display: none">
-
-                    <li>08&2019-01&不知道这些美甲知识，怎&/news/30.html&美甲可是爱美的仙女们乐此不疲的美事， 对于美甲控来</li>
-
-                </div>
 
             </div>
 
