@@ -314,7 +314,7 @@ body {
 
     height: 12.79863481rem;
 
-    background: url("/static/images/brand_bg4.jpg") center top no-repeat;
+    background: url("/static/images/brand_bg4.jpg?v=0.1") center top no-repeat;
     background-size: auto 100%;
 }
 .brand .m4 .g-doc {
