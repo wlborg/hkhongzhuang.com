@@ -61,7 +61,7 @@ body { background: #fff; font-family: "å¾®è½¯é›…é»‘", sans-serif,
 .brand .m3 .g-doc .g-content .col3 { width: 510px; margin-left: 26px; }
 .brand .m3 .g-doc .g-content .col3 .item { position: relative; margin-bottom: 26px; }
 .brand .m3 .g-doc .g-content .col3 .item p { position: absolute; left: 0; bottom: 0; width: 502px; height: 42px; padding-top: 54px; padding-right: 8px; background: url('/static/images/pc/brand_bg3_2.png') right center no-repeat; font-size: 29px; font-weight: normal; font-stretch: normal; line-height: 30px; letter-spacing: 1px; color: #ffffff; text-align: right; }
-.brand .m4 { background: url('/static/images/pc/brand_bg4.jpg') center top no-repeat; height: 810px; position: relative; }
+.brand .m4 { background: url('/static/images/pc/brand_bg4.jpg?v=0.1') center top no-repeat; height: 810px; position: relative; }
 .brand .m4 .g-doc { padding-top: 70px; }
 .brand .m4 .g-doc .g-title h2 { color: #2b2c2d; }
 .brand .m4 .g-doc .g-title p { color: #b3b2b5; }
