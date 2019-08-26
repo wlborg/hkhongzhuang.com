@@ -116,7 +116,7 @@ body {
 .brand .banner {
     height: 15.87030717rem;
 
-    background: url("/static/images/brand_banner.jpg") center top no-repeat;
+    background: url("/static/images/brand_banner.jpg?v=0.1") center top no-repeat;
     background-size: auto 100%;
 }
 .brand .banner .g-doc {
