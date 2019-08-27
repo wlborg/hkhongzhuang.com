@@ -481,14 +481,13 @@ header .heading {
 #divbg {
     background-size: 100%!important;
 }
-#div23 {
+#div3 {
     top: .1rem!important;
     left: 11.5rem!important;
 
     width: 1rem!important;
     height: .99rem!important;
 
-    line-height: 0!important;
 }
 #div1 {
     top: 8.3rem!important;
