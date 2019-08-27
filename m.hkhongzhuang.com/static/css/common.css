@@ -465,49 +465,46 @@ header .heading {
     width: 100%;
 }
 /* 快商通弹窗样式 */
-/*#_ks_ol_inviteWin,*/
-/*#divbg {*/
-    /*width: 12.8rem!important;*/
-    /*height: 9.6rem!important;*/
-/*}*/
-/*#_ks_ol_inviteWin{*/
-    /*top: 50%!important;*/
-    /*left: 50%!important;*/
+#_ks_ol_inviteWin,
+#divbg {
+    width: 12.8rem!important;
+    height: 9.6rem!important;
+}
+#_ks_ol_inviteWin{
+    top: 50%!important;
+    left: 50%!important;
+    margin-top: -4.8rem!important;
+    margin-left: -6.4rem!important;
+}
+#divbg {
+    background-size: 100%!important;
+}
+#div23 {
+    top: .1rem!important;
+    left: 11.5rem!important;
+    width: 1rem!important;
+    height: .99rem!important;
 
-    /*display: block!important;*/
-    /*margin-top: -4.8rem!important;*/
-    /*margin-left: -6.4rem!important;*/
-/*}*/
-/*#divbg {*/
-    /*background-size: 100%!important;*/
-/*}*/
-/*#div3 {*/
-    /*top: .1rem!important;*/
-    /*left: 11.5rem!important;*/
+}
+#div1 {
+    top: 8.3rem!important;
+    left: 1.38rem!important;
 
-    /*width: 1rem!important;*/
-    /*height: .99rem!important;*/
+    width: 4.33rem!important;
+    height: 1.3rem!important;
 
-/*}*/
-/*#div1 {*/
-    /*top: 8.3rem!important;*/
-    /*left: 1.38rem!important;*/
+    line-height: 0!important;
+}
+#div2 {
+    top: 8.3rem!important;
+    left: 6.6rem!important;
 
-    /*width: 4.33rem!important;*/
-    /*height: 1.3rem!important;*/
+    width: 5rem!important;
+    height: 1.43rem!important;
 
-    /*line-height: 0!important;*/
-/*}*/
-/*#div2 {*/
-    /*top: 8.3rem!important;*/
-    /*left: 6.6rem!important;*/
-
-    /*width: 5rem!important;*/
-    /*height: 1.43rem!important;*/
-
-    /*font-size: .78rem!important;*/
-    /*line-height: 1.13rem!important;*/
-/*}*/
+    font-size: .78rem!important;
+    line-height: 1.13rem!important;
+}
 /* 离线宝 */
 body #LXB_CONTAINER input.lxb-cb-input {
     position: absolute;
