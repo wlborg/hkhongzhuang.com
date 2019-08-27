@@ -470,7 +470,7 @@ header .heading {
     width: 12.8rem!important;
     height: 9.6rem!important;
 }
-#_ks_ol_inviteWin, {
+#_ks_ol_inviteWin{
     top: 50%!important;
     left: 50%!important;
 
@@ -491,7 +491,7 @@ header .heading {
     line-height: 0!important;
 }
 #div1 {
-    top: 7.8rem!important;
+    top: 8.3rem!important;
     left: 1.38rem!important;
 
     width: 4.33rem!important;
@@ -500,7 +500,7 @@ header .heading {
     line-height: 0!important;
 }
 #div2 {
-    top: 7.8rem!important;
+    top: 8.3rem!important;
     left: 6.6rem!important;
 
     width: 5rem!important;
