@@ -28,7 +28,7 @@ body { background: #fff; font-family: "å¾®è½¯é›…é»‘", sans-serif,
 .brand .g-container .g-doc .g-title h2 { font-size: 40px; font-weight: normal; font-stretch: normal; line-height: 40px; letter-spacing: 0px; text-align: center; }
 .brand .g-container .g-doc .g-title p { font-size: 26px; font-weight: normal; font-stretch: normal; line-height: 26px; letter-spacing: 0px; opacity: 0.8; margin-top: 10px; text-align: center; }
 .brand .g-container .g-doc .consult { display: block; }
-.brand .banner { background: url('/static/images/pc/brand_banner.jpg') center top no-repeat; height: 710px; }
+.brand .banner { background: url('/static/images/pc/brand_banner.jpg?v=0.1') center top no-repeat; height: 710px; }
 .brand .banner .g-doc { position: relative; height: 710px; }
 .brand .banner h1 { position: absolute; top: 296px; left: 30px; background: url('/static/images/pc/brand_banner_bg1.png') center top no-repeat; height: 60px; width: 354px; }
 .brand .banner .consult { position: absolute; right: 0; bottom: 10px; background: url('/static/images/pc/brand_consult0_bg.png') center top no-repeat; height: 40px; width: 160px; }
@@ -61,7 +61,7 @@ body { background: #fff; font-family: "å¾®è½¯é›…é»‘", sans-serif,
 .brand .m3 .g-doc .g-content .col3 { width: 510px; margin-left: 26px; }
 .brand .m3 .g-doc .g-content .col3 .item { position: relative; margin-bottom: 26px; }
 .brand .m3 .g-doc .g-content .col3 .item p { position: absolute; left: 0; bottom: 0; width: 502px; height: 42px; padding-top: 54px; padding-right: 8px; background: url('/static/images/pc/brand_bg3_2.png') right center no-repeat; font-size: 29px; font-weight: normal; font-stretch: normal; line-height: 30px; letter-spacing: 1px; color: #ffffff; text-align: right; }
-.brand .m4 { background: url('/static/images/pc/brand_bg4.jpg') center top no-repeat; height: 810px; position: relative; }
+.brand .m4 { background: url('/static/images/pc/brand_bg4.jpg?v=0.1') center top no-repeat; height: 810px; position: relative; }
 .brand .m4 .g-doc { padding-top: 70px; }
 .brand .m4 .g-doc .g-title h2 { color: #2b2c2d; }
 .brand .m4 .g-doc .g-title p { color: #b3b2b5; }
