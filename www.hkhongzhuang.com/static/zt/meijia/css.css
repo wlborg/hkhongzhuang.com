@@ -398,10 +398,14 @@ a {
 }
 
 .teacher2 .teacher img {
+    width: 328px;
+    height: 428px;
     left: 4px
 }
 
 .teacher3 .teacher img {
+    width: 328px;
+    height: 428px;
     left: -4px;
 }
 
