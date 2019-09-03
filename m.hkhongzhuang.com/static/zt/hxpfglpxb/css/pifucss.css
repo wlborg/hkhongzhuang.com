@@ -291,11 +291,11 @@ body {
     padding-left: 8.704rem;
 }
 .m2lun1 {
-    background: url("/static/zt/hxpfglpxb/images/m2img3.jpg") no-repeat center;
+    background: url("/static/zt/hxpfglpxb/images/m2img3.jpg?v=0.1") no-repeat center;
     background-size: 15.95733333rem 8.42666667rem;
 }
 .m2lun2 {
-    background: url("/static/zt/hxpfglpxb/images/m2img4.jpg") no-repeat center;
+    background: url("/static/zt/hxpfglpxb/images/m2img4.jpg?v=0.1") no-repeat center;
     background-size: 15.95733333rem 8.42666667rem;
 }
 .m2lun > :nth-child(1) {
