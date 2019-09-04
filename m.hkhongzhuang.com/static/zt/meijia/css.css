@@ -358,16 +358,21 @@ a {
   line-height: 0.85333333rem;
   color: #000;
 }
+
 .teacher2 .teacher img {
-  left: 0;
-  width: 6.10133333rem;
-  height: 8.23466667rem;
+  left: -0.043478260869565216rem;
+  bottom: -0.021739130434782608rem;
+  width: 6.217391304347826rem;
+  height: 8.391304347826088rem;
 }
 .teacher3 .teacher img {
-  left: -0.10666667rem;
-  width: 6.10133333rem;
-  height: 8.17066667rem;
+  left: 0rem;
+  bottom: -0.021739130434782608rem;
+  width: 6.217391304347826rem;
+  height: 8.391304347826088rem;
 }
+
+
 .main5 {
   width: 100%;
   height: 25.6rem;
