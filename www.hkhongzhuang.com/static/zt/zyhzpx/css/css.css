@@ -792,7 +792,6 @@ a {
 }
 .main1_teacher .main1_teacher_ul{
     width: 1200px;
-    position: absolute;
     margin: 0 auto;
     padding: 105px 0px;
 }
@@ -812,7 +811,7 @@ a {
     border: 5px solid #ed2c65;
 }
 
-.main1_teacher  .main1_teacher_ul a p {
+.main1_teacher  .main1_teacher_ul p a {
     width: 280px;
     text-align: center;
     line-height: 80px;
