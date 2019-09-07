@@ -790,20 +790,20 @@ a {
     background-color: #fff;
     position: relative;
 }
-.main1_teacher_ul{
+.main1_teacher .main1_teacher_ul{
     width: 1200px;
     position: absolute;
     margin: 0 auto;
     padding: 105px 0px;
 }
-.main1_teacher_ul  a {
+.main1_teacher .main1_teacher_ul  a {
     width: 280px;
     text-decoration: none;
     color: #666;
     display: block;
 }
 
-.main1_teacher_ul a img {
+.main1_teacher .main1_teacher_ul a img {
     max-width: 270px;
     width: 100%;
     border-radius: 135px;
@@ -812,7 +812,7 @@ a {
     border: 5px solid #ed2c65;
 }
 
-.main1_teacher_ul a p {
+.main1_teacher  .main1_teacher_ul a p {
     width: 280px;
     text-align: center;
     line-height: 80px;
@@ -822,10 +822,10 @@ a {
     letter-spacing: .5px;
 }
 
-.main1_teacher_ul .swiper-wrapper .swiper-slide a{display: block;width: 280px;text-decoration: none; margin-left: 50px;}
-.main1_teacher_ul .swiper-wrapper .swiper-slide a img{height: 270px;width: 270px;display: block;}
+.main1_teacher .main1_teacher_ul .swiper-wrapper .swiper-slide a{display: block;width: 280px;text-decoration: none; margin-left: 50px;}
+.main1_teacher .main1_teacher_ul .swiper-wrapper .swiper-slide a img{height: 270px;width: 270px;display: block;}
 
-.main1_teacher_ul .swiper-pagination-bullets{text-align: center;}
-.main1_teacher_ul .swiper-pagination-bullet{width: 20px;height: 21px;bottom: 55px;}
-.main1_teacher_ul .swiper-pagination-bullets .swiper-pagination-bullet{ margin: 0 17px}
-.main1_teacher_ul .swiper-pagination-bullet-active{ background: rgb(82,171,200);}
+.main1_teacher .main1_teacher_ul .swiper-pagination-bullets{text-align: center;}
+.main1_teacher .main1_teacher_ul .swiper-pagination-bullet{width: 20px;height: 21px;bottom: 55px;}
+.main1_teacher .main1_teacher_ul .swiper-pagination-bullets .swiper-pagination-bullet{ margin: 0 17px}
+.main1_teacher .main1_teacher_ul .swiper-pagination-bullet-active{ background: rgb(82,171,200);}
