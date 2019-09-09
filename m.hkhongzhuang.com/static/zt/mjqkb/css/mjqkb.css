@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+._w750{
+    width: 16rem;
+}
+.banner{
+    width: 100%;
+}
+.banner_href{
+    position: relative;
+    display: block;
+}.banner_more{
+     position: absolute;
+     top: 13.248rem;
+     left: 0.832rem;
+     width: 3.54133rem;
+     height: 0.768rem;
+ }
+.part1{
+    width: 16rem;
+}
+.part1_bg{
+    width: 14.08rem;
+    height: 12.032rem;
+    display: block;
+    margin: 1.32267rem auto 1.92rem;
+}
+.part3{
+    position: relative;
+}
+.part3_bg{
+    width: 16rem;
+    height: 12.11733rem;
+    display: block;
+}
+.part3_kst{
+
+    position: absolute;
+
+    width: 5.22667rem;
+
+    height: 1.152rem;
+
+    right: 0.42667rem;
+
+    bottom: 1.83467rem;
+}
+.part4_bg{
+    width: 16rem;
+}
+.part5_bg1{
+
+    display: block;
+
+    width: 15.296rem;
+
+    margin: 1.06667rem auto 0px;
+}
+.part5_bg2{
+
+    width: 15.31733rem;
+
+    margin: 1.49333rem auto 0px;
+
+    display: block;
+}
+.part5_kst{
+
+    width: 6.76267rem;
+
+    margin: 1.024rem auto 1.92rem;
+
+    display: block;
+}
+.part6_1,.part6_2,.part6_3{
+    display: block;
+    width: 16rem;
+}
+.part6_kst{
+    display: block;
+}
+.part6{
+    position: relative;
+}
+.part6_kst{
+    position: absolute;
+    width: 3.776rem;
+    left: 50%;
+    margin-left: -1.888rem;
+    bottom: 1.92rem;
+}
+.part7_1{
+
+    width: 100%;
+}
+.part7_2{
+
+    width: 13.46133rem;
+
+    margin: 0.85333rem auto 1.49333rem;
+
+    display: block;
+
+}
+.part7_3{
+
+    width: 14.16533rem;
+
+    display: block;
+
+    margin: 0.21333rem auto 0.21333rem;
+}
+.part7_kst{
+
+    width: 6.76267rem;
+
+    margin: 1.10933rem auto 1.96267rem;
+
+    display: block;
+}
+.part8{
+    width: 16rem;
+    position: relative;
+}
+.part8_kst{
+
+    position: absolute;
+
+    width: 7.46667rem;
+
+    left: 50%;
+
+    margin-left: -3.73333rem;
+
+    bottom: 2.15467rem;
+
+    display: block;
+}
+.part8_2{
+    display:block;
+    width:16rem;
+}
+.part8_1{
+    width:16rem;
+    display:block;
+}
+.part2 img{
+    display: block;
+    width: 100%;
+}
+.part2_4_1{
+    width: 16rem;
+}.zx{animation: myfirst 1s infinite;}
+
+@keyframes myfirst {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
