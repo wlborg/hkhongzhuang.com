@@ -884,3 +884,6 @@ ul {
 .art_course_pc_banner {
     width: 100%!important;
 }
+.more_course{
+    cursor: pointer;
+}
