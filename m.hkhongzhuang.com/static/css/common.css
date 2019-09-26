@@ -467,28 +467,28 @@ header .heading {
 /* 快商通弹窗样式 */
 #_ks_ol_inviteWin,
 #divbg {
-    width: 12.8rem!important;
-    height: 9.6rem!important;
+    width: 10.7rem!important;
+    height: 12rem!important;
 }
 #_ks_ol_inviteWin{
-    top: 50%!important;
+    top: 62%!important;
     left: 50%!important;
-    margin-top: -4.8rem!important;
-    margin-left: -6.4rem!important;
+    margin-top: -8rem!important;
+    margin-left: -5.2rem!important;
 }
 #divbg {
     background-size: 100%!important;
 }
 #div23 {
     top: .3rem!important;
-    left: 11.5rem!important;
+    left: 9.5rem!important;
     width: 1rem!important;
     height: .99rem!important;
 
 }
 #div1 {
-    top: 8.3rem!important;
-    left: 1.38rem!important;
+    top: 10.5rem!important;
+    left: 1.0rem!important;
 
     width: 4.33rem!important;
     height: 1.3rem!important;
@@ -496,8 +496,8 @@ header .heading {
     line-height: 0!important;
 }
 #div19 {
-    top: 8.3rem!important;
-    left: 6.6rem!important;
+    top: 10.5rem!important;
+    left: 5.6rem!important;
 
     width: 5rem!important;
     height: 1.43rem!important;
