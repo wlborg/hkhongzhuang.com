@@ -398,11 +398,12 @@ a {
 }
 
 .teacher2 .teacher img {
-    left: 4px
+    left: 2px;
+    bottom: -1px;
 }
 
 .teacher3 .teacher img {
-    left: -4px;
+    left: 1px;
 }
 
 .main5 {

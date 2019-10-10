@@ -276,10 +276,10 @@ margin: 82px 0;
     padding-left: 600px;
 }
 .m2lun1{
-    background: url("/static/zt/hxpfglpxb/images/m2img3.jpg") no-repeat center;
+    background: url("/static/zt/hxpfglpxb/images/m2img3.jpg?v=0.1") no-repeat center;
 }
 .m2lun2{
-    background: url("/static/zt/hxpfglpxb/images/m2img4.jpg") no-repeat center;
+    background: url("/static/zt/hxpfglpxb/images/m2img4.jpg?v=0.1") no-repeat center;
 }
 .m2lun>:nth-child(1){
     font-size: 48px;

@@ -13,7 +13,7 @@
     {dede:include filename="_meta.htm"/}
     {dede:include filename="_link.htm"/}
      {dede:include filename="_link_list.htm"/}
-    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/list_stu.css?v=20190408" />
+    <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/list_stu.css?v=2019040801" />
     <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/_footer_hidder.css?v=20190330" />
     <link rel="stylesheet" href="{dede:global.cfg_csspath/}/pc/_media.css?v=20190330" />
 </head>
@@ -93,7 +93,7 @@
         </div>
     </div>
     <div class="jq22">
-        {dede:arclist typeid='15' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
+        {dede:arclist typeid='15' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21' row='80'}
         <li>
             <a href="[field:arcurl/]">
                 <img src="images/1px.gif" realSrc="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
@@ -102,7 +102,7 @@
         {/dede:arclist}
     </div>
     <div class="jq22">
-        {dede:arclist typeid='16' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
+        {dede:arclist typeid='16' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21' row='80'}
         <li>
             <a href="[field:arcurl/]">
                <img src="images/1px.gif" realSrc="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
@@ -111,7 +111,7 @@
         {/dede:arclist}
     </div>
     <div class="jq22">
-        {dede:arclist typeid='17' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
+        {dede:arclist typeid='17' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21' row='80'}
         <li>
             <a href="[field:arcurl/]">
                <img src="images/1px.gif" realSrc="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
@@ -120,7 +120,7 @@
         {/dede:arclist}
     </div>
     <div class="jq22">
-        {dede:arclist typeid='18' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21'}
+        {dede:arclist typeid='18' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='21' row='80'}
         <li>
             <a href="[field:arcurl/]">
               <img src="images/1px.gif" realSrc="[field:pc_list function='replaceurl(@me)/]" alt="[field:title/]" />
@@ -172,5 +172,5 @@
 </body>
 {dede:include filename="_script.htm"/}
 <script src="{dede:global.cfg_jspath/}/pc/_footer_hidd.js?v=20190330"></script>
-<script src="{dede:global.cfg_jspath/}/pc/list_stu.js?v=20190330"></script>
+<script src="{dede:global.cfg_jspath/}/pc/list_stu.js?v=2019100101"></script>
 </html>
