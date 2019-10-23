@@ -531,9 +531,9 @@ a {
   margin: 0.42666667rem auto 0;
 }
 .security li {
-  width: 6.4rem;
+  width: 7.4rem;
   height: 4.26666667rem;
-  margin: 0 0.10666667rem;
+  margin: 0 0.21rem;
   float: left;
   list-style: none;
 }
@@ -563,27 +563,29 @@ a {
 }
 .qw-l {
   width: 0.64rem;
-  height: 2.13333333rem;
+  height: 2.34rem;
   border-right: 1px solid #72716e;
   font-size: 0.512rem;
   color: #040001;
-  line-height: 0.512rem;
+  line-height: 0.6rem;
   font-weight: 700;
   text-align: center;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
   float: left;
 }
 .qw-r {
-  width: 5.12rem;
+  width: 6.12rem;
   height: 2.34666667rem;
   padding-left: 0.21333333rem;
   float: left;
-  line-height: 0.512rem;
+  line-height: 0.6rem;
   color: #040001;
   font-size: 0.42666667rem;
 }
 .qw-r p {
   width: 100%;
-  line-height: 0.512rem;
+  line-height: 0.6rem;
   font-size: 0.42666667rem;
 }
 .security2 .titl {

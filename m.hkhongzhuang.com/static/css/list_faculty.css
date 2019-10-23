@@ -209,7 +209,8 @@
 }
 .tea_more a {
     display: block;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     height: 100%;
 
     font-size: .42667rem;
