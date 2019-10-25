@@ -45,6 +45,7 @@ body {
 .banner img{width: 100%;min-width: 1400px;}
 ._1400{width: 1400px;margin: 0 auto;}
 .part_title{width: 100%;margin-top: 75px;}
+.part_title p span{display: inline-block;}
 .part_title p:nth-of-type(1){font-size: 20px;color: rgb(52,52,52);text-align: center;font-family: "meiryo";line-height: 20px;opacity: 0.53;letter-spacing: 2px;}
 .part_title p:nth-of-type(1) img{vertical-align: -6px;margin-left: 5px;opacity: 1;}
 .part_title p:nth-of-type(2){font-size: 65px;color: rgb(83,80,77);text-align: center;font-family: "Alibaba-PuHuiTi-Medium";line-height: 65px;margin-top: 21px;}
@@ -57,7 +58,7 @@ body {
         center;line-height: 55px;cursor: pointer;}
 .part1_min .tab li:nth-of-type(4){margin-right: 0;}
 .part1_min .tab li.active{background: rgb(233,84,18);}
-.part1_swiper{width: 100%;background: rgb(102,102,102);margin-top: 35px;}
+.part1_min .part1_swiper{width: 100%;background: rgb(102,102,102);margin-top: 35px;}
 .part1_swiper .swiper-slide>p{font-size: 45px;color: rgb(255,255,255);font-family: "Alibaba-PuHuiTi-Medium";text-align: center;line-height: 45px;margin-top: 42px;}
 .part1_swiper .swiper-slide>p span{font-size: 30px;font-family: "Alibaba-PuHuiTi-Regular";margin-left: 17px;}
 .part1_ban1{width: 1248px;background: #ffffff;margin: 0 auto;margin-top: 53px;}
@@ -97,7 +98,7 @@ line-height: 51px;margin-bottom: 40px;}
 .part3_min ul{width: 1350px;margin: 0 auto; overflow: hidden;}
 .part3_min li{width: 50%;float: left;margin-top: 63px;}
 .part3_min li p:nth-of-type(1){font-size: 30px;color: rgb(245,103,40);font-family: "Alibaba-PuHuiTi-Regular";}
-.part3_min li p:nth-of-type(1) img{vertical-align: -10px;margin-right: 10px;}
+.part3_min li p:nth-of-type(1) img{vertical-align: -10px;margin-right: 10px; display: inline-block;}
 .part3_min li p:nth-of-type(2){width: 567px;font-size: 24px;color: rgb(255,254,254);font-family: "Alibaba-PuHuiTi-Regular";margin-left: 57px;line-height: 48px;
     text-align: justify;margin-top: 10px;}
 .part3_min li p:nth-of-type(2) span{color: rgb(245,103,40);}
@@ -194,7 +195,7 @@ line-height: 51px;margin-bottom: 40px;}
 
 
 
-.part11 {  height: 706px;  overflow: hidden;  background: rgb(57,55,61);  }
+.part11 {  height: 706px;  overflow: hidden;  background: rgb(57,55,61); padding-bottom: 100px;  }
 .part11 ._w1400 {  height: 100%;  }
 .part11 .part_title p:nth-of-type(1){ color: rgb(184,173,172)}
 .part11 .part_title p{ color:rgb(255,255,255)}
