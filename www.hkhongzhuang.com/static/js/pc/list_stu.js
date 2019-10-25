@@ -402,7 +402,19 @@ more_Fn4(3);
 function checkNull(){
     for(var i=0;i<4;i++){
         if($(".list_stu_video").eq(i).html().trim()==""){
-           $(".stu_list_more").eq(i).hide();
+           $(".stu_list_video_more").eq(i).hide();
         }
     }
 }checkNull();
+        $(function () {
+            function tabCon() {
+                for (var i = 0; i < 4; i++) {
+                    var liLen = $("#stu_list_Con>div").eq(i).find(".stu_list_info>li").length;
+                    if (liLen <= 6) {
+                        $("#stu_list_Con>div").eq(i).find(".stu_list_more").css("display", "none");
+                    }
+                };
+
+            }
+            tabCon();
+        });
