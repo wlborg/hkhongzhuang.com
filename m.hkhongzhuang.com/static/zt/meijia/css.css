@@ -57,6 +57,11 @@ a {
 .clearfix {
   zoom: 1;
 }
+
+.security ul{
+    margin-left:30px;
+}
+
 .banner {
   width: 100%;
   margin-top: 1.28rem;
@@ -312,7 +317,7 @@ a {
 .main4 ul {
   width: 96%;
   height: 10.66666667rem;
-  margin: 6.4rem auto 0;
+  margin: 6.4rem 35px 0;
 }
 .main4 ul li {
   width: 5.76rem;
@@ -440,7 +445,7 @@ a {
   border: 0.04266667rem solid #1da6fa;
   border-radius: 10px;
   float: left;
-  margin-left: 0.32rem;
+  margin-left: 2.32rem;
   position: relative;
 }
 .study-r img {
@@ -508,6 +513,7 @@ a {
   float: right;
   padding-left: 0;
   padding-right: 0.13333333rem;
+  margin-right: 30px;
 }
 .guomei {
   float: right;
@@ -576,6 +582,7 @@ a {
 .main6-tu {
   width: 100%;
   height: 11.46666667rem;
+  margin-left: 28px;
 }
 .main6-tu img {
   float: left;
@@ -683,6 +690,7 @@ a {
   height: 20.26666667rem;
   padding-top: 1.21333333rem;
   float: left;
+  margin-left: 30px;
 }
 .dianzhuin {
   width: 98%;
@@ -748,6 +756,7 @@ a {
 .main8-in ul {
   width: 100%;
   height: 21.86666667rem;
+  margin-left: 30px;
 }
 .main8-in ul li {
   float: left;
