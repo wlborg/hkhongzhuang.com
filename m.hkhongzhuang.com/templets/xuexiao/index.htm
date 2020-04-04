@@ -16,32 +16,18 @@
 
 --><!DOCTYPE html>
 
-<html lang="cmn-hans">
-
-
-
-<head>
-
-      {dede:include filename="_meta_tdk_index.htm"/}
-
-    {dede:include filename="_meta.htm"/}
-
-    {dede:include filename="_link_index.htm"/}
-
+<html lang="cmn-hans" class="gray">
+  <head>
+    {dede:include filename="_meta_tdk_index.htm"/} {dede:include
+    filename="_meta.htm"/} {dede:include filename="_link_index.htm"/}
     {dede:include filename="_link.htm"/}
 
-    <link rel="stylesheet" href="/static/css/index.css?v=201903301">
+    <link rel="stylesheet" href="/static/css/index.css?v=201903301" />
 
-    <link rel="stylesheet" href="/static/css/_footer2.css?v=20190330">
+    <link rel="stylesheet" href="/static/css/_footer2.css?v=20190330" />
+  </head>
 
-
-
-</head>
-
-
-
-<body>
-
+  <body>
     {dede:include filename='_header.htm'/}
 
     <!-- banner Swiper -->
@@ -55,791 +41,616 @@
     <!--化妆课程-->
 
     <div class="_po_relative index_cou">
-
-        <ul class="index_coure_top_nav">
-
-            <li>
-
-                <a href="javascript:;">
-                         <span>&nbsp;</span>
-                        <!-- <img src="/static/images/nav_icon/nav_hz.png" class="top_nav_hz" alt=""> -->
-                        <span>化妆课程</span>
-
-                    </a>
-
-            </li>
-
-            <li>
-
-                <a href="javascript:;">
-                        <span>&nbsp;</span>
-                        <!-- <img src="/static/images/nav_icon/top_nav_mr.png" class="top_nav_mr" alt=""> -->
-
-                        <span>美容课程</span> </a>
-
-            </li>
-
-            <li>
-
-                <a href="javascript:;">
-                         <span>&nbsp;</span>
-                        <!-- <img src="/static/images/nav_icon/nav_mj.png" class="nav_mj" alt=""> -->
-
-                        <span>美甲课程</span>
-
-                    </a>
-
-            </li>
-
-            <li>
-
-                <a href="javascript:;" class="j-consult">
-                         <span>&nbsp;</span>
-                        <!-- <img src="/static/images/nav_icon/top_nav_sy.png" class="top_nav_sy" alt=""> -->
-                        <span>摄影课程</span>
-
-                    </a>
-
-            </li>
-
-        </ul>
-
-        <p class="index_stu_title _po_absolute index_coure_title">化妆课程</p>
-
-        <p class="index_stu_paption"></p>
-
-        <!-- Swiper -->
-
-        <div class="index_stu swiper-container courseCon">
-
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-
-                    <ul>
-
-                        {dede:arclist row='6' isweight="Y" orderby='weight' orderway='desc' typeid='4' channelid="20" addfields="sj_index"}
-
-                        <li>
-
-                            <a href="[field:arcurl/]">
-
-                    <img src="[field:sj_index function='replaceurl(@me)/]" alt="">
-
-                  </a>
-
-                            <p>[field:shorttitle/]</p>
-
-                            <p>course introduction</p>
-
-                        </li>
-
-                        {/dede:arclist}
-
-                        <a href="javascript:;" class="index_course_zx_a j-consult">
-
-        <img src="/static/images/index_course_zx.png" class="index_course_zx" alt="">
-
-      </a>
-
-                        <a href="/course#course1" class="index_course_more_a">
-
-        <img src="/static/images/index_course_more.png" class="index_course_more" alt="">
-
-      </a>
-
-                    </ul>
-
-                </div>
-
-                <div class="swiper-slide">
-
-                    <ul>
-
-                        {dede:arclist row='6' isweight="Y" orderby='weight' orderway='desc' typeid='5' channelid="20" addfields="sj_index"}
-
-                        <li>
-
-                            <a href="[field:arcurl/]">
-
-                    <img src="[field:sj_index function='replaceurl(@me)/]" alt="">
-
-                  </a>
-
-                            <p>[field:shorttitle/]</p>
-
-                            <p>course introduction</p>
-
-                        </li>
-
-                        {/dede:arclist}
-
-                        <a href="javascript:;" class="index_course_zx_a j-consult">
-
-        <img src="/static/images/index_course_zx.png" class="index_course_zx" alt="">
-
-      </a>
-
-                        <a href="/course#course2" class="index_course_more_a">
-
-        <img src="/static/images/index_course_more.png" class="index_course_more" alt="">
-
-      </a>
-
-                    </ul>
-
-                </div>
-
-                <div class="swiper-slide">
-
-                    <ul>
-
-                        {dede:arclist row='6' isweight="Y" orderby='weight' orderway='desc' typeid='6' channelid="20" addfields="sj_index"}
-
-                        <li>
-
-                            <a href="[field:arcurl/]">
-
-                    <img src="[field:sj_index function='replaceurl(@me)/]" alt="">
-
-                  </a>
-
-                            <p>[field:shorttitle/]</p>
-
-                            <p>course introduction</p>
-
-                        </li>
-
-                        {/dede:arclist}
-
-                        <a href="javascript:;" class="index_course_zx_a j-consult">
-
-        <img src="/static/images/index_course_zx.png" class="index_course_zx" alt="">
-
-      </a>
-
-                        <a href="/course#course3" class="index_course_more_a">
-
-        <img src="/static/images/index_course_more.png" class="index_course_more" alt="">
-
-      </a>
-
-                    </ul>
-
-                </div>
-
-                <div class="swiper-slide">
-
-                    <ul>
-
-                        {dede:arclist row='6' isweight="Y" orderby='weight' orderway='desc' typeid='7' channelid="20" addfields="sj_index"}
-
-                        <li>
-
-                            <a href="[field:arcurl/]">
-
-                    <img src="[field:sj_index function='replaceurl(@me)/]" alt="">
-
-                  </a>
-
-                            <p>[field:shorttitle/]</p>
-
-                            <p>course introduction</p>
-
-                        </li>
-
-                        {/dede:arclist}
-
-                        <a href="javascript:;" class="index_course_zx_a j-consult">
-
-        <img src="/static/images/index_course_zx.png" class="index_course_zx" alt="">
-
-      </a>
-
-                        <a href="/course#course4" class="index_course_more_a">
-
-        <img src="/static/images/index_course_more.png" class="index_course_more" alt="">
-
-      </a>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-            <!-- Add Pagination -->
-
-            <div class="swiper-pagination"></div>
-
+      <ul class="index_coure_top_nav">
+        <li>
+          <a href="javascript:;">
+            <span>&nbsp;</span>
+            <!-- <img src="/static/images/nav_icon/nav_hz.png" class="top_nav_hz" alt=""> -->
+            <span>化妆课程</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="javascript:;">
+            <span>&nbsp;</span>
+            <!-- <img src="/static/images/nav_icon/top_nav_mr.png" class="top_nav_mr" alt=""> -->
+
+            <span>美容课程</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="javascript:;">
+            <span>&nbsp;</span>
+            <!-- <img src="/static/images/nav_icon/nav_mj.png" class="nav_mj" alt=""> -->
+
+            <span>美甲课程</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="javascript:;" class="j-consult">
+            <span>&nbsp;</span>
+            <!-- <img src="/static/images/nav_icon/top_nav_sy.png" class="top_nav_sy" alt=""> -->
+            <span>摄影课程</span>
+          </a>
+        </li>
+      </ul>
+
+      <p class="index_stu_title _po_absolute index_coure_title">化妆课程</p>
+
+      <p class="index_stu_paption"></p>
+
+      <!-- Swiper -->
+
+      <div class="index_stu swiper-container courseCon">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <ul>
+              {dede:arclist row='6' isweight="Y" orderby='weight'
+              orderway='desc' typeid='4' channelid="20" addfields="sj_index"}
+
+              <li>
+                <a href="[field:arcurl/]">
+                  <img
+                    src="[field:sj_index function='replaceurl(@me)/]"
+                    alt=""
+                  />
+                </a>
+
+                <p>[field:shorttitle/]</p>
+
+                <p>course introduction</p>
+              </li>
+
+              {/dede:arclist}
+
+              <a href="javascript:;" class="index_course_zx_a j-consult">
+                <img
+                  src="/static/images/index_course_zx.png"
+                  class="index_course_zx"
+                  alt=""
+                />
+              </a>
+
+              <a href="/course#course1" class="index_course_more_a">
+                <img
+                  src="/static/images/index_course_more.png"
+                  class="index_course_more"
+                  alt=""
+                />
+              </a>
+            </ul>
+          </div>
+
+          <div class="swiper-slide">
+            <ul>
+              {dede:arclist row='6' isweight="Y" orderby='weight'
+              orderway='desc' typeid='5' channelid="20" addfields="sj_index"}
+
+              <li>
+                <a href="[field:arcurl/]">
+                  <img
+                    src="[field:sj_index function='replaceurl(@me)/]"
+                    alt=""
+                  />
+                </a>
+
+                <p>[field:shorttitle/]</p>
+
+                <p>course introduction</p>
+              </li>
+
+              {/dede:arclist}
+
+              <a href="javascript:;" class="index_course_zx_a j-consult">
+                <img
+                  src="/static/images/index_course_zx.png"
+                  class="index_course_zx"
+                  alt=""
+                />
+              </a>
+
+              <a href="/course#course2" class="index_course_more_a">
+                <img
+                  src="/static/images/index_course_more.png"
+                  class="index_course_more"
+                  alt=""
+                />
+              </a>
+            </ul>
+          </div>
+
+          <div class="swiper-slide">
+            <ul>
+              {dede:arclist row='6' isweight="Y" orderby='weight'
+              orderway='desc' typeid='6' channelid="20" addfields="sj_index"}
+
+              <li>
+                <a href="[field:arcurl/]">
+                  <img
+                    src="[field:sj_index function='replaceurl(@me)/]"
+                    alt=""
+                  />
+                </a>
+
+                <p>[field:shorttitle/]</p>
+
+                <p>course introduction</p>
+              </li>
+
+              {/dede:arclist}
+
+              <a href="javascript:;" class="index_course_zx_a j-consult">
+                <img
+                  src="/static/images/index_course_zx.png"
+                  class="index_course_zx"
+                  alt=""
+                />
+              </a>
+
+              <a href="/course#course3" class="index_course_more_a">
+                <img
+                  src="/static/images/index_course_more.png"
+                  class="index_course_more"
+                  alt=""
+                />
+              </a>
+            </ul>
+          </div>
+
+          <div class="swiper-slide">
+            <ul>
+              {dede:arclist row='6' isweight="Y" orderby='weight'
+              orderway='desc' typeid='7' channelid="20" addfields="sj_index"}
+
+              <li>
+                <a href="[field:arcurl/]">
+                  <img
+                    src="[field:sj_index function='replaceurl(@me)/]"
+                    alt=""
+                  />
+                </a>
+
+                <p>[field:shorttitle/]</p>
+
+                <p>course introduction</p>
+              </li>
+
+              {/dede:arclist}
+
+              <a href="javascript:;" class="index_course_zx_a j-consult">
+                <img
+                  src="/static/images/index_course_zx.png"
+                  class="index_course_zx"
+                  alt=""
+                />
+              </a>
+
+              <a href="/course#course4" class="index_course_more_a">
+                <img
+                  src="/static/images/index_course_more.png"
+                  class="index_course_more"
+                  alt=""
+                />
+              </a>
+            </ul>
+          </div>
         </div>
 
+        <!-- Add Pagination -->
+
+        <div class="swiper-pagination"></div>
+      </div>
     </div>
 
     <!-- 课程结束 -->
 
     <a href="/faculty/" class="index_tea">
-
-  <img data-original="/static/images/index_tea_banner.jpg?v=20190820" class="index_tea_banner lazy_Comm" alt="">
-
-</a>
+      <img
+        data-original="/static/images/index_tea_banner.jpg?v=20190820"
+        class="index_tea_banner lazy_Comm"
+        alt=""
+      />
+    </a>
 
     <div class="index_stu _po_relative index_stu_n">
-
-        <p class="index_stu_title _po_absolute">学生作品展</p>
-
-        <p class="index_stu_paption"></p>
-
-        <!-- Swiper -->
-
-        <div class="index_stu swiper-container index_stu_true">
-
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-
-                    <ul>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_hz1.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_hz2.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_hz3.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_hz4.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_hz5.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_hz6.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                    </ul>
-
-                    <a href="/student/" class="index_stu_more_href _po_absolute">
-
-                 <img src="/static/images/index_stu_more.png" alt="">
-
-               </a>
-
-                    <p class="index_stu_hz_title">学员化妆课程作品</p>
-
-                    <p class="index_stu_hz_MAKEUP">MAKEUP</p>
-
-                    <p class="index_stu_hz_more">更多</p>
-
-                </div>
-
-                <div class="swiper-slide">
-
-                    <ul>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mr1.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mr2.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mr3.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mr4.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mr5.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mr6.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                    </ul>
-
-                    <a href="/student?cosmetology" class="index_stu_more_href _po_absolute">
-
-                 <img src="/static/images/index_stu_more.png" alt="">
-
-               </a>
-
-                    <p class="index_stu_hz_title">学员美容课程作品</p>
-
-                    <p class="index_stu_hz_MAKEUP">MAKEUP</p>
-
-                    <p class="index_stu_hz_more">更多</p>
-
-                </div>
-
-                <div class="swiper-slide">
-
-                    <ul>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mj1.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mj2.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mj3.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mj4.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mj5.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_mj6.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                    </ul>
-
-                    <a href="student?manicure" class="index_stu_more_href _po_absolute">
-
-                 <img src="/static/images/index_stu_more.png" alt="">
-
-               </a>
-
-                    <p class="index_stu_hz_title">学员美甲课程作品</p>
-
-                    <p class="index_stu_hz_MAKEUP">MAKEUP</p>
-
-                    <p class="index_stu_hz_more">更多</p>
-
-                </div>
-
-                <div class="swiper-slide">
-
-                    <ul>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_sy1.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_sy2.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_sy3.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_sy4.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_sy5.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="javascript:;" class="j-consult">
-
-                    <img src="/static/images/index_stu_sy6.jpg" alt="">
-
-                  </a>
-
-                        </li>
-
-                    </ul>
-
-                    <a href="student?shooting" class="index_stu_more_href _po_absolute">
-
-                 <img src="/static/images/index_stu_more.png" alt="">
-
-               </a>
-
-                    <p class="index_stu_hz_title">学员摄影课程作品</p>
-
-                    <p class="index_stu_hz_MAKEUP">MAKEUP</p>
-
-                    <p class="index_stu_hz_more">更多</p>
-
-                </div>
-
-            </div>
-
-            <!-- Add Pagination -->
-
-            <div class="swiper-pagination"></div>
-
+      <p class="index_stu_title _po_absolute">学生作品展</p>
+
+      <p class="index_stu_paption"></p>
+
+      <!-- Swiper -->
+
+      <div class="index_stu swiper-container index_stu_true">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <ul>
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_hz1.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_hz2.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_hz3.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_hz4.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_hz5.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_hz6.jpg" alt="" />
+                </a>
+              </li>
+            </ul>
+
+            <a href="/student/" class="index_stu_more_href _po_absolute">
+              <img src="/static/images/index_stu_more.png" alt="" />
+            </a>
+
+            <p class="index_stu_hz_title">学员化妆课程作品</p>
+
+            <p class="index_stu_hz_MAKEUP">MAKEUP</p>
+
+            <p class="index_stu_hz_more">更多</p>
+          </div>
+
+          <div class="swiper-slide">
+            <ul>
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mr1.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mr2.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mr3.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mr4.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mr5.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mr6.jpg" alt="" />
+                </a>
+              </li>
+            </ul>
+
+            <a
+              href="/student?cosmetology"
+              class="index_stu_more_href _po_absolute"
+            >
+              <img src="/static/images/index_stu_more.png" alt="" />
+            </a>
+
+            <p class="index_stu_hz_title">学员美容课程作品</p>
+
+            <p class="index_stu_hz_MAKEUP">MAKEUP</p>
+
+            <p class="index_stu_hz_more">更多</p>
+          </div>
+
+          <div class="swiper-slide">
+            <ul>
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mj1.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mj2.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mj3.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mj4.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mj5.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_mj6.jpg" alt="" />
+                </a>
+              </li>
+            </ul>
+
+            <a href="student?manicure" class="index_stu_more_href _po_absolute">
+              <img src="/static/images/index_stu_more.png" alt="" />
+            </a>
+
+            <p class="index_stu_hz_title">学员美甲课程作品</p>
+
+            <p class="index_stu_hz_MAKEUP">MAKEUP</p>
+
+            <p class="index_stu_hz_more">更多</p>
+          </div>
+
+          <div class="swiper-slide">
+            <ul>
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_sy1.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_sy2.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_sy3.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_sy4.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_sy5.jpg" alt="" />
+                </a>
+              </li>
+
+              <li>
+                <a href="javascript:;" class="j-consult">
+                  <img src="/static/images/index_stu_sy6.jpg" alt="" />
+                </a>
+              </li>
+            </ul>
+
+            <a href="student?shooting" class="index_stu_more_href _po_absolute">
+              <img src="/static/images/index_stu_more.png" alt="" />
+            </a>
+
+            <p class="index_stu_hz_title">学员摄影课程作品</p>
+
+            <p class="index_stu_hz_MAKEUP">MAKEUP</p>
+
+            <p class="index_stu_hz_more">更多</p>
+          </div>
         </div>
 
+        <!-- Add Pagination -->
+
+        <div class="swiper-pagination"></div>
+      </div>
     </div>
 
     <!-- 教学环境模块 -->
 
     <div class="index_envicon _po_relative">
+      <p class="index_tea_title _po_absolute">教学环境</p>
 
-        <p class="index_tea_title _po_absolute">教学环境</p>
+      <p class="index_envi_paption">
+        <span>1</span><span class="_po_absolute"> </span> <span>4</span>
+      </p>
 
-        <p class="index_envi_paption"><span>1</span><span class="_po_absolute"> </span> <span>4</span></p>
+      <img
+        src="/static/images/index_envi_banner.jpg"
+        class="index_envi_banner _po_absolute"
+        alt=""
+      />
 
-        <img src="/static/images/index_envi_banner.jpg" class="index_envi_banner _po_absolute" alt="">
+      <!-- swriper -->
 
-        <!-- swriper -->
+      <div class="index_envi swiper-container">
+        <div class="swiper-wrapper">
+          {dede:arclist typeid='2' row='6' flag='c' orderby='id' orderway='desc'
+          infolen='70' addfields='pc_index' channelid='18'}
 
-        <div class="index_envi swiper-container">
+          <div class="swiper-slide">
+            <a href="javascript:;">
+              <img
+                data-src="[field:pc_index function='replaceurl(@me)/]?v=20190403"
+                alt="[field:title/]"
+                class="swiper-lazy"
+              />
 
-            <div class="swiper-wrapper">
+              <div class="swiper-lazy-preloader"></div>
+            </a>
+          </div>
 
-                {dede:arclist typeid='2' row='6' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_index' channelid='18'}
-
-                <div class="swiper-slide">
-
-                    <a href="javascript:;">
-
-                  <img data-src="[field:pc_index function='replaceurl(@me)/]?v=20190403" alt="[field:title/]" class="swiper-lazy">
-
-                                            <div class="swiper-lazy-preloader"></div>
-
-              </a>
-
-                </div>
-
-                {/dede:arclist}
-
-            </div>
-
+          {/dede:arclist}
         </div>
+      </div>
 
-        <!-- swriper -->
-          <span class="index_envi_des">学校环境图</span>
-        <img src="/static/images/environmentdisplay_Right_T.png" class="environmentdisplay_Right_T" alt="">
+      <!-- swriper -->
+      <span class="index_envi_des">学校环境图</span>
+      <img
+        src="/static/images/environmentdisplay_Right_T.png"
+        class="environmentdisplay_Right_T"
+        alt=""
+      />
 
+      <span class="index_envi_des_info"
+        >红妆美容学校作为海南省比较专业的美容学校之一，拥有10000多平方米的平面门店规模，1000平米大型连锁实习基地，舒适宽敞的教学环境，先进的教学设备，雄厚的师资队伍</span
+      >
 
+      <a href="/environmentdisplay/" class="index_envicon_more_href">
+        <img src="/static/images/index_envicon_more.png" alt="" />
+      </a>
 
-        <span class="index_envi_des_info">红妆美容学校作为海南省比较专业的美容学校之一，拥有10000多平方米的平面门店规模，1000平米大型连锁实习基地，舒适宽敞的教学环境，先进的教学设备，雄厚的师资队伍</span>
-
-        <a href="/environmentdisplay/" class="index_envicon_more_href">
-
-         <img src="/static/images/index_envicon_more.png" alt="">
-
-     </a>
-
-        <span class="index_envicon_index">01</span>
-
+      <span class="index_envicon_index">01</span>
     </div>
 
     <!-- 新闻模块 -->
 
     <div class="index_new">
+      <span class="index_new_title">学员尊享四大特权</span>
 
-        <span class="index_new_title">学员尊享四大特权</span>
+      <span class="index_new_title_title">STUDENTS ENJOY FOUR PRIVILEGES</span>
 
-        <span class="index_new_title_title">STUDENTS ENJOY FOUR PRIVILEGES</span>
+      <ul class="new_tq">
+        <li class="new_tq1">
+          <div class="new_tit_tq_In">
+            <p>
+              入学签协议
+            </p>
 
-        <ul class="new_tq">
+            <p>包推荐</p>
+          </div>
+        </li>
 
-            <li class="new_tq1">
+        <li class="new_tq2">
+          <p class="new_tq2_in1">
+            学会为止
+          </p>
+        </li>
 
-                <div class="new_tit_tq_In">
+        <li class="new_tq3">
+          <p>美容</p>
 
-                    <p>
+          <p class="">
+            免费进修
+          </p>
+        </li>
 
-                        入学签协议
+        <li class="new_tq4">
+          <div class="new_tit_tq_In">
+            <p>
+              尊享优惠
+            </p>
 
-                    </p>
+            <p>创业支持</p>
+          </div>
+        </li>
+      </ul>
 
-                    <p>包推荐</p>
+      <img src="/static/images/new_Tit_Tie.png" class="new_Tit_Tie" alt="" />
 
-                </div>
+      <!-- 新闻轮播图-->
 
+      <div class="index_new_swiper">
+        <div class="swiper-wrapper">
+          {dede:arclist typeid='1' row='3' flag='c' orderby='id' orderway='desc'
+          infolen='70' addfields='pc_list' channelid='17'}
+          <div class="swiper-slide">
+            <a href="[field:arcurl/]">
+              <img
+                alt="[field:title/]"
+                class="swiper-lazy"
+                src="[field:pc_list function='replaceurl(@me)/]"
+              />
+
+              <div class="index_new_tmd _pos_absolute"></div>
+
+              <div class="index_new_ny _pos_absolute">
+                [field:pubdate function='strftime("%m-%d",@me)'/]
+              </div>
+
+              <div class="index_new_r _pos_absolute">
+                [field:pubdate function='strftime("%Y",@me)'/]
+              </div>
+
+              <div class="index_new_sw_nr _pos_absolute">
+                [field:title/]
+              </div>
+            </a>
+          </div>
+          {/dede:arclist} {dede:arclist typeid='1' row='6' flag='c' orderby='id'
+          orderway='desc' infolen='70' addfields='' channelid='17'}
+          <div class="newNone" style="display: none;">
+            <li>
+              [field:pubdate function='strftime("%d",@me)'/]& [field:pubdate
+              function='strftime("%Y-%m",@me)'/]&
+              [field:title/]&[field:arcurl/]&[field:description
+              function='cn_substr(@me,60)'/]
             </li>
-
-            <li class="new_tq2">
-
-                <p class="new_tq2_in1">
-
-                    学会为止
-
-                </p>
-
-            </li>
-
-            <li class="new_tq3">
-
-                <p>美容 </p>
-
-                <p class="">
-
-                    免费进修
-
-                </p>
-
-            </li>
-
-            <li class="new_tq4">
-
-                <div class="new_tit_tq_In">
-
-                    <p>
-
-                        尊享优惠
-
-                    </p>
-
-                    <p> 创业支持</p>
-
-                </div>
-
-            </li>
-
-        </ul>
-
-        <img src="/static/images/new_Tit_Tie.png" class="new_Tit_Tie" alt="">
-
-        <!-- 新闻轮播图-->
-
-        <div class="index_new_swiper">
-
-            <div class="swiper-wrapper">
-                {dede:arclist typeid='1' row='3' flag='c' orderby='id' orderway='desc' infolen='70' addfields='pc_list' channelid='17'}
-                <div class="swiper-slide">
-
-                    <a href="[field:arcurl/]">
-
-                        <img alt="[field:title/]" class="swiper-lazy" src="[field:pc_list function='replaceurl(@me)/]">
-
-                        <div class="index_new_tmd _pos_absolute "> </div>
-
-                        <div class="index_new_ny _pos_absolute">
-
-                            [field:pubdate function='strftime("%m-%d",@me)'/]
-
-                        </div>
-
-                        <div class="index_new_r _pos_absolute">
-
-                             [field:pubdate function='strftime("%Y",@me)'/]
-
-                        </div>
-
-                        <div class="index_new_sw_nr  _pos_absolute">
-
-                            [field:title/]
-
-                        </div>
-
-                    </a>
-
-                </div>
- {/dede:arclist}
-  {dede:arclist typeid='1' row='6' flag='c' orderby='id' orderway='desc' infolen='70' addfields='' channelid='17'}
-                <div class="newNone" style="display: none">
-
-                    <li>[field:pubdate function='strftime("%d",@me)'/]& [field:pubdate function='strftime("%Y-%m",@me)'/]& [field:title/]&[field:arcurl/]&[field:description function='cn_substr(@me,60)'/]</li>
-
-                </div>
-{/dede:arclist}
-
-
-            </div>
-
-            <div class="new_Con_left _pos_relative">
-
-                <div class="new_Con_left_pap">
-
-                </div>
-
-                <div class="index_new_left_more">
-
-                    <a href="/news">MORE</a>
-
-                </div>
-
-            </div>
-
+          </div>
+          {/dede:arclist}
         </div>
 
+        <div class="new_Con_left _pos_relative">
+          <div class="new_Con_left_pap"></div>
+
+          <div class="index_new_left_more">
+            <a href="/news">MORE</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="index_footer">
+      <img
+        src="/static/images/index_fooer_title.png"
+        class="index_fooer_title"
+        alt=""
+      />
 
-        <img src="/static/images/index_fooer_title.png" class="index_fooer_title" alt="">
+      <span class="index_footer_zxbm">在线报名</span>
 
-        <span class="index_footer_zxbm">在线报名</span>
+      <span class="index_footer_ipone">0898-65880379</span>
 
-        <span class="index_footer_ipone">0898-65880379</span>
+      <span class="index_footer_address"
+        >地址：海口市海府路24号海汽大厦三楼
+      </span>
 
-        <span class="index_footer_address">地址：海口市海府路24号海汽大厦三楼 </span>
+      <div class="index_footer_xcx">
+        <img src="/static/images/er_m.png" alt="" />
+      </div>
+    </div>
 
-        <div class="index_footer_xcx">
+    {dede:include filename="_footerNav.htm"/}
+  </body>
 
-            <img src="/static/images/er_m.png" alt="">
+  {dede:include filename="_script.htm"/}
 
-   </div>
-
-        </div>
-
-        {dede:include filename="_footerNav.htm"/}
-
-</body>
-
-{dede:include filename="_script.htm"/}
-
-<script type="text/javascript" src="/static/js/index.js?v=20190330"></script>
-
-
-
+  <script type="text/javascript" src="/static/js/index.js?v=20190330"></script>
 </html>
-
