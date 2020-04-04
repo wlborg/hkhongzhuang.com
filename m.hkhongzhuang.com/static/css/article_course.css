@@ -1428,7 +1428,7 @@ body {
     display: block;
     float: left;
     height: 1.02389078rem;
-    min-width: 3.4556314rem;
+    min-width: 3.2rem;
     padding: 0rem .1rem;
     margin-right: .04266212rem;
 
@@ -1705,4 +1705,69 @@ body {
     text-overflow: ellipsis;
 
     color: #fff;
+}
+/*------*/
+.courses_article .coursePic .g-title h2 {
+    font-size: .554667rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: .725333rem;
+
+    letter-spacing: 0;
+
+    color: #444;
+}.courses_article .coursePic .g-title p {
+
+    margin-top: .2798635rem;
+
+    font-size: .554667rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: .725333rem;
+
+    letter-spacing: 0;
+
+    opacity: .6;
+    color: #444;
+}.courses_article .courseDetail .block1 p {
+
+    position: relative;
+
+    padding-left: 2.933106rem!important;
+    margin-top: .42662116rem;
+
+    font-size: .554667rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: .725333rem;
+
+    letter-spacing: 0;
+
+    color: #717171;
+}
+.courses_article .courseDetail .block1 .firstP {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: .554667rem;
+
+    letter-spacing: .042667rem;
+
+    color: #333;
+}
+.courses_article .courseDetail .block1 p span {
+    font-size: .554667rem;
+    font-weight: bold!important;
+    letter-spacing: .042667rem;
+
+    color: #333;
+}
+
+.courses_article .courseDetail .block1 p {
+    padding-left: 2.233106rem;
+
+    font-size: .554667rem;
+
+    color: #333;
+}
+.swiper-container-kecheng .swiper-wrapper .swiper-slide li {
+    line-height: .982667rem;
 }

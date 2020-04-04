@@ -816,7 +816,7 @@ img {
     width: 474px;
     height: 430px;
 
-    background-color: rgba(76, 76, 76, .5);
+    /*background-color: rgba(76, 76, 76, .5);*/
 }
 .maskL {
     left: -240px;
