@@ -5,55 +5,61 @@
 * @Last Modified by:   Administrator
 * @Last Modified time: 2019-02-18 17:53:54
 */
+
 @charset "UTF-8";
-body,
-p,
-form,
-ol,
-ul,
-li,
-dl,
-dt,
-dd,
-h3 {
-    padding: 0;
-    margin: 0;
-
-    list-style: none;
+body, p, form, ol, ul, li, dl, dt, dd, h3 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
+
 html {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
+
 body {
-    display: block;
-    width: 100%;
-    /*overflow-x: hidden;*/
-
-    font-family: "Microsoft YaHe", sans-serif, Verdana, Arial;
+  display: block;
+  width: 100%;
+  /*overflow-x: hidden;*/
+  font-family: "Microsoft YaHe", sans-serif, Verdana, Arial;
 }
+
 ._pos_relative {
-    position: relative;
+  position: relative;
 }
+
 ._pos_absolute {
-    position: absolute;
+  position: absolute;
 }
+
 ._w1440 {
-    width: 1440px;
-    margin: auto;
+  width: 1440px;
+  margin: auto;
 }
+
 #div23 {
-    left: 354px!important;
+  left: 354px!important;
 }
+
 /*#div1 {*/
-    /*width: 132px!important;*/
 
-    /*LEFT: 43px!important;*/
-    /*TOP: 245px!important;*/
+/*width: 132px!important;*/
+
+/*LEFT: 43px!important;*/
+
+/*TOP: 245px!important;*/
+
 /*}*/
-#div2 {
-    width: 132px!important;
 
-    LEFT: 43px!important;
-    TOP: 245px!important;
+#div2 {
+  width: 132px!important;
+  LEFT: 43px!important;
+  TOP: 245px!important;
+}
+
+/* 清明纪念 */
+
+.gray {
+  filter: grayscale(1);
 }
